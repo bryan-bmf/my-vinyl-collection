@@ -18,15 +18,15 @@ const ArtistTable = () => {
 	const [data, setData] = useState<Array<AnyObject>>(artistData);
 	const [sortConfig, setSortConfig] = useState<AnyObject>({});
 
-	const columns = [
-		"#",
-		"Artist",
-		"Album",
-		"Genre",
-		"Year",
-		"Language",
-		"Location",
-		"Purchased",
+	const columns: Array<AnyObject> = [
+		{ name: "#", isNumeric: true },
+		{ name: "Artist", isNumeric: false },
+		{ name: "Album", isNumeric: false },
+		{ name: "Genre", isNumeric: false },
+		{ name: "Year", isNumeric: true },
+		{ name: "Language", isNumeric: false },
+		{ name: "Location", isNumeric: false },
+		{ name: "Purchased", isNumeric: true },
 	];
 
 	// const fetchData = async (controller: AbortController) => {
@@ -71,6 +71,12 @@ const ArtistTable = () => {
 
 	const handleSort = (event: any) => {
 		let field = event.target.textContent.toLowerCase();
+
+		//don't sort by index
+		if (field === "#") {
+			return;
+		}
+
 		let direction = "ascending";
 		//switch direction is sorted field is clicked
 		if (sortConfig.field === field && sortConfig.direction === "ascending") {
@@ -99,17 +105,18 @@ const ArtistTable = () => {
 					<Tr>
 						{columns.map((column) => (
 							<Th
-								key={column}
+								key={Math.random()}
 								onClick={handleSort}
-								style={{ cursor: "pointer" }}
+								isNumeric={column.isNumeric}
+								sx={sx.tableHeader}
 							>
-								{column}
-								<span style={{ paddingLeft: 4 + "px" }}>
-									{sortConfig.field === column.toLowerCase() ? (
+								{column.name}
+								<span>
+									{sortConfig.field === column.name.toLowerCase() ? (
 										sortConfig.direction === "ascending" ? (
-											<TriangleUpIcon />
+											<TriangleUpIcon sx={sx.triangleIcon} />
 										) : (
-											<TriangleDownIcon />
+											<TriangleDownIcon sx={sx.triangleIcon} />
 										)
 									) : null}
 								</span>
@@ -126,5 +133,15 @@ const ArtistTable = () => {
 interface AnyObject {
 	[key: string]: any;
 }
+
+const sx = {
+	tableHeader: {
+		cursor: "pointer",
+	},
+	triangleIcon: {
+		paddingBottom: "3px",
+		paddingLeft: "4px",
+	},
+};
 
 export default ArtistTable;

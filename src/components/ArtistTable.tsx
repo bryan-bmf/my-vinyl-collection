@@ -8,16 +8,22 @@ import {
 	Th,
 	Thead,
 	Tr,
+	useDisclosure,
+	Text
 } from "@chakra-ui/react";
 import { useMemo, useState } from "react";
 // icons
 import { TriangleDownIcon, TriangleUpIcon } from "@chakra-ui/icons";
 // data
 import { artistData } from "../data/seed";
+// types
+import { AnyObject } from "../types";
+import PlayerModal from "./PlayerModal";
 
 const ArtistTable = () => {
 	const [data, setData] = useState<Array<AnyObject>>(artistData);
 	const [sortConfig, setSortConfig] = useState<AnyObject>({});
+	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>({});
 
 	const columns: Array<AnyObject> = [
 		{ name: "#", isNumeric: true },
@@ -29,6 +35,13 @@ const ArtistTable = () => {
 		{ name: "Location", isNumeric: false },
 		{ name: "Purchased", isNumeric: true },
 	];
+
+	// modal disclosure
+	const {
+		isOpen: isOpen,
+		onOpen: openPlayer,
+		onClose: handleClosePlayer,
+	} = useDisclosure();
 
 	//memo checks if there were changes before executing another sort
 	const sortedData = useMemo(() => {
@@ -66,11 +79,19 @@ const ArtistTable = () => {
 		setSortConfig({ field, direction });
 	};
 
+	//set selected album as a state to pass it along to the modal
+	const handleOpenPlayer = (album: AnyObject) => {
+		setSelectedAlbum(album)
+		openPlayer()
+	}
+
 	let list = sortedData?.map((current: AnyObject, index: number) => (
 		<Tr key={current.spotifyAlbumId}>
 			<Td isNumeric>{index + 1}</Td>
 			<Td>{current.artist}</Td>
-			<Td>{current.album}</Td>
+			<Td>
+				<Text sx={sx.link} onClick={() => handleOpenPlayer({"spotifyAlbumId": current.spotifyAlbumId, "isAlbum": current.isAlbum})}>{current.album}</Text>
+			</Td>
 			<Td>{current.genre}</Td>
 			<Td isNumeric>{current.year}</Td>
 			<Td>{current.language}</Td>
@@ -80,40 +101,41 @@ const ArtistTable = () => {
 	));
 
 	return (
-		<TableContainer>
-			<Table variant="striped" size="sm">
-				<Thead>
-					<Tr>
-						{columns.map((column) => (
-							<Th
-								key={Math.random()}
-								onClick={handleSort}
-								isNumeric={column.isNumeric}
-								sx={sx.tableHeader}
-							>
-								{column.name}
-								<span>
-									{sortConfig.field === column.name.toLowerCase() ? (
-										sortConfig.direction === "ascending" ? (
-											<TriangleUpIcon sx={sx.triangleIcon} />
-										) : (
-											<TriangleDownIcon sx={sx.triangleIcon} />
-										)
-									) : null}
-								</span>
-							</Th>
-						))}
-					</Tr>
-				</Thead>
-				<Tbody>{list}</Tbody>
-			</Table>
-		</TableContainer>
+		<>
+			<TableContainer>
+				<Table variant="striped" size="sm">
+					<Thead>
+						<Tr>
+							{columns.map((column) => (
+								<Th
+									key={Math.random()}
+									onClick={handleSort}
+									isNumeric={column.isNumeric}
+									sx={sx.tableHeader}
+								>
+									{column.name}
+									<span>
+										{sortConfig.field ===
+										column.name.toLowerCase() ? (
+											sortConfig.direction === "ascending" ? (
+												<TriangleUpIcon sx={sx.triangleIcon} />
+											) : (
+												<TriangleDownIcon sx={sx.triangleIcon} />
+											)
+										) : null}
+									</span>
+								</Th>
+							))}
+						</Tr>
+					</Thead>
+					<Tbody>{list}</Tbody>
+				</Table>
+			</TableContainer>
+			<PlayerModal album={selectedAlbum} modalDisclosure={{ isOpen: isOpen, onOpen: handleOpenPlayer, onClose: handleClosePlayer }}
+			/>
+		</>
 	);
 };
-
-interface AnyObject {
-	[key: string]: any;
-}
 
 const sx = {
 	tableHeader: {
@@ -123,6 +145,10 @@ const sx = {
 		paddingBottom: "3px",
 		paddingLeft: "4px",
 	},
+	link: {
+		textDecoration: "underline",
+		cursor: "pointer"
+	}
 };
 
 export default ArtistTable;

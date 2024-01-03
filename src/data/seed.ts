@@ -7,7 +7,8 @@ export const artistData = [
         language: "Inglés",
         location: "Tampa",
         purchased: 2021,
-        spotifyAlbumId: "78iX7tMceN0FsnmabAtlOC"
+        spotifyAlbumId: "78iX7tMceN0FsnmabAtlOC",
+        isAlbum: true
     },
     {
         artist: "Beyoncé",
@@ -17,7 +18,8 @@ export const artistData = [
         language: "Inglés",
         location: "Online",
         purchased: 2023,
-        spotifyAlbumId: "6FJxoadUE4JNVwWHghBwnb"
+        spotifyAlbumId: "6FJxoadUE4JNVwWHghBwnb",
+        isAlbum: true
     },
     {
         artist: "Coldplay",
@@ -27,7 +29,8 @@ export const artistData = [
         language: "Inglés",
         location: "Tampa",
         purchased: 2020,
-        spotifyAlbumId: "6ZG5lRT77aJ3btmArcykra"
+        spotifyAlbumId: "6ZG5lRT77aJ3btmArcykra",
+        isAlbum: true
     },
     {
         artist: "Fania All-Stars",
@@ -37,7 +40,8 @@ export const artistData = [
         language: "Español",
         location: "Discogs",
         purchased: 2020,
-        spotifyAlbumId: "1XfrZU7zjQT9obvRbk1x0e"
+        spotifyAlbumId: "1XfrZU7zjQT9obvRbk1x0e",
+        isAlbum: true
     },
     {	
         artist: "Journey",
@@ -47,6 +51,19 @@ export const artistData = [
         language: "Inglés",
         location: "Online",
         purchased: 2023,
-        spotifyAlbumId: "2EFUNYmwxe0AOGxBORrfaw"
-    }
+        spotifyAlbumId: "2EFUNYmwxe0AOGxBORrfaw",
+        isAlbum: true
+    },
+    {	
+        artist: "Eddie Santiago",
+        album: "Invasión De La Privacidad",
+        genre: "Salsa",
+        year: 1988,
+        language: "Español",
+        location: "Discotecario",
+        purchased: 2022,
+        spotifyAlbumId: "382Ki7245s55gzyb06llqn",
+        isAlbum: false
+    },
+
 ]

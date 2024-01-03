@@ -1,3 +1,4 @@
+// components
 import {
 	Table,
 	TableContainer,
@@ -8,11 +9,11 @@ import {
 	Thead,
 	Tr,
 } from "@chakra-ui/react";
-import React, { useMemo } from "react";
+import { useMemo, useState } from "react";
+// icons
 import { TriangleDownIcon, TriangleUpIcon } from "@chakra-ui/icons";
-import { useEffect, useState } from "react";
-
-import { artistData } from "./seed";
+// data
+import { artistData } from "../data/seed";
 
 const ArtistTable = () => {
 	const [data, setData] = useState<Array<AnyObject>>(artistData);
@@ -28,26 +29,6 @@ const ArtistTable = () => {
 		{ name: "Location", isNumeric: false },
 		{ name: "Purchased", isNumeric: true },
 	];
-
-	// const fetchData = async (controller: AbortController) => {
-	// 	const resp = await fetch(url, {
-	// 		signal: controller.signal,
-	// 	});
-
-	// 	if (!resp.ok) throw new Error("Explotó");
-
-	// 	const respData = await resp.json();
-	// 	setArtists(respData);
-	// 	console.log(respData)
-	// };
-
-	// useEffect(() => {
-	// 	let controller = new AbortController();
-
-	// 	fetchData(controller);
-
-	// 	return () => controller?.abort();
-	// }, []);
 
 	//memo checks if there were changes before executing another sort
 	const sortedData = useMemo(() => {

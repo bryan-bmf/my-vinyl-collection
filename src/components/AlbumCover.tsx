@@ -1,39 +1,78 @@
 import { useEffect, useState } from "react";
 import { artistData } from "../data/seed";
 import { AnyObject } from "../types";
+import { Badge, Box, Card, Image, Text, useDisclosure } from "@chakra-ui/react";
+import { StarIcon } from "@chakra-ui/icons";
+import { Spotify } from "react-spotify-embed";
+import PlayerModal from "./PlayerModal";
 
-const AlbumCover = () => {
+const AlbumCover = (props: any) => {
 	const [data, setData] = useState<Array<AnyObject>>(artistData);
+	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>();
 
-	const clientID = process.env.REACT_APP_CLIENT_ID;
-	const clientSecret = process.env.REACT_APP_CLIENT_SECRET;
+	// modal disclosure
+	const {
+		isOpen: isOpen,
+		onOpen: openPlayer,
+		onClose: handleClosePlayer,
+	} = useDisclosure();
 
-	const tokenUrl = "https://accounts.spotify.com/api/token";
-
-    const postBody: AnyObject = {client_id: clientID, client_secret: clientSecret, grant_type: "client_credentials"}
-    const encodedBody = new URLSearchParams(Object.entries(postBody)).toString();
-
-	const fetchToken = async () => {
-		const resp = await fetch(tokenUrl, {
-			method: "POST",
-			headers: {
-				'Content-Type': 'application/x-www-form-urlencoded',
-			},
-			body: encodedBody,
-		});
-
-        if(!resp.ok)
-            throw new Error("explotó")
-
-        const respData = await resp.json()
-        console.log(respData)
+	//set selected album as a state to pass it along to the modal
+	const handleOpenPlayer = (album: AnyObject) => {
+		setSelectedAlbum(album);
+		openPlayer();
 	};
 
-    useEffect(() => {
-        fetchToken()
-    }, [])
+	return (
+		<>
+			{data.map((current) => (
+				<Box
+					key={current.spotifyAlbumId}
+					sx={sx.albumContainer}
+					onClick={() =>
+						handleOpenPlayer({
+							spotifyAlbumId: current.spotifyAlbumId,
+							isAlbum: current.isAlbum,
+						})
+					}
+				>
+					<Image
+						src={current.coverArt}
+						alt={current.coverArt}
+						sx={sx.link}
+					/>
+					<Text fontSize="md" as="b" sx={sx.link} noOfLines={1}>
+						{current.album}
+					</Text>
+					<Text as="small" sx={sx.link} noOfLines={1}>
+						{current.artist}
+					</Text>
+				</Box>
+			))}
+			{/* Modal */}
+			<PlayerModal
+				album={selectedAlbum}
+				modalDisclosure={{
+					isOpen: isOpen,
+					onOpen: handleOpenPlayer,
+					onClose: handleClosePlayer,
+				}}
+			/>
+		</>
+	);
+};
 
-	return <h1>hi</h1>;
+const sx = {
+	albumContainer: {
+		padding: "4px",
+		height: "fit-content",
+		boxShadow: "5px 6px 4px lightgray",
+		borderRadius: "5px",
+	},
+	link: {
+		cursor: "pointer",
+		textOverflow: "ellipsis",
+	},
 };
 
 export default AlbumCover;

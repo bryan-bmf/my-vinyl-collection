@@ -1,16 +1,9 @@
 import {
-	Box,
-	Button,
 	Center,
 	Modal,
-	ModalBody,
-	ModalCloseButton,
 	ModalContent,
-	ModalFooter,
-	ModalHeader,
 	ModalOverlay,
 	Spinner,
-	useDisclosure,
 } from "@chakra-ui/react";
 import SpotifyPlayer from "./SpotifyPlayer";
 import { useEffect, useState } from "react";

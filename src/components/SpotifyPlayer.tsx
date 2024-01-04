@@ -1,4 +1,3 @@
-import React from "react";
 import { Spotify } from "react-spotify-embed";
 import { AnyObject } from "../types";
 

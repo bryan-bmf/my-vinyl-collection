@@ -1,16 +1,9 @@
 import {
-	Box,
-	Button,
 	Center,
 	Modal,
-	ModalBody,
-	ModalCloseButton,
 	ModalContent,
-	ModalFooter,
-	ModalHeader,
 	ModalOverlay,
 	Spinner,
-	useDisclosure,
 } from "@chakra-ui/react";
 import SpotifyPlayer from "./SpotifyPlayer";
 import { useEffect, useState } from "react";
@@ -33,9 +26,7 @@ const PlayerModal = (props: any) => {
 		<Modal isOpen={isOpen} onClose={onClose} isCentered>
 			<ModalOverlay />
 			{loading ? (
-				<Center>
-					<Spinner size="xl" />
-				</Center>
+				<Spinner sx={sx.loading} size="xl" />
 			) : (
 				<ModalContent sx={sx.modal}>
 					<SpotifyPlayer album={props.album} />
@@ -52,6 +43,11 @@ const sx = {
 		borderColor: "transparent",
 		shadow: "none",
 	},
+	loading: {
+		top: "50%",
+		left: "50%",
+		position: "fixed"
+	}
 };
 
 export default PlayerModal;

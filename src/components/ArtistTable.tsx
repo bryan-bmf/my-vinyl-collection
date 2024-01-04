@@ -4,7 +4,6 @@ import {
 	TableContainer,
 	Tbody,
 	Td,
-	Tfoot,
 	Th,
 	Thead,
 	Tr,
@@ -131,6 +130,7 @@ const ArtistTable = () => {
 					<Tbody>{list}</Tbody>
 				</Table>
 			</TableContainer>
+			{/* Modal */}
 			<PlayerModal album={selectedAlbum} modalDisclosure={{ isOpen: isOpen, onOpen: handleOpenPlayer, onClose: handleClosePlayer }}
 			/>
 		</>

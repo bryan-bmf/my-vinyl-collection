@@ -1,0 +1,9058 @@
+[
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Still Bill"
+		},
+		"Artist": {
+			"S": "Bill Withers"
+		},
+		"Year": {
+			"S": "1972"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0sFuW4rH5mFZUjNKnckO3v"
+		},
+		"Unique ID": {
+			"S": "544737f6-ae6a-11ee-8619-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0298e08f603553915a041b6937"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "The Best of Otis Redding"
+		},
+		"Artist": {
+			"S": "Otis Redding"
+		},
+		"Year": {
+			"S": "1960"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0fqF5sprFqMCgNuFVKtGem"
+		},
+		"Unique ID": {
+			"S": "641d0bf6-ae6a-11ee-87c6-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0280339ae2e06cc3f664bb0427"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Bitches Brew"
+		},
+		"Artist": {
+			"S": "Miles Davis"
+		},
+		"Year": {
+			"S": "1970"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3Q0zkOZEOC855ErOOJ1AdO"
+		},
+		"Unique ID": {
+			"S": "641d0700-ae6a-11ee-a5a1-325096b39f47"
+		},
+		"Genre": {
+			"S": "Jazz"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e023f29c5269be5a4e9c4611d7a"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "iLevitable"
+		},
+		"Artist": {
+			"S": "iLe"
+		},
+		"Year": {
+			"S": "2016"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Amazon"
+		},
+		"Spotify Album ID": {
+			"S": "0gHFIMoIvLqYw13PtRd2ky"
+		},
+		"Unique ID": {
+			"S": "641cf8d2-ae6a-11ee-bbe6-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a9fabf1a2bbeb71b277c4d8e"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Fan-Tas-Tic Vol. 1"
+		},
+		"Artist": {
+			"S": "Slum Village"
+		},
+		"Year": {
+			"S": "1996"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "1GCe4CTJxYppYcp5nTCpjS"
+		},
+		"Unique ID": {
+			"S": "6948ee56-ae6a-11ee-9791-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02d933732f0b7837184eb050e5"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Más Flow: Los Benjamins"
+		},
+		"Artist": {
+			"S": "Luny Tunes & Tainy"
+		},
+		"Year": {
+			"S": "2005"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "29BiTy2syDZyjGa9Rza6Ot"
+		},
+		"Unique ID": {
+			"S": "641d0304-ae6a-11ee-9be6-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggaetón"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02408ed3f9f7e4ab883e7636dc"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "B'Day"
+		},
+		"Artist": {
+			"S": "Beyoncé"
+		},
+		"Year": {
+			"S": "2006"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "0Zd10MKN5j9KwUST0TdBBB"
+		},
+		"Unique ID": {
+			"S": "54473738-ae6a-11ee-acad-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02026e88f624dfb96f2e1ef10b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Asalto Navideño Vol. II"
+		},
+		"Artist": {
+			"S": "Willie Colón"
+		},
+		"Year": {
+			"S": "1973"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "4zGcM2kO7IlHxqukxgCvgm"
+		},
+		"Unique ID": {
+			"S": "6948ff54-ae6a-11ee-99ee-325096b39f47"
+		},
+		"Genre": {
+			"S": "Navidad"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02bd32181141de9127ef2a781d"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Mi Sangre"
+		},
+		"Artist": {
+			"S": "Juanes"
+		},
+		"Year": {
+			"S": "2004"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "2HbvQeJXke68tjwOcsj8ne"
+		},
+		"Unique ID": {
+			"S": "641cfe54-ae6a-11ee-8925-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02c091c40987e92a9256d2f210"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Illmatic"
+		},
+		"Artist": {
+			"S": "Nas"
+		},
+		"Year": {
+			"S": "1994"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3kEtdS2pH6hKcMU9Wioob1"
+		},
+		"Unique ID": {
+			"S": "641d08f4-ae6a-11ee-ba7c-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02045fc920ecf4f8094888ec26"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Renaissance"
+		},
+		"Artist": {
+			"S": "Beyoncé"
+		},
+		"Year": {
+			"S": "2022"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "6FJxoadUE4JNVwWHghBwnb"
+		},
+		"Unique ID": {
+			"S": "54473774-ae6a-11ee-958d-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e020e58a0f8308c1ad403d105e7"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Sentimiento, Tú"
+		},
+		"Artist": {
+			"S": "Cheo Feliciano"
+		},
+		"Year": {
+			"S": "1980"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "6J9KxokXXdhsBO03zycVKj"
+		},
+		"Unique ID": {
+			"S": "54473f62-ae6a-11ee-b3fe-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02af169a637ea4117829a756e1"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Sex Machine"
+		},
+		"Artist": {
+			"S": "James Brown"
+		},
+		"Year": {
+			"S": "1975"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3CVie3TkZ0VHgT6mlwy7cp"
+		},
+		"Unique ID": {
+			"S": "641cf9d6-ae6a-11ee-9aed-325096b39f47"
+		},
+		"Genre": {
+			"S": "Funk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0273ff0735e70a50644d5b0e41"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Enema of the State"
+		},
+		"Artist": {
+			"S": "blink-182"
+		},
+		"Year": {
+			"S": "1999"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "652N05EcNH1a4bIlUixQE2"
+		},
+		"Unique ID": {
+			"S": "54473a12-ae6a-11ee-a9f9-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e026da502e35a7a3e48de2b0f74"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Lady Sings The Blues"
+		},
+		"Artist": {
+			"S": "Diana Ross"
+		},
+		"Year": {
+			"S": "1972"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "7cVlD1xaBLou7tBLwKxpST"
+		},
+		"Unique ID": {
+			"S": "54474232-ae6a-11ee-9ff3-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02d6a71bb286911201d34b5294"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Babel"
+		},
+		"Artist": {
+			"S": "Mumford & Sons"
+		},
+		"Year": {
+			"S": "2012"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3keXhA98WpXzqn5e3oQkx6"
+		},
+		"Unique ID": {
+			"S": "641d07fa-ae6a-11ee-a493-325096b39f47"
+		},
+		"Genre": {
+			"S": "Folk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0290e9811c6af9c455f65bf16d"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Piñata"
+		},
+		"Artist": {
+			"S": "Freddie Gibbs & Madlib"
+		},
+		"Year": {
+			"S": "2014"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "6JaEv20qGvSgIHQbxwtjUu"
+		},
+		"Unique ID": {
+			"S": "641cf468-ae6a-11ee-9f14-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02fa55faa1d9c494e37317734c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Buscando América"
+		},
+		"Artist": {
+			"S": "Rubén Blades"
+		},
+		"Year": {
+			"S": "1984"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "7wOJ9RTQr05ytqROWtTPzy"
+		},
+		"Unique ID": {
+			"S": "6948e9ba-ae6a-11ee-9b14-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e646fcd49b6dfc91d1dba2ae"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Earth Crisis"
+		},
+		"Artist": {
+			"S": "Steel Pulse"
+		},
+		"Year": {
+			"S": "1984"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1h5jSwgEiUDx58MiBFVTgV"
+		},
+		"Unique ID": {
+			"S": "6948f040-ae6a-11ee-90c4-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02debaed4026f8dc6cd23fb048"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "On Fire"
+		},
+		"Artist": {
+			"S": "Galaxie 500"
+		},
+		"Year": {
+			"S": "1989"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1qhNLXBmt1EW6Kwt2A3u8M"
+		},
+		"Unique ID": {
+			"S": "641cf4d6-ae6a-11ee-b873-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e026610d5c08e5b809ffb19b6d9"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "No Jacket Required"
+		},
+		"Artist": {
+			"S": "Phill Collins"
+		},
+		"Year": {
+			"S": "1985"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1rVhockt4RAiZFaK3M3zPB"
+		},
+		"Unique ID": {
+			"S": "641d0d36-ae6a-11ee-bbfa-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02441084621edb7c53ef303090"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Fleetwood Mac"
+		},
+		"Artist": {
+			"S": "Fleetwood Mac"
+		},
+		"Year": {
+			"S": "1975"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "0LfM3PGkXE6KvJEE1HkOnz"
+		},
+		"Unique ID": {
+			"S": "544748c2-ae6a-11ee-8754-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02813da91820fd194cbee5bdce"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Lungs"
+		},
+		"Artist": {
+			"S": "Florence + the Machine"
+		},
+		"Year": {
+			"S": "2010"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "2FgknX5e7fJlriQtxvpLhZ"
+		},
+		"Unique ID": {
+			"S": "54474908-ae6a-11ee-a3be-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e020672b0f8756ae2af86e8a5ce"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Temporary Highs In The Violet Skies"
+		},
+		"Artist": {
+			"S": "Snoh Aalegra"
+		},
+		"Year": {
+			"S": "2021"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "57ttk3xzHMWLr6CGrEa8F3"
+		},
+		"Unique ID": {
+			"S": "6948ef78-ae6a-11ee-b65d-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e022802d4dbc9dfd83ba79290ca"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Helplessness Blues"
+		},
+		"Artist": {
+			"S": "Fleet Foxes"
+		},
+		"Year": {
+			"S": "2012"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "7D0rCfJjFj9x0bdgRKtvzb"
+		},
+		"Unique ID": {
+			"S": "54474840-ae6a-11ee-b644-325096b39f47"
+		},
+		"Genre": {
+			"S": "Folk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0275ff22a37b0cc0381d11c2c1"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Parachutes"
+		},
+		"Artist": {
+			"S": "Coldplay"
+		},
+		"Year": {
+			"S": "2000"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6ZG5lRT77aJ3btmArcykra"
+		},
+		"Unique ID": {
+			"S": "54474070-ae6a-11ee-b64d-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e023d92b2ad5af9fbc8637425f0"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Midnight Love"
+		},
+		"Artist": {
+			"S": "Marvin Gaye"
+		},
+		"Year": {
+			"S": "1982"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3gPlX9Zs3tXZZKNCyoOkSm"
+		},
+		"Unique ID": {
+			"S": "641d043a-ae6a-11ee-8193-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0246e859872ed30a898160aeb2"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "2001"
+		},
+		"Artist": {
+			"S": "Dr Dre"
+		},
+		"Year": {
+			"S": "1999"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "7q2B4M5EiBkqrlsNW8lB7N"
+		},
+		"Unique ID": {
+			"S": "54474336-ae6a-11ee-b004-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e029b19c107109de740bad72df5"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Tapestry"
+		},
+		"Artist": {
+			"S": "Carole King"
+		},
+		"Year": {
+			"S": "1971"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "12n11cgnpjXKLeqrnIERoS"
+		},
+		"Unique ID": {
+			"S": "54473e5e-ae6a-11ee-b3a0-325096b39f47"
+		},
+		"Genre": {
+			"S": "Folk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0223350feac07f56d8b96f33d5"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Sun Giant"
+		},
+		"Artist": {
+			"S": "Fleet Foxes"
+		},
+		"Year": {
+			"S": "2008"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3vz6xBtlgVdLTRgK1CiPcF"
+		},
+		"Unique ID": {
+			"S": "544747fa-ae6a-11ee-9a47-325096b39f47"
+		},
+		"Genre": {
+			"S": "Folk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e024a8854d880d67850e1c7b98c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Songs In The Key Of Life"
+		},
+		"Artist": {
+			"S": "Stevie Wonder"
+		},
+		"Year": {
+			"S": "1976"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6YUCc2RiXcEKS9ibuZxjt0"
+		},
+		"Unique ID": {
+			"S": "6948f1da-ae6a-11ee-b950-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e022fee61bfec596bb6f5447c50"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "19"
+		},
+		"Artist": {
+			"S": "Adele"
+		},
+		"Year": {
+			"S": "2008"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "59ULskOkBMij4zL8pS7mi0"
+		},
+		"Unique ID": {
+			"S": "544732ec-ae6a-11ee-a871-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02da737a3e194e3b9a46c1a6a3"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "The Best of Sadé"
+		},
+		"Artist": {
+			"S": "Sadé"
+		},
+		"Year": {
+			"S": "1980"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3uSWaQxJAdm5MWKQkQJNoK"
+		},
+		"Unique ID": {
+			"S": "6948eae6-ae6a-11ee-816e-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e025e25e034e25258b356774c79"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Bryter Layter"
+		},
+		"Artist": {
+			"S": "Nick Drake"
+		},
+		"Year": {
+			"S": "1970"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "04FfqGvZJ9oUBGRVrq2FE5"
+		},
+		"Unique ID": {
+			"S": "641d09f8-ae6a-11ee-ba75-325096b39f47"
+		},
+		"Genre": {
+			"S": "Folk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02f624fdadb511452a2093694d"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Ready To Die"
+		},
+		"Artist": {
+			"S": "The Notorious B.I.G."
+		},
+		"Year": {
+			"S": "1994"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "2HTbQ0RHwukKVXAlTmCZP2"
+		},
+		"Unique ID": {
+			"S": "6948f900-ae6a-11ee-80f6-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02db09958534ac66f9a90d3cf7"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Sigh No More"
+		},
+		"Artist": {
+			"S": "Mumford & Sons"
+		},
+		"Year": {
+			"S": "2009"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "4828DYqqXoOl1bMPyh5c3S"
+		},
+		"Unique ID": {
+			"S": "641d0836-ae6a-11ee-b867-325096b39f47"
+		},
+		"Genre": {
+			"S": "Folk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e025fcd9dbdaa1670fb49c66313"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Super Fly"
+		},
+		"Artist": {
+			"S": "Curtis Mayfield"
+		},
+		"Year": {
+			"S": "1972"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "5QuvlU7nCUZZJauMvhlWR4"
+		},
+		"Unique ID": {
+			"S": "544740e8-ae6a-11ee-81c9-325096b39f47"
+		},
+		"Genre": {
+			"S": "Funk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02177fea3fc7f8075fdb40f167"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "All Eyez On Me"
+		},
+		"Artist": {
+			"S": "2Pac"
+		},
+		"Year": {
+			"S": "1996"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "78iX7tMceN0FsnmabAtlOC"
+		},
+		"Unique ID": {
+			"S": "54472df6-ae6a-11ee-9b51-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02073aebff28f79959d2543596"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Talking Book"
+		},
+		"Artist": {
+			"S": "Stevie Wonder"
+		},
+		"Year": {
+			"S": "1972"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3PResMqFgQYBfzTnqTKwQw"
+		},
+		"Unique ID": {
+			"S": "6948f11c-ae6a-11ee-b655-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a14b08b9a6616e121df5e8b0"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "What You Won't Do For Love"
+		},
+		"Artist": {
+			"S": "Bobby Caldwell"
+		},
+		"Year": {
+			"S": "1978"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Discotecario"
+		},
+		"Spotify Album ID": {
+			"S": "4pBJRxtR5TQe8hfsUgZ1r2"
+		},
+		"Unique ID": {
+			"S": "54473cd8-ae6a-11ee-a0bd-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e020f98789111606f77a27d6f67"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Let It Be"
+		},
+		"Artist": {
+			"S": "The Beatles"
+		},
+		"Year": {
+			"S": "1970"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0jTGHV5xqHPvEcwL8f6YU5"
+		},
+		"Unique ID": {
+			"S": "6948f54a-ae6a-11ee-b99a-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0284243a01af3c77b56fe01ab1"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Minnie"
+		},
+		"Artist": {
+			"S": "Minnie Riperton"
+		},
+		"Year": {
+			"S": "1979"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "796MMSTV8cljIcXRKhJe5s"
+		},
+		"Unique ID": {
+			"S": "641d07be-ae6a-11ee-9a87-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02d080fc1eebfa35691852053c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Good Kid M.A.A.D City"
+		},
+		"Artist": {
+			"S": "Kendrick Lamar"
+		},
+		"Year": {
+			"S": "2013"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6PBZN8cbwkqm1ERj2BGXJ1"
+		},
+		"Unique ID": {
+			"S": "641d000c-ae6a-11ee-9060-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02d28d2ebdedb220e479743797"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Man on the Moon: The End of Day"
+		},
+		"Artist": {
+			"S": "Kid Cudi"
+		},
+		"Year": {
+			"S": "2009"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "2S8AWAM0nxyFy66YnUfIs3"
+		},
+		"Unique ID": {
+			"S": "641d0084-ae6a-11ee-8159-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a487deeecb334b6619489d74"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Barrilete"
+		},
+		"Artist": {
+			"S": "Los Cafres"
+		},
+		"Year": {
+			"S": "2007"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "68CATT5x7h27zl3KKnLM3g"
+		},
+		"Unique ID": {
+			"S": "641d02be-ae6a-11ee-a727-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0293a8b3c84c9e8ea1998cda1b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "25"
+		},
+		"Artist": {
+			"S": "Adele"
+		},
+		"Year": {
+			"S": "2015"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3AvPX1B1HiFROvYjLb5Qwi"
+		},
+		"Unique ID": {
+			"S": "544732a6-ae6a-11ee-829d-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0247ce408fb4926d69da6713c2"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Fuyu Kukan"
+		},
+		"Artist": {
+			"S": "Tomoko Aran"
+		},
+		"Year": {
+			"S": "1983"
+		},
+		"Language": {
+			"S": "Japonés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "4NE28UhW41dy6KR4rVENbc"
+		},
+		"Unique ID": {
+			"S": "6948fbc6-ae6a-11ee-81f3-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02cce71c5cc1b03a3cab4d2814"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Kind of Blue"
+		},
+		"Artist": {
+			"S": "Miles Davis"
+		},
+		"Year": {
+			"S": "1959"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "4sb0eMpDn3upAFfyi4q2rw"
+		},
+		"Unique ID": {
+			"S": "641d073c-ae6a-11ee-b2da-325096b39f47"
+		},
+		"Genre": {
+			"S": "Jazz"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e020ebc17239b6b18ba88cfb8ca"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "American Idiot"
+		},
+		"Artist": {
+			"S": "Green Day"
+		},
+		"Year": {
+			"S": "2004"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "5dN7F9DV0Qg1XRdIgW8rke"
+		},
+		"Unique ID": {
+			"S": "641cf63e-ae6a-11ee-ae57-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0208a1b1e0674086d3f1995e1b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Power, Corruption & Lies"
+		},
+		"Artist": {
+			"S": "New Order"
+		},
+		"Year": {
+			"S": "1983"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "6NTrwu1XJ56jBPx7HMksbZ"
+		},
+		"Unique ID": {
+			"S": "641d09b2-ae6a-11ee-b998-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a0bb93884823982d57cb2004"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Asalto Navideño Vol. I"
+		},
+		"Artist": {
+			"S": "Willie Colón"
+		},
+		"Year": {
+			"S": "1970"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "4TnqBA58KybPV53g95LHLe"
+		},
+		"Unique ID": {
+			"S": "6948ff0e-ae6a-11ee-8936-325096b39f47"
+		},
+		"Genre": {
+			"S": "Navidad"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02d04abf40e063389536924cfe"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "30"
+		},
+		"Artist": {
+			"S": "Adele"
+		},
+		"Year": {
+			"S": "2021"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "21jF5jlMtzo94wbxmJ18aa"
+		},
+		"Unique ID": {
+			"S": "5447326a-ae6a-11ee-bc26-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02c6b577e4c4a6d326354a89f7"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "ABBA"
+		},
+		"Artist": {
+			"S": "Abba"
+		},
+		"Year": {
+			"S": "1975"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "1kM6xcSYO5ASJaWgygznL7"
+		},
+		"Unique ID": {
+			"S": "544730da-ae6a-11ee-a864-325096b39f47"
+		},
+		"Genre": {
+			"S": "Disco"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0292d0747a634fcc351c6ac3c2"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "IV"
+		},
+		"Artist": {
+			"S": "Toto"
+		},
+		"Year": {
+			"S": "1982"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "62U7xIHcID94o20Of5ea4D"
+		},
+		"Unique ID": {
+			"S": "6948fc0c-ae6a-11ee-8a84-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e024a052b99c042dc15f933145b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Metiendo Mano!"
+		},
+		"Artist": {
+			"S": "Willie Colón & Rubén Blades"
+		},
+		"Year": {
+			"S": "1977"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "3oOEQ4KB3ZegkjEvfHjiYn"
+		},
+		"Unique ID": {
+			"S": "69490012-ae6a-11ee-8e45-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e029aba0bda25700a9f65299077"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Meteora"
+		},
+		"Artist": {
+			"S": "Linkin Park"
+		},
+		"Year": {
+			"S": "2003"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "4Gfnly5CzMJQqkUFfoHaP3"
+		},
+		"Unique ID": {
+			"S": "641d0200-ae6a-11ee-a072-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b4ad7ebaf4575f120eb3f193"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Midnight Marauders"
+		},
+		"Artist": {
+			"S": "A Tribe Called Quest"
+		},
+		"Year": {
+			"S": "1993"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "4v5x3Oo3UjQ9YmF3hRAip5"
+		},
+		"Unique ID": {
+			"S": "5447303a-ae6a-11ee-8932-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02f306af1dae08f81f9d6f1f9f"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "MTV Unplugged"
+		},
+		"Artist": {
+			"S": "Shakira"
+		},
+		"Year": {
+			"S": "2000"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "3yQQUyIA3vRIRnB4rqtThe"
+		},
+		"Unique ID": {
+			"S": "6948ec08-ae6a-11ee-ae8b-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0294f8d9d565486fee02ccff4e"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Ride The Lightning"
+		},
+		"Artist": {
+			"S": "Metallica"
+		},
+		"Year": {
+			"S": "1984"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "2omIeSJEGQeKHPOpiXgfkr"
+		},
+		"Unique ID": {
+			"S": "641d05c0-ae6a-11ee-b69c-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02533fd0b248052d04e6b732c0"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "AM"
+		},
+		"Artist": {
+			"S": "Arctic Monkeys"
+		},
+		"Year": {
+			"S": "2013"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "78bpIziExqiI9qztvNFlQu"
+		},
+		"Unique ID": {
+			"S": "544734b8-ae6a-11ee-a4b2-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e024ae1c4c5c45aabe565499163"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "With The Beatles"
+		},
+		"Artist": {
+			"S": "The Beatles"
+		},
+		"Year": {
+			"S": "1963"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1aYdiJk6XKeHWGO3FzHHTr"
+		},
+		"Unique ID": {
+			"S": "6948f5a4-ae6a-11ee-8615-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02608a63ad5b18e99da94a3f73"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Atrevido y Diferente"
+		},
+		"Artist": {
+			"S": "Eddie Santiago"
+		},
+		"Year": {
+			"S": "1986"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "0qFXgEQ4pj1i6VQ80AMqTG"
+		},
+		"Unique ID": {
+			"S": "544743ae-ae6a-11ee-a4e0-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02ecaa84c75f9efc97db005f1a"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Saturday Night Fever OST"
+		},
+		"Artist": {
+			"S": "Saturday Night Fever"
+		},
+		"Year": {
+			"S": "1977"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3xaCKtqadm4KnviPFKEjs7"
+		},
+		"Unique ID": {
+			"S": "6948eba4-ae6a-11ee-b724-325096b39f47"
+		},
+		"Genre": {
+			"S": "Disco"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02c129b7e46bb0d8b054dae51f"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Mos Def & Talib Kweli Are Black Star"
+		},
+		"Artist": {
+			"S": "Black Star"
+		},
+		"Year": {
+			"S": "1998"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6GRzmk9UGL7odxprOPop1Q"
+		},
+		"Unique ID": {
+			"S": "544739cc-ae6a-11ee-b6c2-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e3f907e70bc502a263ee1bc0"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Room On Fire"
+		},
+		"Artist": {
+			"S": "The Strokes"
+		},
+		"Year": {
+			"S": "2003"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3HFbH1loOUbqCyPsLuHLLh"
+		},
+		"Unique ID": {
+			"S": "6948fa7c-ae6a-11ee-8348-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e020f35726025e0f025da4c688f"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Exodus"
+		},
+		"Artist": {
+			"S": "Bob Marley & The Wailers"
+		},
+		"Year": {
+			"S": "1977"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "2mBbV0Ad6B4ydHMZlzAY7S"
+		},
+		"Unique ID": {
+			"S": "54473b16-ae6a-11ee-b125-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02811bfdc4f55b3a7484524aaf"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Here I Am"
+		},
+		"Artist": {
+			"S": "Dionne Warwick"
+		},
+		"Year": {
+			"S": "1965"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "60inEvPOPDEgvJHcVOSTUD"
+		},
+		"Unique ID": {
+			"S": "5447426e-ae6a-11ee-a544-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02bc6543d56afc86ae120e3aeb"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Appetite For Destruction"
+		},
+		"Artist": {
+			"S": "Guns N' Roses"
+		},
+		"Year": {
+			"S": "1987"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "28yHV3Gdg30AiB8h8em1eW"
+		},
+		"Unique ID": {
+			"S": "641cf788-ae6a-11ee-827c-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0221ebf49b3292c3f0f575f0f5"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "An Evening w/ Silk Sonic"
+		},
+		"Artist": {
+			"S": "Silk Sonic"
+		},
+		"Year": {
+			"S": "2021"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "1YgekJJTEueWDaMr7BYqPk"
+		},
+		"Unique ID": {
+			"S": "6948ecd0-ae6a-11ee-8ba5-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02fcf75ead8a32ac0020d2ce86"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Innervisions"
+		},
+		"Artist": {
+			"S": "Stevie Wonder"
+		},
+		"Year": {
+			"S": "1973"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "5jgI8Eminx9MmLBontDWq8"
+		},
+		"Unique ID": {
+			"S": "6948f176-ae6a-11ee-ad03-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02ea8ab1a548312b79ac955266"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Ctrl"
+		},
+		"Artist": {
+			"S": "SZA"
+		},
+		"Year": {
+			"S": "2017"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "76290XdXVF9rPzGdNRWdCh"
+		},
+		"Unique ID": {
+			"S": "6948f3d8-ae6a-11ee-86af-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e024c79d5ec52a6d0302f3add25"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Clouds"
+		},
+		"Artist": {
+			"S": "Joni Mitchell"
+		},
+		"Year": {
+			"S": "1969"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "36iqEPtEFAgxX1CpasIlbN"
+		},
+		"Unique ID": {
+			"S": "641cfc88-ae6a-11ee-b235-325096b39f47"
+		},
+		"Genre": {
+			"S": "Folk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbd75bf0f9afa38e59191dd11c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Bad"
+		},
+		"Artist": {
+			"S": "Michael Jackson"
+		},
+		"Year": {
+			"S": "1987"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3Us57CjssWnHjTUIXBuIeH"
+		},
+		"Unique ID": {
+			"S": "641d06ba-ae6a-11ee-9215-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0262e97ae5072de10850578af5"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Late Registration"
+		},
+		"Artist": {
+			"S": "Kanye West"
+		},
+		"Year": {
+			"S": "2005"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "5ll74bqtkcXlKE7wwkMq4g"
+		},
+		"Unique ID": {
+			"S": "641cff8a-ae6a-11ee-b940-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02428d2255141c2119409a31b2"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Rapture"
+		},
+		"Artist": {
+			"S": "Anita Baker"
+		},
+		"Year": {
+			"S": "1986"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "1zWLh92VUkNyHJ5p0ke7B2"
+		},
+		"Unique ID": {
+			"S": "544733f0-ae6a-11ee-9c05-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbaa896e0c8e6fd1c02b6ba929"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Greatest Hits"
+		},
+		"Artist": {
+			"S": "Queen"
+		},
+		"Year": {
+			"S": "1970"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6a8nlV9V8kPUbTTCJNVSsh"
+		},
+		"Unique ID": {
+			"S": "6948e4d8-ae6a-11ee-ba79-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e027019a7048354d33373cfe93d"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Young, Gifted & Black"
+		},
+		"Artist": {
+			"S": "Aretha Franklin"
+		},
+		"Year": {
+			"S": "1972"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "St Pete"
+		},
+		"Spotify Album ID": {
+			"S": "0k5C3Z7w7uQpyGFQEzl7yB"
+		},
+		"Unique ID": {
+			"S": "544734f4-ae6a-11ee-8542-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02ee5fcff519d1098aa5de990d"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Unorthodox Jukebox"
+		},
+		"Artist": {
+			"S": "Bruno Mars"
+		},
+		"Year": {
+			"S": "2012"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "58ufpQsJ1DS5kq4hhzQDiI"
+		},
+		"Unique ID": {
+			"S": "54473e22-ae6a-11ee-86ce-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02926f43e7cce571e62720fd46"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Greatest Hits!"
+		},
+		"Artist": {
+			"S": "Billie Holliday"
+		},
+		"Year": {
+			"S": "1950"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "6CqXthOJBMMmagymEEa8pl"
+		},
+		"Unique ID": {
+			"S": "544738c8-ae6a-11ee-9a5b-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0299ae8316804e6388d168bf8d"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Bloom"
+		},
+		"Artist": {
+			"S": "Rüfüs Du Sol"
+		},
+		"Year": {
+			"S": "2016"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Regalo"
+		},
+		"Spotify Album ID": {
+			"S": "4EAehCii5lZgeewct1LA5p"
+		},
+		"Unique ID": {
+			"S": "6948ea1e-ae6a-11ee-a3e3-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0260e5059dcab339142d7642bb"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "1984"
+		},
+		"Artist": {
+			"S": "Van Halen"
+		},
+		"Year": {
+			"S": "1984"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3REUXdj5OPKhuDTrTtCBU0"
+		},
+		"Unique ID": {
+			"S": "6948fd92-ae6a-11ee-b8ff-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b414c63fb435b622238c15ed"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Diana Ross Presents The Jackson 5"
+		},
+		"Artist": {
+			"S": "The Jackson 5"
+		},
+		"Year": {
+			"S": "1969"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "51uoKRa8vT5SULrlF8s2t1"
+		},
+		"Unique ID": {
+			"S": "6948f842-ae6a-11ee-a4ed-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0216aaf05fe82237576a7d0e38"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Kaya"
+		},
+		"Artist": {
+			"S": "Bob Marley & The Wailers"
+		},
+		"Year": {
+			"S": "1978"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "13dXX35pYjr8FqRla40K2a"
+		},
+		"Unique ID": {
+			"S": "54473a94-ae6a-11ee-b179-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02387799441ba867649dfbb702"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Uprising"
+		},
+		"Artist": {
+			"S": "Bob Marley & The Wailers"
+		},
+		"Year": {
+			"S": "1980"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "321q9p7PELvzcFAWxml7VX"
+		},
+		"Unique ID": {
+			"S": "54473b52-ae6a-11ee-b379-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e021c40418d1c37d727e8e91b04"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Doo-wops & Hooligans"
+		},
+		"Artist": {
+			"S": "Bruno Mars"
+		},
+		"Year": {
+			"S": "2010"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1uyf3l2d4XYwiEqAb7t7fX"
+		},
+		"Unique ID": {
+			"S": "54473da0-ae6a-11ee-8ea3-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02f6b55ca93bd33211227b502b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "De Vuelta Y Vuelta"
+		},
+		"Artist": {
+			"S": "Jarabe De Palo"
+		},
+		"Year": {
+			"S": "2001"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "0loUQVZAq6JLpNXkIYXmFO"
+		},
+		"Unique ID": {
+			"S": "641cfa8a-ae6a-11ee-ac4c-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a844a17d0c1794a268dbd0af"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Vampire Weekend"
+		},
+		"Artist": {
+			"S": "Vampire Weekend"
+		},
+		"Year": {
+			"S": "2008"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "7n8NJkGKAl2np1bXiRn0CY"
+		},
+		"Unique ID": {
+			"S": "6948fd4c-ae6a-11ee-9f19-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02eabfe5d94aad05cb6485444b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "MTV Unplugged"
+		},
+		"Artist": {
+			"S": "Nirvana"
+		},
+		"Year": {
+			"S": "1994"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1To7kv722A8SpZF789MZy7"
+		},
+		"Unique ID": {
+			"S": "641d0a34-ae6a-11ee-b7a9-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0236c5417732e53e23cb219246"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Three Cheers For Sweet Revenge"
+		},
+		"Artist": {
+			"S": "My Chemical Romance"
+		},
+		"Year": {
+			"S": "2004"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3DuiGV3J09SUhvp8gqNx8h"
+		},
+		"Unique ID": {
+			"S": "641d08b8-ae6a-11ee-bb6e-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02cab7ae4868e9f9ce6bdfdf43"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Simplemente... Lalo"
+		},
+		"Artist": {
+			"S": "Lalo Rodríguez"
+		},
+		"Year": {
+			"S": "1980"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "02BFzeqsPhtq8r9mEdrl2E"
+		},
+		"Unique ID": {
+			"S": "641d0142-ae6a-11ee-a5be-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02f745ec97aead0d0ef5429e23"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "El Gato"
+		},
+		"Artist": {
+			"S": "Bobby Valentín"
+		},
+		"Year": {
+			"S": "1980"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "30efbjFrSqYLpDofPfjLlm"
+		},
+		"Unique ID": {
+			"S": "54473d1e-ae6a-11ee-a922-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02ac5e15a9d50dfc2a32aa0bc2"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Father of the Bride"
+		},
+		"Artist": {
+			"S": "Vampire Weekend"
+		},
+		"Year": {
+			"S": "2019"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Amazon"
+		},
+		"Spotify Album ID": {
+			"S": "1A3nVEWRJ8yvlPzawHI1pQ"
+		},
+		"Unique ID": {
+			"S": "6948fd10-ae6a-11ee-a631-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a2b1d3e73c66663c01351bcf"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Ojalá Llueva Café"
+		},
+		"Artist": {
+			"S": "Juan Luis Guerra"
+		},
+		"Year": {
+			"S": "1989"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "1wLyFmyTJ8jUb4J6TwC9uc"
+		},
+		"Unique ID": {
+			"S": "641cfdd2-ae6a-11ee-91ea-325096b39f47"
+		},
+		"Genre": {
+			"S": "Bachata"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0288ada89c4501ac1fe709b314"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Solista... Pero No Solo"
+		},
+		"Artist": {
+			"S": "Frankie Ruiz"
+		},
+		"Year": {
+			"S": "1985"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "40fzRAKgRPlEcgr1mTWGLH"
+		},
+		"Unique ID": {
+			"S": "641cf29c-ae6a-11ee-8b0e-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02babb730e7b5636d04cad1b1e"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Siembra"
+		},
+		"Artist": {
+			"S": "Willie Colón & Rubén Blades"
+		},
+		"Year": {
+			"S": "1978"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "7wOJ9RTQr05ytqROWtTPzy"
+		},
+		"Unique ID": {
+			"S": "6948ffd6-ae6a-11ee-9ae2-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e646fcd49b6dfc91d1dba2ae"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Harvest For The World"
+		},
+		"Artist": {
+			"S": "The Isley Brothers"
+		},
+		"Year": {
+			"S": "1976"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "58XKhn9fkCegBnfZwW4JtJ"
+		},
+		"Unique ID": {
+			"S": "6948f7de-ae6a-11ee-afe6-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0299c6ebf8478eed42076a5788"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Greatest Hits"
+		},
+		"Artist": {
+			"S": "Sly & The Family Stone"
+		},
+		"Year": {
+			"S": "1960"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0UM9SydcBtsklCTFgGLvcT"
+		},
+		"Unique ID": {
+			"S": "6948ef14-ae6a-11ee-8e0a-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b08f59c7648a7a67130ca0ea"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Ultimate"
+		},
+		"Artist": {
+			"S": "Aaliyah"
+		},
+		"Year": {
+			"S": "1990"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "6WIR99PZ2ch3SdM4zs3WO5"
+		},
+		"Unique ID": {
+			"S": "5447308a-ae6a-11ee-ae8b-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e022f5d91257d66a6038ede4087"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Nuestra Música"
+		},
+		"Artist": {
+			"S": "El Gran Combo"
+		},
+		"Year": {
+			"S": "1985"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "2qsUMz7N4aGYk0ObNbKqCE"
+		},
+		"Unique ID": {
+			"S": "544744b2-ae6a-11ee-acda-325096b39f47"
+		},
+		"Genre": {
+			"S": "Navidad"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02414968e8aa739b023ef30521"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Sublime"
+		},
+		"Artist": {
+			"S": "Sublime"
+		},
+		"Year": {
+			"S": "1996"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "14eK347GdWO4mBBx78tsut"
+		},
+		"Unique ID": {
+			"S": "6948f32e-ae6a-11ee-86ab-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e028fc4b0dcfb9509553f195c85"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Mama's Gun"
+		},
+		"Artist": {
+			"S": "Erykah Badu"
+		},
+		"Year": {
+			"S": "2000"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3cADvHRdKniF9ELCn1zbGH"
+		},
+		"Unique ID": {
+			"S": "54474638-ae6a-11ee-b5aa-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e020d934cb462fae5a26f829efb"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "ALBUM DE ORO VOL. 2"
+		},
+		"Artist": {
+			"S": "Julio Sosa"
+		},
+		"Year": {
+			"S": "1966"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Regalo"
+		},
+		"Spotify Album ID": {
+			"S": "3Gs3IScxQIDPlkUK2QibPV"
+		},
+		"Unique ID": {
+			"S": "641cfecc-ae6a-11ee-839b-325096b39f47"
+		},
+		"Genre": {
+			"S": "Tango"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02246fe4577dcd3ed0b6104379"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Lemonade"
+		},
+		"Artist": {
+			"S": "Beyoncé"
+		},
+		"Year": {
+			"S": "2016"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "7dK54iZuOxXFarGhXwEXfF"
+		},
+		"Unique ID": {
+			"S": "544737ba-ae6a-11ee-81e7-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0289992f4d7d4ab94937bf9e23"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Ella & Louis"
+		},
+		"Artist": {
+			"S": "Ella & Louis"
+		},
+		"Year": {
+			"S": "1956"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "3Mm1P5CEEAiuJqBclr2EyU"
+		},
+		"Unique ID": {
+			"S": "54474534-ae6a-11ee-8ca3-325096b39f47"
+		},
+		"Genre": {
+			"S": "Jazz"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e022071a0c79802d9375a53bfef"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "X 100pre"
+		},
+		"Artist": {
+			"S": "Bad Bunny"
+		},
+		"Year": {
+			"S": "2018"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "7CjJb2mikwAWA1V6kewFBF"
+		},
+		"Unique ID": {
+			"S": "544736fc-ae6a-11ee-97ff-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggaetón"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e022fbd77033247e889cb7d2ac4"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Confrontation"
+		},
+		"Artist": {
+			"S": "Bob Marley & The Wailers"
+		},
+		"Year": {
+			"S": "1983"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "5Rg4ZSwf1LPCuAMr0msdun"
+		},
+		"Unique ID": {
+			"S": "54473c1a-ae6a-11ee-a39f-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e027e0b5fe0454234229e52a491"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "10 Aniversario"
+		},
+		"Artist": {
+			"S": "Richie Ray & Bobby Cruz"
+		},
+		"Year": {
+			"S": "1975"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "75SxVlMzxU5FADaYf12d6f"
+		},
+		"Unique ID": {
+			"S": "6948e7c6-ae6a-11ee-8dac-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0252199f43d5741dcba06a5dc7"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Bobby Valentín"
+		},
+		"Artist": {
+			"S": "Bobby Valentín"
+		},
+		"Year": {
+			"S": "1980"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "5vgJDrOdBWFBm8CDmqC7f2"
+		},
+		"Unique ID": {
+			"S": "54473d5a-ae6a-11ee-8317-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02014536a6d476bb37c0415f97"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Feel Like Making Love"
+		},
+		"Artist": {
+			"S": "Roberta Flack"
+		},
+		"Year": {
+			"S": "1972"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1OGdCONXdZCbSVzuPFNkcA"
+		},
+		"Unique ID": {
+			"S": "6948e834-ae6a-11ee-9f8b-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0286f05b4fbe87aea265d5fe31"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Rumours"
+		},
+		"Artist": {
+			"S": "Fleetwood Mac"
+		},
+		"Year": {
+			"S": "1977"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Amazon"
+		},
+		"Spotify Album ID": {
+			"S": "0BwWUstDMUbgq2NYONRqlu"
+		},
+		"Unique ID": {
+			"S": "54474886-ae6a-11ee-82bf-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e52a59a28efa4773dd2bfe1b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Sonero De Verdad"
+		},
+		"Artist": {
+			"S": "Marvin Santiago"
+		},
+		"Year": {
+			"S": "1989"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "6YeEv44eWTl8P9w07G74JN"
+		},
+		"Unique ID": {
+			"S": "641d0502-ae6a-11ee-9c21-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e022d39ff5b8ab7aab90adba9f4"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Dónde Están Los Ladrones?"
+		},
+		"Artist": {
+			"S": "Shakira"
+		},
+		"Year": {
+			"S": "1998"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "5hcKSTqKOLuzJgYIQileAe"
+		},
+		"Unique ID": {
+			"S": "6948ec6c-ae6a-11ee-9ba2-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02bfcff1dd252b22bba16a2a5d"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Voulez-Vous"
+		},
+		"Artist": {
+			"S": "Abba"
+		},
+		"Year": {
+			"S": "1979"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "7iLuHJkrb9KHPkMgddYigh"
+		},
+		"Unique ID": {
+			"S": "54473166-ae6a-11ee-b474-325096b39f47"
+		},
+		"Genre": {
+			"S": "Disco"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02aa22899360d8ba6704732dec"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "In Utero"
+		},
+		"Artist": {
+			"S": "Nirvana"
+		},
+		"Year": {
+			"S": "1993"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6ohX7moZZnF1FwYrli1OJ6"
+		},
+		"Unique ID": {
+			"S": "641d0ab6-ae6a-11ee-b8da-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02aca059cebc1841277db22d1c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Master of Puppets"
+		},
+		"Artist": {
+			"S": "Metallica"
+		},
+		"Year": {
+			"S": "1986"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "7CGhx630DIjdJqaBDVKc5j"
+		},
+		"Unique ID": {
+			"S": "641d05fc-ae6a-11ee-95ae-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02cad4832cb7b5844343278daa"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Babylon The Bandit"
+		},
+		"Artist": {
+			"S": "Steel Pulse"
+		},
+		"Year": {
+			"S": "1985"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "St Pete"
+		},
+		"Spotify Album ID": {
+			"S": "3BVtphNjEG5djS7JKPhn7T"
+		},
+		"Unique ID": {
+			"S": "6948f0a4-ae6a-11ee-8056-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b9d08b4f041cc1215c3dfda3"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "She Works Hard For The Money"
+		},
+		"Artist": {
+			"S": "Donna Summer"
+		},
+		"Year": {
+			"S": "1983"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "0x3qYJCMrhJPgi7hTqxEl2"
+		},
+		"Unique ID": {
+			"S": "544742b4-ae6a-11ee-bc57-325096b39f47"
+		},
+		"Genre": {
+			"S": "Disco"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b33c99d166f15236efd104e6"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Heaux Tales"
+		},
+		"Artist": {
+			"S": "Jazmine Sullivan"
+		},
+		"Year": {
+			"S": "2021"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "5g9YhHW8tE7Tcslgxsk5u9"
+		},
+		"Unique ID": {
+			"S": "641cfad0-ae6a-11ee-8803-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e027955a7d9d5998317da3fbb04"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "When It's All Said And Done... Take Time"
+		},
+		"Artist": {
+			"S": "Giveon"
+		},
+		"Year": {
+			"S": "2021"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1otOJAtgvO5VCBL4Gykrrd"
+		},
+		"Unique ID": {
+			"S": "641cf5bc-ae6a-11ee-9c50-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0295b3744a4e137e68051cf809"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Coexist"
+		},
+		"Artist": {
+			"S": "The xx"
+		},
+		"Year": {
+			"S": "2012"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "4SXTQ305LjMh2DBHA3CXIW"
+		},
+		"Unique ID": {
+			"S": "6948fac2-ae6a-11ee-b251-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e029644aac468fd7844890974d3"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Arrival"
+		},
+		"Artist": {
+			"S": "Abba"
+		},
+		"Year": {
+			"S": "1976"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Amazon"
+		},
+		"Spotify Album ID": {
+			"S": "1V6a99EbTTIegOhWoPxYI9"
+		},
+		"Unique ID": {
+			"S": "54473120-ae6a-11ee-a652-325096b39f47"
+		},
+		"Genre": {
+			"S": "Disco"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0270f7a1b35d5165c85b95a0e0"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "24K Magic"
+		},
+		"Artist": {
+			"S": "Bruno Mars"
+		},
+		"Year": {
+			"S": "2016"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "4PgleR09JVnm3zY1fW3XBA"
+		},
+		"Unique ID": {
+			"S": "54473ddc-ae6a-11ee-947d-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02232711f7d66a1e19e89e28c5"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Sargent Pepper's Lonely Heart's Club Band"
+		},
+		"Artist": {
+			"S": "The Beatles"
+		},
+		"Year": {
+			"S": "1967"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6QaVfG1pHYl1z15ZxkvVDW"
+		},
+		"Unique ID": {
+			"S": "6948f6bc-ae6a-11ee-b267-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0234ef8f7d06cf2fc2146f420a"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Born This Way"
+		},
+		"Artist": {
+			"S": "Lady Gaga"
+		},
+		"Year": {
+			"S": "2011"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "5maeycU97NHBgwRr2h2A4O"
+		},
+		"Unique ID": {
+			"S": "641d0106-ae6a-11ee-8bbf-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a47c0e156ea3cebe37fdcab8"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Just As I Am"
+		},
+		"Artist": {
+			"S": "Bill Withers"
+		},
+		"Year": {
+			"S": "1971"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6N8uPmDqbgXD3ztkCCfxoo"
+		},
+		"Unique ID": {
+			"S": "54473846-ae6a-11ee-85aa-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e1e350d06ffebd2e19e047ce"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Enter the 36 Chambers"
+		},
+		"Artist": {
+			"S": "Wu-Tang Clan"
+		},
+		"Year": {
+			"S": "1993"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Amazon"
+		},
+		"Spotify Album ID": {
+			"S": "3tQd5mwBtVyxCoEo4htGAV"
+		},
+		"Unique ID": {
+			"S": "6949004e-ae6a-11ee-87b1-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e025901aaa980d3e714bf01171c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "IGOR"
+		},
+		"Artist": {
+			"S": "Tyler, the Creator"
+		},
+		"Year": {
+			"S": "2019"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "5zi7WsKlIiUXv09tbGLKsE"
+		},
+		"Unique ID": {
+			"S": "6948fc8e-ae6a-11ee-92b4-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e027005885df706891a3c182a57"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Apollo Sound 6"
+		},
+		"Artist": {
+			"S": "Roberto Roena y Su Apollo Sound"
+		},
+		"Year": {
+			"S": "1974"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "3eXuVfm77bl8Erhm1cmmXC"
+		},
+		"Unique ID": {
+			"S": "6948e956-ae6a-11ee-aa0d-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b779a7c228ed8d0be289b867"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Prince"
+		},
+		"Artist": {
+			"S": "Prince"
+		},
+		"Year": {
+			"S": "1979"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "5zEFCJy9kAyD8rMbBESdYh"
+		},
+		"Unique ID": {
+			"S": "6948e460-ae6a-11ee-bf42-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a484690118ec2c7a2e2ae124"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Thriller"
+		},
+		"Artist": {
+			"S": "Michael Jackson"
+		},
+		"Year": {
+			"S": "1982"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "2ANVost0y2y52ema1E9xAZ"
+		},
+		"Unique ID": {
+			"S": "641d0642-ae6a-11ee-afd3-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02de437d960dda1ac0a3586d97"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Viva la Vida or Death and All His Friends"
+		},
+		"Artist": {
+			"S": "Coldplay"
+		},
+		"Year": {
+			"S": "2008"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1CEODgTmTwLyabvwd7HBty"
+		},
+		"Unique ID": {
+			"S": "54473fe4-ae6a-11ee-873f-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e21cc1db05580b6f2d2a3b6e"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Beatles For Sale"
+		},
+		"Artist": {
+			"S": "The Beatles"
+		},
+		"Year": {
+			"S": "1964"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1vANZV20H5B4Fk6yf7Ot9a"
+		},
+		"Unique ID": {
+			"S": "6948f5fe-ae6a-11ee-9f4a-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0255612ece447bec5d62c68375"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Off The Wall"
+		},
+		"Artist": {
+			"S": "Michael Jackson"
+		},
+		"Year": {
+			"S": "1979"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "2ZytN2cY4Zjrr9ukb2rqTP"
+		},
+		"Unique ID": {
+			"S": "641d067e-ae6a-11ee-bfe1-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e027027294551db4fda68b5ddac"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Lady Soul"
+		},
+		"Artist": {
+			"S": "Aretha Franklin"
+		},
+		"Year": {
+			"S": "1968"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "7lEOKZaOpqP70UYqdLPejG"
+		},
+		"Unique ID": {
+			"S": "54473576-ae6a-11ee-b2ab-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e029e5af96086574b76499dcf70"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Con Salsa y Sabor"
+		},
+		"Artist": {
+			"S": "Charlie Palmieri & Meñique"
+		},
+		"Year": {
+			"S": "1977"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discotecario"
+		},
+		"Spotify Album ID": {
+			"S": "6PjtSTcRAyMZ1k9xhvXEFp"
+		},
+		"Unique ID": {
+			"S": "54473f1c-ae6a-11ee-8586-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e027e24965f5f68c8c77d9f21a1"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "2014 Forrest Hills Drive"
+		},
+		"Artist": {
+			"S": "J. Cole"
+		},
+		"Year": {
+			"S": "2014"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0UMMIkurRUmkruZ3KGBLtG"
+		},
+		"Unique ID": {
+			"S": "641cf990-ae6a-11ee-9757-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02c6e0948bbb0681ff29cdbae8"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Diana Ross"
+		},
+		"Artist": {
+			"S": "Diana Ross"
+		},
+		"Year": {
+			"S": "1970"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "2Fin5oppCDiqiLfqb3j3QO"
+		},
+		"Unique ID": {
+			"S": "544741ec-ae6a-11ee-89f2-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e020cffb0c99017447b04d4e4da"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Hatful of Hollow"
+		},
+		"Artist": {
+			"S": "The Smiths"
+		},
+		"Year": {
+			"S": "1980"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1j57Q5ntVi7crpibb0h4sv"
+		},
+		"Unique ID": {
+			"S": "6948f982-ae6a-11ee-be06-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02786b44c75ebf915866523f5b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "A Head Full of Dreams"
+		},
+		"Artist": {
+			"S": "Coldplay"
+		},
+		"Year": {
+			"S": "2015"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3cfAM8b8KqJRoIzt3zLKqw"
+		},
+		"Unique ID": {
+			"S": "54474020-ae6a-11ee-9614-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e028ff7c3580d429c8212b9a3b6"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Court and Spark"
+		},
+		"Artist": {
+			"S": "Joni Mitchell"
+		},
+		"Year": {
+			"S": "1974"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "7iRMZxHOFd7MaBYOmMYm65"
+		},
+		"Unique ID": {
+			"S": "641cfd14-ae6a-11ee-9753-325096b39f47"
+		},
+		"Genre": {
+			"S": "Folk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbcd0b079e9326a7c3261f58ea"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "The Low End Theory"
+		},
+		"Artist": {
+			"S": "A Tribe Called Quest"
+		},
+		"Year": {
+			"S": "1991"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1p12OAWwudgMqfMzjMvl2a"
+		},
+		"Unique ID": {
+			"S": "54472fcc-ae6a-11ee-bdc5-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02f38c6b37a21334e22005b1f7"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Invasión De La Privacidad"
+		},
+		"Artist": {
+			"S": "Eddie Santiago"
+		},
+		"Year": {
+			"S": "1988"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discotecario"
+		},
+		"Spotify Album ID": {
+			"S": "382Ki7245s55gzyb06llqn"
+		},
+		"Unique ID": {
+			"S": "544743f4-ae6a-11ee-b4fd-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://mosaic.scdn.co/300/ab67616d0000b27369ec6a167387ffbb3ed9947cab67616d0000b2738805956efd05ad48b59b7643ab67616d0000b27398ed977a15ba445c161e91d5ab67616d0000b273a7ba168da66f1b3680c42cd5"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Moving In Pictures"
+		},
+		"Artist": {
+			"S": "Rush"
+		},
+		"Year": {
+			"S": "1981"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "2xg7iIKoSqaDNpDbJnyCjY"
+		},
+		"Unique ID": {
+			"S": "6948ea82-ae6a-11ee-bf2d-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0272833c1ae3343cbfb4617073"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Futuresex/Lovesounds"
+		},
+		"Artist": {
+			"S": "Justin Timberlake"
+		},
+		"Year": {
+			"S": "2006"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "2scB1uhcCI1TSf6b9TCZK3"
+		},
+		"Unique ID": {
+			"S": "641cff08-ae6a-11ee-bd2b-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02c6ba98fd3f3b396a6c6f7091"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Awesome Mix Vol. 1"
+		},
+		"Artist": {
+			"S": "Guardians of the Galaxy"
+		},
+		"Year": {
+			"S": "2016"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "4bPAI2xwzRgiib6NDLy43G"
+		},
+		"Unique ID": {
+			"S": "641cf74c-ae6a-11ee-ad32-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e026f9002d85f1c821ae32a256c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Canciones Urgentes"
+		},
+		"Artist": {
+			"S": "Silvio Rodríguez"
+		},
+		"Year": {
+			"S": "1970"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0I7jpG76wWx1RXfSfVOO46"
+		},
+		"Unique ID": {
+			"S": "6948ed34-ae6a-11ee-a92f-325096b39f47"
+		},
+		"Genre": {
+			"S": "Nuova Trova"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02dbf3ce31ed9dba0eb0c2a74c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Vámonos Pal Monte"
+		},
+		"Artist": {
+			"S": "Eddie Palmieri"
+		},
+		"Year": {
+			"S": "1971"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discotecario"
+		},
+		"Spotify Album ID": {
+			"S": "4fIT7FtkFbq19m1lZyExAK"
+		},
+		"Unique ID": {
+			"S": "54474372-ae6a-11ee-9307-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e026b9c4af0cfe8744fbd63590a"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Neon Genesis Evangelion"
+		},
+		"Artist": {
+			"S": "Neon Genesis Evangelion"
+		},
+		"Year": {
+			"S": "1995"
+		},
+		"Language": {
+			"S": "Japonés"
+		},
+		"Location": {
+			"S": "Regalo"
+		},
+		"Spotify Album ID": {
+			"S": "4vwgTxjKwiSWfEoGOqhiWa"
+		},
+		"Unique ID": {
+			"S": "641d0976-ae6a-11ee-bb86-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02564b9a0c99103bf3c5e054f7"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "A Son Of The Sun"
+		},
+		"Artist": {
+			"S": "Uyama Hiroto"
+		},
+		"Year": {
+			"S": "2008"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "3lWDRI6LLRZqPbCK7xBeAp"
+		},
+		"Unique ID": {
+			"S": "6948fcca-ae6a-11ee-acb1-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02876c14922f7f7994013ed9a8"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Shea Butter Baby"
+		},
+		"Artist": {
+			"S": "Ari Lennox"
+		},
+		"Year": {
+			"S": "2019"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Amazon"
+		},
+		"Spotify Album ID": {
+			"S": "3hejjJbFsinMBc1KBqF71w"
+		},
+		"Unique ID": {
+			"S": "544735bc-ae6a-11ee-bfa1-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02f1a1bdd330659e602cb927ec"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Back in Black"
+		},
+		"Artist": {
+			"S": "AC/DC"
+		},
+		"Year": {
+			"S": "1980"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6mUdeDZCsExyJLMdAfDuwh"
+		},
+		"Unique ID": {
+			"S": "544731e8-ae6a-11ee-bbe6-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e020b51f8d91f3a21e8426361ae"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Frontiers"
+		},
+		"Artist": {
+			"S": "Journey"
+		},
+		"Year": {
+			"S": "1983"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "2EFUNYmwxe0AOGxBORrfaw"
+		},
+		"Unique ID": {
+			"S": "641cfd50-ae6a-11ee-96d6-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b9021ad16733196aacf253c1"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "The $5.98 EP"
+		},
+		"Artist": {
+			"S": "Metallica"
+		},
+		"Year": {
+			"S": "1987"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "2ob2V3qqYLyKUrQB5YNm4C"
+		},
+		"Unique ID": {
+			"S": "641d057a-ae6a-11ee-9ec8-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02c1f4116170c2af576a21b4d5"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Footsteps In The Dark Greatest Hits Vol Two"
+		},
+		"Artist": {
+			"S": "Cat Stevens"
+		},
+		"Year": {
+			"S": "1977"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "44VxbAytHpVi3Rq8hRhild"
+		},
+		"Unique ID": {
+			"S": "54473e9a-ae6a-11ee-8c4e-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e7248738c2f7ce3b5584b15d"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Night Nurse"
+		},
+		"Artist": {
+			"S": "Gregory Isaacs"
+		},
+		"Year": {
+			"S": "1984"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Amazon"
+		},
+		"Spotify Album ID": {
+			"S": "2HEXjNNUSOwBmhyaEXG5yx"
+		},
+		"Unique ID": {
+			"S": "641cf6ca-ae6a-11ee-99d8-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0226f8a0f6a4abe3088c6074ad"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Killing Me Softly"
+		},
+		"Artist": {
+			"S": "Roberta Flack"
+		},
+		"Year": {
+			"S": "1973"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "4GxrvKiysSiDU1HHifh1PA"
+		},
+		"Unique ID": {
+			"S": "6948e898-ae6a-11ee-8570-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e027ff730d1580c27bc461d0ccf"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "The Thrill of it All"
+		},
+		"Artist": {
+			"S": "Sam Smith"
+		},
+		"Year": {
+			"S": "2017"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3TJz2UBNYJtlEly0sPeNrQ"
+		},
+		"Unique ID": {
+			"S": "6948eb4a-ae6a-11ee-b2c0-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02005cd7d0ae87b081601f6cca"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Gorillaz"
+		},
+		"Artist": {
+			"S": "Gorillaz"
+		},
+		"Year": {
+			"S": "2000"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0YvYmLBFFwYxgI4U9KKgUm"
+		},
+		"Unique ID": {
+			"S": "641cf5f8-ae6a-11ee-9620-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02c73a7bb15f43bae86215934b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Burnin'"
+		},
+		"Artist": {
+			"S": "Bob Marley & The Wailers"
+		},
+		"Year": {
+			"S": "1973"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "5EZMcYc3xK0rlru83kHpUe"
+		},
+		"Unique ID": {
+			"S": "54473bd4-ae6a-11ee-ae9d-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e029e0e071bcaa827031dfad879"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Fan-Tas-Tic Vol. 2"
+		},
+		"Artist": {
+			"S": "Slum Village"
+		},
+		"Year": {
+			"S": "2000"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "22IhsI5JpldSrE7vhidAja"
+		},
+		"Unique ID": {
+			"S": "6948eeba-ae6a-11ee-9990-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e022a8486851d9c9d2cf5bda04f"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Comedia"
+		},
+		"Artist": {
+			"S": "Héctor Lavoe"
+		},
+		"Year": {
+			"S": "1978"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "7CBmznpnzPgLpBXFlB40B6"
+		},
+		"Unique ID": {
+			"S": "641cf88c-ae6a-11ee-9dba-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e024a8c66809d9bb7b8e1806099"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Celia & Johnny"
+		},
+		"Artist": {
+			"S": "Celia & Johnny"
+		},
+		"Year": {
+			"S": "1974"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "3zHl7v8SJjqKoHZWCszzzn"
+		},
+		"Unique ID": {
+			"S": "54473ee0-ae6a-11ee-8699-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0227a02395c0ace0282d759486"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "El Último Tour Del Mundo"
+		},
+		"Artist": {
+			"S": "Bad Bunny"
+		},
+		"Year": {
+			"S": "2021"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "2d9BCZeAAhiZWPpbX9aPCW"
+		},
+		"Unique ID": {
+			"S": "5447367a-ae6a-11ee-ba49-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggaetón"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02005ee342f4eef2cc6e8436ab"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Wolfgang Amadeus Phoenix"
+		},
+		"Artist": {
+			"S": "Phoenix"
+		},
+		"Year": {
+			"S": "2009"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0xG5b9nkWxKc5VTpo6Fq5I"
+		},
+		"Unique ID": {
+			"S": "6948e104-ae6a-11ee-8653-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02869df273a6f34f759b426ace"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Greatest Hits"
+		},
+		"Artist": {
+			"S": "Parliament"
+		},
+		"Year": {
+			"S": "1970"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "7zOkRFx74queysgHZEmzH7"
+		},
+		"Unique ID": {
+			"S": "641d0cb4-ae6a-11ee-bbcf-325096b39f47"
+		},
+		"Genre": {
+			"S": "Funk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02c2916c52aadfa9435f24724f"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Persona 5 OST"
+		},
+		"Artist": {
+			"S": "Persona 5"
+		},
+		"Year": {
+			"S": "2017"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "3nJSlkZJKbs9ztGb1V8TKy"
+		},
+		"Unique ID": {
+			"S": "641d0cfa-ae6a-11ee-974e-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0258758f8b6b319a6b698dd995"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Tito Rojas"
+		},
+		"Artist": {
+			"S": "Tito Rojas"
+		},
+		"Year": {
+			"S": "1992"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "5Ex8mKjD9ZSvErdiAt8UNo"
+		},
+		"Unique ID": {
+			"S": "6948fb44-ae6a-11ee-8bcd-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0296b473ae99bb4bf03c5b018e"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Ednita"
+		},
+		"Artist": {
+			"S": "Ednita Nazario"
+		},
+		"Year": {
+			"S": "1983"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "3Z0R1FyP3gE8im1gCm5Rem"
+		},
+		"Unique ID": {
+			"S": "54474430-ae6a-11ee-8a23-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e3f6ea52c543beb85c0e963e"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Songs About Jane"
+		},
+		"Artist": {
+			"S": "Maroon 5"
+		},
+		"Year": {
+			"S": "2002"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "5zClcGCSWj926AMjvBNSLc"
+		},
+		"Unique ID": {
+			"S": "641d0340-ae6a-11ee-9d92-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0292f2d790c6a97b195f66d51e"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "A Hard Day's Night"
+		},
+		"Artist": {
+			"S": "The Beatles"
+		},
+		"Year": {
+			"S": "1964"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6wCttLq0ADzkPgtRnUihLV"
+		},
+		"Unique ID": {
+			"S": "6948f720-ae6a-11ee-ae8f-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e230f303815e82a86713eedd"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Rastaman Vibration"
+		},
+		"Artist": {
+			"S": "Bob Marley & The Wailers"
+		},
+		"Year": {
+			"S": "1976"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6Gdf5vvFmoEwcsEV61tXiT"
+		},
+		"Unique ID": {
+			"S": "54473c56-ae6a-11ee-8472-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02280b04817e7547fea8cfb7d0"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Heaven And Hell"
+		},
+		"Artist": {
+			"S": "Black Sabbath"
+		},
+		"Year": {
+			"S": "1980"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "1Wk2g7TV0adbUZ53ruvIdL"
+		},
+		"Unique ID": {
+			"S": "5447394a-ae6a-11ee-8809-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02eab13a1a01fb57d6e9e8ddaf"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "What's Going On"
+		},
+		"Artist": {
+			"S": "Marvin Gaye"
+		},
+		"Year": {
+			"S": "1971"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "2v6ANhWhZBUKkg6pJJBs3B"
+		},
+		"Unique ID": {
+			"S": "641d03fe-ae6a-11ee-a8ef-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b36949bee43217351961ffbc"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Once Again"
+		},
+		"Artist": {
+			"S": "John Legend"
+		},
+		"Year": {
+			"S": "2006"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "1ZWwFwSKaREGLWxpGiPAoF"
+		},
+		"Unique ID": {
+			"S": "641cfc06-ae6a-11ee-8a8c-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0264057b17948fa0b63f3f4767"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "To Pimp A Butterfly"
+		},
+		"Artist": {
+			"S": "Kendrick Lamar"
+		},
+		"Year": {
+			"S": "2015"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "7ycBtnsMtyVbbwTfJwRjSP"
+		},
+		"Unique ID": {
+			"S": "641d0048-ae6a-11ee-96ab-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02cdb645498cd3d8a2db4d05e1"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Pyromania"
+		},
+		"Artist": {
+			"S": "Def Leppard"
+		},
+		"Year": {
+			"S": "1983"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "5ab6RIlAGwbVAacV1JIr2d"
+		},
+		"Unique ID": {
+			"S": "544741b0-ae6a-11ee-b98c-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e45161990e83649071399525"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "I Never Loved A Man The Way I Love You"
+		},
+		"Artist": {
+			"S": "Aretha Franklin"
+		},
+		"Year": {
+			"S": "1967"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "5WndWfzGwCkHzAbQXVkg2V"
+		},
+		"Unique ID": {
+			"S": "5447353a-ae6a-11ee-afdb-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e026aa9314b7ddfbd8f036ba3ac"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Canciones del Solar de los Aburridos"
+		},
+		"Artist": {
+			"S": "Willie Colón & Rubén Blades"
+		},
+		"Year": {
+			"S": "1981"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "1szanrwjas55YHd6OzZrCs"
+		},
+		"Unique ID": {
+			"S": "6948ff90-ae6a-11ee-8dcf-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e024e51509d6c64cd6f4c4b6c5c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Al Final De Este Viaje"
+		},
+		"Artist": {
+			"S": "Silvio Rodríguez"
+		},
+		"Year": {
+			"S": "1978"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "4WEu5ZKJLZ9bOEav4ELwpd"
+		},
+		"Unique ID": {
+			"S": "6948ed98-ae6a-11ee-b4d6-325096b39f47"
+		},
+		"Genre": {
+			"S": "Nuova Trova"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02524e56c2cc65b709d457ea7c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Who Is Jill Scott? Words and Sounds Vol. 1"
+		},
+		"Artist": {
+			"S": "Jill Scott"
+		},
+		"Year": {
+			"S": "2000"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "620y2xi6SkUb6IZlnnWxuG"
+		},
+		"Unique ID": {
+			"S": "641cfb0c-ae6a-11ee-a6b8-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b74ec6a6789c65f56dafafc3"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Gemini"
+		},
+		"Artist": {
+			"S": "Wild Nothing"
+		},
+		"Year": {
+			"S": "2010"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3hxVFxpF7uUtjLHzvGIm7W"
+		},
+		"Unique ID": {
+			"S": "6948fe50-ae6a-11ee-a492-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e026da7c8855ee1e48bb4d29184"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Toxicity"
+		},
+		"Artist": {
+			"S": "System of a Down"
+		},
+		"Year": {
+			"S": "2001"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6jWde94ln40epKIQCd8XUh"
+		},
+		"Unique ID": {
+			"S": "6948f388-ae6a-11ee-8a59-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0230d45198d0c9e8841f9a9578"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Hysteria"
+		},
+		"Artist": {
+			"S": "Def Leppard"
+		},
+		"Year": {
+			"S": "1987"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "St Pete"
+		},
+		"Spotify Album ID": {
+			"S": "1ja2qzCrh6bZykcojbZs82"
+		},
+		"Unique ID": {
+			"S": "5447416a-ae6a-11ee-ae5f-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0243511b8c20112757edddc7ba"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Paid In Full"
+		},
+		"Artist": {
+			"S": "Eric B. & Rakim"
+		},
+		"Year": {
+			"S": "1987"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "5iaxBk4qVHAMp9vtYSoEBM"
+		},
+		"Unique ID": {
+			"S": "544745f2-ae6a-11ee-9d46-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02d552416cafb8792b442655b2"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Bounce, Rock, Skate, Roll"
+		},
+		"Artist": {
+			"S": "Vaughan Mason and Crew"
+		},
+		"Year": {
+			"S": "1980"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "0j6BUfyDEFpuR54LTpO57K"
+		},
+		"Unique ID": {
+			"S": "6948fdce-ae6a-11ee-8cd4-325096b39f47"
+		},
+		"Genre": {
+			"S": "Funk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a19f3152373d87dea2221f3e"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "The Black Parade"
+		},
+		"Artist": {
+			"S": "My Chemical Romance"
+		},
+		"Year": {
+			"S": "2006"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0FZK97MXMm5mUQ8mtudjuK"
+		},
+		"Unique ID": {
+			"S": "641d087c-ae6a-11ee-937d-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0217f77fab7e8f18d5f9fee4a1"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "The Stranger"
+		},
+		"Artist": {
+			"S": "Billy Joel"
+		},
+		"Year": {
+			"S": "1977"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "1Mhn9VosyjtWn4dMPFlna6"
+		},
+		"Unique ID": {
+			"S": "54473904-ae6a-11ee-86cd-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e026ce61113662ecf693b605ee5"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Catch A Fire"
+		},
+		"Artist": {
+			"S": "Bob Marley & The Wailers"
+		},
+		"Year": {
+			"S": "1973"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "39kLAVdcgW7jbMcTEaY2qy"
+		},
+		"Unique ID": {
+			"S": "54473b98-ae6a-11ee-ab21-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0287ef6dae7545173089c68f34"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Purple Rain"
+		},
+		"Artist": {
+			"S": "Prince"
+		},
+		"Year": {
+			"S": "1984"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "34MHuXONazzgSxI0cThpAg"
+		},
+		"Unique ID": {
+			"S": "6948e3c0-ae6a-11ee-84f7-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02337c5517a9a62e0c3f17d59f"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "The Miseducation of Lauryn Hill"
+		},
+		"Artist": {
+			"S": "Lauryn Hill"
+		},
+		"Year": {
+			"S": "1998"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1BZoqf8Zje5nGdwZhOjAtD"
+		},
+		"Unique ID": {
+			"S": "641d0188-ae6a-11ee-b416-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e08b1250db5f75643f1508c9"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "La Solución"
+		},
+		"Artist": {
+			"S": "Orquesta La Solución"
+		},
+		"Year": {
+			"S": "1981"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "4YuWXdxc0w8X2rqeMXnBU0"
+		},
+		"Unique ID": {
+			"S": "641d0b74-ae6a-11ee-aaa0-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e024933ddc81f5d3e734e258f4c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Lo Mato"
+		},
+		"Artist": {
+			"S": "Willie Colón"
+		},
+		"Year": {
+			"S": "1973"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "4TzXeIsjyPLaNvgOd84bwr"
+		},
+		"Unique ID": {
+			"S": "6948fed2-ae6a-11ee-9a1b-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02d401ded855f7fd747f0de19f"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Toca Madera"
+		},
+		"Artist": {
+			"S": "Orquesta Mulenze"
+		},
+		"Year": {
+			"S": "1988"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discotecario"
+		},
+		"Spotify Album ID": {
+			"S": "7uPWXIsz4OHqRIiLnv9lqg"
+		},
+		"Unique ID": {
+			"S": "641d0bb0-ae6a-11ee-bcd9-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a622826429f1731f0997d3fc"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Punto De Vista"
+		},
+		"Artist": {
+			"S": "Gilberto Santa Rosa"
+		},
+		"Year": {
+			"S": "1990"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "1WjpNtVzvTWaC8TEhypLZ6"
+		},
+		"Unique ID": {
+			"S": "641cf576-ae6a-11ee-806b-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0225dd708303d3deb4a0057cf6"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "The Billie Holliday Story"
+		},
+		"Artist": {
+			"S": "Billie Holiday"
+		},
+		"Year": {
+			"S": "1950"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "4MkdTflpaaGGcXb5vtOYRs"
+		},
+		"Unique ID": {
+			"S": "54473882-ae6a-11ee-b8db-325096b39f47"
+		},
+		"Genre": {
+			"S": "Blues"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02f8743d2c7812763f7f66e83b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Imploding The Mirage"
+		},
+		"Artist": {
+			"S": "The Killers"
+		},
+		"Year": {
+			"S": "2020"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Amazon"
+		},
+		"Spotify Album ID": {
+			"S": "1uROBP2G4MP0O4w1v5Cpbg"
+		},
+		"Unique ID": {
+			"S": "6948f8b0-ae6a-11ee-ad1f-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02f08d82ff69ae975e6e5f395e"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Positions"
+		},
+		"Artist": {
+			"S": "Ariana Grande"
+		},
+		"Year": {
+			"S": "2020"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3euz4vS7ezKGnNSwgyvKcd"
+		},
+		"Unique ID": {
+			"S": "5447363e-ae6a-11ee-aa8f-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e025ef878a782c987d38d82b605"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Californication"
+		},
+		"Artist": {
+			"S": "Red Hot Chilli Peppers"
+		},
+		"Year": {
+			"S": "1999"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Regalo"
+		},
+		"Spotify Album ID": {
+			"S": "2Y9IRtehByVkegoD7TcLfi"
+		},
+		"Unique ID": {
+			"S": "6948e762-ae6a-11ee-9356-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0294d08ab63e57b0cae74e8595"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Colección Definitiva"
+		},
+		"Artist": {
+			"S": "Alejandro Sanz"
+		},
+		"Year": {
+			"S": "2011"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "2avjXzB9ndvLElhdXzKOBX"
+		},
+		"Unique ID": {
+			"S": "5447336e-ae6a-11ee-a26b-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b648b034dca63d0b5e4d4c4a"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "The Silence In Between"
+		},
+		"Artist": {
+			"S": "Bob Moses"
+		},
+		"Year": {
+			"S": "2022"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Regalo"
+		},
+		"Spotify Album ID": {
+			"S": "0qC7OBo3dCONK0fgHbySdU"
+		},
+		"Unique ID": {
+			"S": "54473c9c-ae6a-11ee-8afe-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0249bae1671794ce6e45ebc41c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Random Access Memory"
+		},
+		"Artist": {
+			"S": "Daft Punk"
+		},
+		"Year": {
+			"S": "2013"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3QbWxiYTlTCLjHYgrgMCfU"
+		},
+		"Unique ID": {
+			"S": "5447412e-ae6a-11ee-ab86-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02efbba7082b953018c0da26e3"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Indestructible"
+		},
+		"Artist": {
+			"S": "Ray Barretto"
+		},
+		"Year": {
+			"S": "1973"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "5ColFlrN4x7WcxDuxMrBsC"
+		},
+		"Unique ID": {
+			"S": "6948e6a4-ae6a-11ee-9e39-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e026bd23da86c35e2584312f1da"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Live at The Cheetah Vol. 1"
+		},
+		"Artist": {
+			"S": "Fania All-Stars"
+		},
+		"Year": {
+			"S": "1972"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "1XfrZU7zjQT9obvRbk1x0e"
+		},
+		"Unique ID": {
+			"S": "5447473c-ae6a-11ee-927e-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0289cea18c04f4aa6b58cf101c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Diamonds"
+		},
+		"Artist": {
+			"S": "Elton John"
+		},
+		"Year": {
+			"S": "1970"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "45F4Pmp3EJi3T6qYonm4Ml"
+		},
+		"Unique ID": {
+			"S": "54474570-ae6a-11ee-a57c-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02904e306cf32fa5dc93dd927a"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "La Dulzura"
+		},
+		"Artist": {
+			"S": "Cultura Profética"
+		},
+		"Year": {
+			"S": "2010"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Amazon"
+		},
+		"Spotify Album ID": {
+			"S": "0ma0z5JUPvi7ZZtfV8Di0A"
+		},
+		"Unique ID": {
+			"S": "544740ac-ae6a-11ee-94f7-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e026c4218db039fb7b08a16be1e"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "The College Dropout"
+		},
+		"Artist": {
+			"S": "Kanye West"
+		},
+		"Year": {
+			"S": "2004"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "4Uv86qWpGTxf7fU7lG5X6F"
+		},
+		"Unique ID": {
+			"S": "641cff4e-ae6a-11ee-8544-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0225b055377757b3cdd6f26b78"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Timely!"
+		},
+		"Artist": {
+			"S": "Anri"
+		},
+		"Year": {
+			"S": "1983"
+		},
+		"Language": {
+			"S": "Japonés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "3OvZYx7AAGplmJjwD29JiV"
+		},
+		"Unique ID": {
+			"S": "54473436-ae6a-11ee-b3bb-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02cfd93d36fe2365f9436587d1"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Revolver"
+		},
+		"Artist": {
+			"S": "The Beatles"
+		},
+		"Year": {
+			"S": "1966"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3PRoXYsngSwjEQWR5PsHWR"
+		},
+		"Unique ID": {
+			"S": "6948f662-ae6a-11ee-88a1-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0228b8b9b46428896e6491e97a"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Fallen"
+		},
+		"Artist": {
+			"S": "Evanescence"
+		},
+		"Year": {
+			"S": "2003"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "02w1xMzzdF2OJxTeh1basm"
+		},
+		"Unique ID": {
+			"S": "544746ba-ae6a-11ee-bef2-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0225f49ab23f0ec6332efef432"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "A Love Supreme"
+		},
+		"Artist": {
+			"S": "John Coltrane"
+		},
+		"Year": {
+			"S": "1965"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "7Eoz7hJvaX1eFkbpQxC5PA"
+		},
+		"Unique ID": {
+			"S": "641cfbca-ae6a-11ee-adb4-325096b39f47"
+		},
+		"Genre": {
+			"S": "Jazz"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02ea42191f549dce4d9c8ecd1a"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Imagine"
+		},
+		"Artist": {
+			"S": "John Lennon"
+		},
+		"Year": {
+			"S": "1971"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "0xzaemKucrJpYhyl7TltAk"
+		},
+		"Unique ID": {
+			"S": "641cfc4c-ae6a-11ee-8d0b-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0299581550ef9746ca582bb3cc"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "The Whole Story"
+		},
+		"Artist": {
+			"S": "Kate Bush"
+		},
+		"Year": {
+			"S": "1986"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "7uNjeNs5AmDqZHzIbyPkZH"
+		},
+		"Unique ID": {
+			"S": "641cffd0-ae6a-11ee-98fa-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0222cd84bf3376a422b214cf60"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Weezer"
+		},
+		"Artist": {
+			"S": "Weezer"
+		},
+		"Year": {
+			"S": "1994"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1xpGyKyV26uPstk1Elgp9Q"
+		},
+		"Unique ID": {
+			"S": "6948fe14-ae6a-11ee-827a-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02345536847e60f622ee0eae96"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "At Last!"
+		},
+		"Artist": {
+			"S": "Etta James"
+		},
+		"Year": {
+			"S": "1960"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "7rd4PorIOPjPTy7qdUeeCt"
+		},
+		"Unique ID": {
+			"S": "5447467e-ae6a-11ee-813c-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b2229a8fdf377abaf3652624"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Wildflower"
+		},
+		"Artist": {
+			"S": "Hank Crawford"
+		},
+		"Year": {
+			"S": "1973"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "4IaC0o37AsPzK4iwWYMAV8"
+		},
+		"Unique ID": {
+			"S": "641cf80a-ae6a-11ee-9786-325096b39f47"
+		},
+		"Genre": {
+			"S": "Jazz"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02ccbe8cdd9d47d6032ff05fb6"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "I Want You"
+		},
+		"Artist": {
+			"S": "Marvin Gaye"
+		},
+		"Year": {
+			"S": "1976"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "28nUWsyczStUhYKXTY1IoW"
+		},
+		"Unique ID": {
+			"S": "641d03b8-ae6a-11ee-85f3-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e026329e23d367245adceb71fd0"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Greatest Hits"
+		},
+		"Artist": {
+			"S": "Al Green"
+		},
+		"Year": {
+			"S": "1970"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6W0V8B0fJItvOwC8v114rZ"
+		},
+		"Unique ID": {
+			"S": "54473328-ae6a-11ee-a4d8-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02400cef779a4cd24ebe742e9c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Mejor Acompañado Que Nunca"
+		},
+		"Artist": {
+			"S": "Andy Montañez"
+		},
+		"Year": {
+			"S": "1986"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discotecario"
+		},
+		"Spotify Album ID": {
+			"S": "1XkAFbflOdr9f0tUPQKDC0"
+		},
+		"Unique ID": {
+			"S": "544733aa-ae6a-11ee-a935-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b26a94b0cf4b0966b07e9a48"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "The Ultimate Collection"
+		},
+		"Artist": {
+			"S": "Ray Charles"
+		},
+		"Year": {
+			"S": "1960"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Regalo"
+		},
+		"Spotify Album ID": {
+			"S": "7gvxyetkX6vkoMyDkDM6ls"
+		},
+		"Unique ID": {
+			"S": "6948e708-ae6a-11ee-bbc1-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e024448e36a9ef845b705d80a0d"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Highway To Hell"
+		},
+		"Artist": {
+			"S": "AC/DC"
+		},
+		"Year": {
+			"S": "1979"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "10v912xgTZbjAtYfyKWJCS"
+		},
+		"Unique ID": {
+			"S": "544731a2-ae6a-11ee-a729-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0251c02a77d09dfcd53c8676d0"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Live At Yankee Stadium Vol. 2"
+		},
+		"Artist": {
+			"S": "Fania All-Stars"
+		},
+		"Year": {
+			"S": "1975"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0d6RjmRe2vGol76MdPtlLE"
+		},
+		"Unique ID": {
+			"S": "544746f6-ae6a-11ee-8090-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02f06a49077082217c6b8a0b01"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Live at The Cheetah Vol. 2"
+		},
+		"Artist": {
+			"S": "Fania All-Stars"
+		},
+		"Year": {
+			"S": "1972"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "4EawW1gi6378jsFlWr81sZ"
+		},
+		"Unique ID": {
+			"S": "54474778-ae6a-11ee-9585-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02da1e2ac8a0cc58f14bdaf368"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Live Vol. 1"
+		},
+		"Artist": {
+			"S": "Parcels"
+		},
+		"Year": {
+			"S": "2020"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "4ckyPfMqe26PrOgEWdjWns"
+		},
+		"Unique ID": {
+			"S": "641d0c78-ae6a-11ee-b5da-325096b39f47"
+		},
+		"Genre": {
+			"S": "Disco"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e028a39d1a2a747e9c7336a25ce"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Bachata Rosa"
+		},
+		"Artist": {
+			"S": "Juan Luis Guerra"
+		},
+		"Year": {
+			"S": "1990"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "51y3USTITdNJmipX4kQEDS"
+		},
+		"Unique ID": {
+			"S": "641cfe0e-ae6a-11ee-89d3-325096b39f47"
+		},
+		"Genre": {
+			"S": "Bachata"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02fabe96fd440a50e9288111c2"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Bad Girls"
+		},
+		"Artist": {
+			"S": "Donna Summer"
+		},
+		"Year": {
+			"S": "1979"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "58GjBhQvLHwfQFJtdP9Oxg"
+		},
+		"Unique ID": {
+			"S": "544742f0-ae6a-11ee-90c0-325096b39f47"
+		},
+		"Genre": {
+			"S": "Disco"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e020c3a44d76807bef665eacfa3"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "First Impressions of Earth"
+		},
+		"Artist": {
+			"S": "The Strokes"
+		},
+		"Year": {
+			"S": "2006"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1HQ61my1h3VWp2EBWKlp0n"
+		},
+		"Unique ID": {
+			"S": "6948f9be-ae6a-11ee-bebb-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e026898a982ff3c6049ba52586c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Survival"
+		},
+		"Artist": {
+			"S": "Bob Marley & The Wailers"
+		},
+		"Year": {
+			"S": "1979"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "09Df7mUZBQwbDYgvE0t30r"
+		},
+		"Unique ID": {
+			"S": "54473a4e-ae6a-11ee-8ea8-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e025c15cf8bfc892d27aecf2f6d"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Un Día Normal"
+		},
+		"Artist": {
+			"S": "Juanes"
+		},
+		"Year": {
+			"S": "2002"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "2UJCnSqpR3AIuTvWYZLCp1"
+		},
+		"Unique ID": {
+			"S": "641cfe90-ae6a-11ee-8f69-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0223a1613112c1ecf946f51177"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "A Seat At The Table"
+		},
+		"Artist": {
+			"S": "Solange"
+		},
+		"Year": {
+			"S": "2016"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3Yko2SxDk4hc6fncIBQlcM"
+		},
+		"Unique ID": {
+			"S": "6948efdc-ae6a-11ee-9b18-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e021c4540d0ecafaa45305aa5a0"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Blue"
+		},
+		"Artist": {
+			"S": "Joni Mitchell"
+		},
+		"Year": {
+			"S": "1971"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3r3tF5PQhp3B3H1ZXK70DF"
+		},
+		"Unique ID": {
+			"S": "641cfcce-ae6a-11ee-be9b-325096b39f47"
+		},
+		"Genre": {
+			"S": "Folk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0281ef502dbb78b41e19796ad5"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Heaven Beach"
+		},
+		"Artist": {
+			"S": "Anri"
+		},
+		"Year": {
+			"S": "1981"
+		},
+		"Language": {
+			"S": "Japonés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "74XLaVRIeHY51nuXcC5RuS"
+		},
+		"Unique ID": {
+			"S": "54473472-ae6a-11ee-b3b1-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e5cdab693bda0ed0bcffe334"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Nevermind"
+		},
+		"Artist": {
+			"S": "Nirvana"
+		},
+		"Year": {
+			"S": "1991"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "2guirTSEqLizK7j9i1MTTZ"
+		},
+		"Unique ID": {
+			"S": "641d0a7a-ae6a-11ee-953f-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e175a19e530c898d167d39bf"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Reggatta De Blanc"
+		},
+		"Artist": {
+			"S": "The Police"
+		},
+		"Year": {
+			"S": "1979"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "2EpuND32cO7CX0gXZl2NB6"
+		},
+		"Unique ID": {
+			"S": "6948f93c-ae6a-11ee-bab9-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e028ec81cc654b45ade8bdf1486"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Speaking Tongues"
+		},
+		"Artist": {
+			"S": "Talking Heads"
+		},
+		"Year": {
+			"S": "1983"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "4sLCQxMRfn3gAHrBNZtbTH"
+		},
+		"Unique ID": {
+			"S": "6948f428-ae6a-11ee-81d3-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e35e2e2a4bfa8a30a78fc532"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "21"
+		},
+		"Artist": {
+			"S": "Adele"
+		},
+		"Year": {
+			"S": "2011"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0Lg1uZvI312TPqxNWShFXL"
+		},
+		"Unique ID": {
+			"S": "5447322e-ae6a-11ee-a639-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e022118bf9b198b05a95ded6300"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "City to City"
+		},
+		"Artist": {
+			"S": "Gerry Rafferty"
+		},
+		"Year": {
+			"S": "1978"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Discotecario"
+		},
+		"Spotify Album ID": {
+			"S": "35yZZTWeSrszSKjRlFETwf"
+		},
+		"Unique ID": {
+			"S": "641cf526-ae6a-11ee-8995-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02dc60cf9a010f86354e6735dd"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Live at The Bijou"
+		},
+		"Artist": {
+			"S": "Grover Washington Jr."
+		},
+		"Year": {
+			"S": "1977"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "St Pete"
+		},
+		"Spotify Album ID": {
+			"S": "4P7jpB4iJouZNnXrApdrK6"
+		},
+		"Unique ID": {
+			"S": "641cf706-ae6a-11ee-aa0f-325096b39f47"
+		},
+		"Genre": {
+			"S": "Jazz"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e023aa9f611312229db79350026"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "La Voz"
+		},
+		"Artist": {
+			"S": "Héctor Lavoe"
+		},
+		"Year": {
+			"S": "1975"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "6L5s2MnpJNhWA54koTN7UV"
+		},
+		"Unique ID": {
+			"S": "641cf850-ae6a-11ee-baae-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02067f92ebd60be5e023637d42"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Trouble Man"
+		},
+		"Artist": {
+			"S": "Marvin Gaye"
+		},
+		"Year": {
+			"S": "1972"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1yBdCWeYUEthIz8aLxztBB"
+		},
+		"Unique ID": {
+			"S": "641d037c-ae6a-11ee-98d5-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0229d5a3fc83eae5bb37881c79"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Jíbaro Soy"
+		},
+		"Artist": {
+			"S": "Raphy Leavitt y La Selecta"
+		},
+		"Year": {
+			"S": "1973"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "3QoLk4smlcw55snXcRwGTP"
+		},
+		"Unique ID": {
+			"S": "6948e5aa-ae6a-11ee-9c30-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02362aa32239802082d611042c"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Escape"
+		},
+		"Artist": {
+			"S": "Journey"
+		},
+		"Year": {
+			"S": "1981"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "43wpzak9OmQfrjyksuGwp0"
+		},
+		"Unique ID": {
+			"S": "641cfd8c-ae6a-11ee-92a8-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02c5653f9038e42efad2f8a266"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Natty Dread"
+		},
+		"Artist": {
+			"S": "Bob Marley & The Wailers"
+		},
+		"Year": {
+			"S": "1974"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1d8lF3nZpEIFeEbWmAt9Ey"
+		},
+		"Unique ID": {
+			"S": "54473ad0-ae6a-11ee-87c8-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggae"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02b5a0ee94e2741374ce5c71a2"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Sound of Sexy Soul"
+		},
+		"Artist": {
+			"S": "The Delfonics"
+		},
+		"Year": {
+			"S": "1969"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Discotecario"
+		},
+		"Spotify Album ID": {
+			"S": "6KBNPaBdwwrSQPyz1RxRSF"
+		},
+		"Unique ID": {
+			"S": "6948f784-ae6a-11ee-8f81-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02f699570966e5711c62693af3"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "40 Oz To Freedom"
+		},
+		"Artist": {
+			"S": "Sublime"
+		},
+		"Year": {
+			"S": "1992"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0vuwlanMPucXrYMGnOjhYL"
+		},
+		"Unique ID": {
+			"S": "6948f23e-ae6a-11ee-ab14-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02d77299e3d29f44495cd7fbcb"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "International Superhits!"
+		},
+		"Artist": {
+			"S": "Green Day"
+		},
+		"Year": {
+			"S": "1999"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "6HUIbDhzmqcwxrxUfTuHdW"
+		},
+		"Unique ID": {
+			"S": "641cf684-ae6a-11ee-ba78-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02f7bcced5cc8ee6e45f8f3330"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Tú Sin Mi"
+		},
+		"Artist": {
+			"S": "Ednita Nazario"
+		},
+		"Year": {
+			"S": "1986"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discotecario"
+		},
+		"Spotify Album ID": {
+			"S": "7AtAkhy1kqTe7EsuW2rmbf"
+		},
+		"Unique ID": {
+			"S": "54474476-ae6a-11ee-a9a3-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02ffb3041d0fb31c36493247dc"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Blue Train"
+		},
+		"Artist": {
+			"S": "John Coltrane"
+		},
+		"Year": {
+			"S": "1958"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "4vIJFprkZ7vyN6nhcBgQmG"
+		},
+		"Unique ID": {
+			"S": "641cfb8e-ae6a-11ee-8178-325096b39f47"
+		},
+		"Genre": {
+			"S": "Jazz"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0201ffa1c7915624b95b9065e0"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Is This It"
+		},
+		"Artist": {
+			"S": "The Strokes"
+		},
+		"Year": {
+			"S": "2001"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "2k8KgmDp9oHrmu0MIj4XDE"
+		},
+		"Unique ID": {
+			"S": "6948f9fa-ae6a-11ee-b14f-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0213f2466b83507515291acce4"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Paranoid"
+		},
+		"Artist": {
+			"S": "Black Sabbath"
+		},
+		"Year": {
+			"S": "1971"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "6r7LZXAVueS5DqdrvXJJK7"
+		},
+		"Unique ID": {
+			"S": "54473990-ae6a-11ee-b477-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "[Hybrid Theory]"
+		},
+		"Artist": {
+			"S": "Linkin Park"
+		},
+		"Year": {
+			"S": "2001"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "6hPkbAV3ZXpGZBGUvL6jVM"
+		},
+		"Unique ID": {
+			"S": "641d0246-ae6a-11ee-9350-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02e2f039481babe23658fc719a"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "The New Abnormal"
+		},
+		"Artist": {
+			"S": "The Strokes"
+		},
+		"Year": {
+			"S": "2020"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "2xkZV2Hl1Omi8rk2D7t5lN"
+		},
+		"Unique ID": {
+			"S": "6948fa40-ae6a-11ee-86d4-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02bfa99afb5ef0d26d5064b23b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "It's A Man's Man's World"
+		},
+		"Artist": {
+			"S": "James Brown"
+		},
+		"Year": {
+			"S": "1966"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3WQOQKNq8COxy0Ozv6YBb1"
+		},
+		"Unique ID": {
+			"S": "641cfa12-ae6a-11ee-99a3-325096b39f47"
+		},
+		"Genre": {
+			"S": "Funk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02341d7644f66c2abff86314b2"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "La Universidad De La Salsa"
+		},
+		"Artist": {
+			"S": "El Gran Combo"
+		},
+		"Year": {
+			"S": "1983"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "4DsJh2ZUJMbAIZ3tdpI6Zf"
+		},
+		"Unique ID": {
+			"S": "544744ee-ae6a-11ee-8611-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0249e5996b9e731a9328705da5"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Metaphorical Music"
+		},
+		"Artist": {
+			"S": "Nujabes"
+		},
+		"Year": {
+			"S": "2006"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "5FrjDW96mCYw9ECc74c637"
+		},
+		"Unique ID": {
+			"S": "641d0af2-ae6a-11ee-b785-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a1a897ee5e642da6d945bcd7"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Adventures in Paradise"
+		},
+		"Artist": {
+			"S": "Minnie Riperton"
+		},
+		"Year": {
+			"S": "1975"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "0OoRiTZs9hsRz7KxB8JkSX"
+		},
+		"Unique ID": {
+			"S": "641d0778-ae6a-11ee-a246-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02be5b2ecc3252d5c1d6a0f865"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Pet Sounds"
+		},
+		"Artist": {
+			"S": "The Beach Boys"
+		},
+		"Year": {
+			"S": "1966"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6GphKx2QAPRoVGWE9D7ou8"
+		},
+		"Unique ID": {
+			"S": "6948f48c-ae6a-11ee-924b-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02bde8dfd1922129f3d9e3732f"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "A Rush of Blood To The Head"
+		},
+		"Artist": {
+			"S": "Coldplay"
+		},
+		"Year": {
+			"S": "2002"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0RHX9XECH8IVI3LNgWDpmQ"
+		},
+		"Unique ID": {
+			"S": "54473f9e-ae6a-11ee-9e6e-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02de09e02aa7febf30b7c02d82"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "I'm The One"
+		},
+		"Artist": {
+			"S": "Roberta Flack"
+		},
+		"Year": {
+			"S": "1982"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "St Pete"
+		},
+		"Spotify Album ID": {
+			"S": "5A00qXuqxWrO4NvSkBZfq4"
+		},
+		"Unique ID": {
+			"S": "6948e8fc-ae6a-11ee-bf4d-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02c1cfa06ee20a0b6761690240"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Kill 'Em All"
+		},
+		"Artist": {
+			"S": "Metallica"
+		},
+		"Year": {
+			"S": "1983"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0vNBQof86Lv5gLuf26ML7o"
+		},
+		"Unique ID": {
+			"S": "641d053e-ae6a-11ee-a5e4-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0220292e6cce666a69ba5a86fb"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "You're All I Need"
+		},
+		"Artist": {
+			"S": "Marvin Gaye & Tammi Terrell"
+		},
+		"Year": {
+			"S": "1968"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1rfm091srlg2gIh9a2m92J"
+		},
+		"Unique ID": {
+			"S": "641d0476-ae6a-11ee-aee5-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a9449562700677da368ad455"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "The Age of Pleasure"
+		},
+		"Artist": {
+			"S": "Janelle Monáe"
+		},
+		"Year": {
+			"S": "2023"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "3440hCSfwYXxJcbQ0j3jAJ"
+		},
+		"Unique ID": {
+			"S": "641cfa4e-ae6a-11ee-9e42-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0231ac0ae08eb470692364f8b3"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Caliente y Explosivo"
+		},
+		"Artist": {
+			"S": "Marvin Santiago"
+		},
+		"Year": {
+			"S": "1980"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "12zr5m4jJdGQuRubJNeaGN"
+		},
+		"Unique ID": {
+			"S": "641d04bc-ae6a-11ee-9959-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e025a0c555aa6ae2926f8bb0495"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Distant Relatives"
+		},
+		"Artist": {
+			"S": "Nas & Damian Marley"
+		},
+		"Year": {
+			"S": "2010"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6Cj4gSdavyZCIhmeoCcrI6"
+		},
+		"Unique ID": {
+			"S": "641d093a-ae6a-11ee-8d94-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02fcc94ef1f8605f3fbd4a4144"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Suavemente"
+		},
+		"Artist": {
+			"S": "Elvis Crespo"
+		},
+		"Year": {
+			"S": "1998"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "378XG6oO0TWcsGuxeQy2Os"
+		},
+		"Unique ID": {
+			"S": "544745b6-ae6a-11ee-b40a-325096b39f47"
+		},
+		"Genre": {
+			"S": "Merengue"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e027f21e1d44b7dbb3940f6a93b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Can't Slow Down"
+		},
+		"Artist": {
+			"S": "Lionel Richie"
+		},
+		"Year": {
+			"S": "1983"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "3alZBOvPaK3hgMEEymw4Yr"
+		},
+		"Unique ID": {
+			"S": "641d0282-ae6a-11ee-b914-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e027ebe4ccb79ca0dc76356b9bb"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "30 Aniversario"
+		},
+		"Artist": {
+			"S": "Tommy Olivencia"
+		},
+		"Year": {
+			"S": "1987"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discotecario"
+		},
+		"Spotify Album ID": {
+			"S": "0NTOGSGZBeho4Kwo5nvPzd"
+		},
+		"Unique ID": {
+			"S": "6948fb80-ae6a-11ee-989f-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e020814e1e99e60e1e4531d0d3b"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Ballads"
+		},
+		"Artist": {
+			"S": "John Coltrane"
+		},
+		"Year": {
+			"S": "1963"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Amazon"
+		},
+		"Spotify Album ID": {
+			"S": "0Ydakb7npXmyTwFLvKc5qt"
+		},
+		"Unique ID": {
+			"S": "641cfb48-ae6a-11ee-9c61-325096b39f47"
+		},
+		"Genre": {
+			"S": "Jazz"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02a3d4884d3433efed2c4a0563"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "IV"
+		},
+		"Artist": {
+			"S": "Led Zeppelin"
+		},
+		"Year": {
+			"S": "1971"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "5EyIDBAqhnlkAHqvPRwdbX"
+		},
+		"Unique ID": {
+			"S": "641d01c4-ae6a-11ee-9565-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e024509204d0860cc0cc67e83dc"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Rock 'N Soul"
+		},
+		"Artist": {
+			"S": "Hall & Oates"
+		},
+		"Year": {
+			"S": "1980"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "0AoHbznKbgpFBlzN0WvkSt"
+		},
+		"Unique ID": {
+			"S": "641cf7ce-ae6a-11ee-b61d-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02295d9e22d5bd37dd596d3a8e"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Abbey Road"
+		},
+		"Artist": {
+			"S": "The Beatles"
+		},
+		"Year": {
+			"S": "1969"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "0ETFjACtuP2ADo6LFhL6HN"
+		},
+		"Unique ID": {
+			"S": "6948f4f0-ae6a-11ee-8375-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02dc30583ba717007b00cceb25"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "The Dude"
+		},
+		"Artist": {
+			"S": "Quincy Jones"
+		},
+		"Year": {
+			"S": "1981"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "2GD9TjWG3Tu4JygAZniBY0"
+		},
+		"Unique ID": {
+			"S": "6948e546-ae6a-11ee-b4cd-325096b39f47"
+		},
+		"Genre": {
+			"S": "Jazz"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0294c75a1bf1c69bb2af35d937"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Donuts"
+		},
+		"Artist": {
+			"S": "J Dilla"
+		},
+		"Year": {
+			"S": "2006"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "5fMlysqhFE0itGn4KezMBW"
+		},
+		"Unique ID": {
+			"S": "641cf954-ae6a-11ee-aecc-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0283bb78285449998bb974da45"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "Esto Sí Es Lo Mío"
+		},
+		"Artist": {
+			"S": "Ismael Rivera"
+		},
+		"Year": {
+			"S": "1978"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Discogs"
+		},
+		"Spotify Album ID": {
+			"S": "7vVk3gipy5YeMeTuIGBxaC"
+		},
+		"Unique ID": {
+			"S": "641cf918-ae6a-11ee-936f-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e025931d7b0b954f68a6548fab9"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "A/S/L"
+		},
+		"Artist": {
+			"S": "Ari Lennox"
+		},
+		"Year": {
+			"S": "2022"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "7dE9Pf7HRgMOCeVSWnA9ZC"
+		},
+		"Unique ID": {
+			"S": "544735f8-ae6a-11ee-b0cf-325096b39f47"
+		},
+		"Genre": {
+			"S": "R&B/Soul"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02ad2581186f60e949860d0d84"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2020"
+		},
+		"Album": {
+			"S": "xx"
+		},
+		"Artist": {
+			"S": "The xx"
+		},
+		"Year": {
+			"S": "2009"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "6tzQKMilI02kn1lzLklDI8"
+		},
+		"Unique ID": {
+			"S": "6948fafe-ae6a-11ee-b248-325096b39f47"
+		},
+		"Genre": {
+			"S": "Rock"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0299f2c3ea4400725031a5d619"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "YHLQMDLG"
+		},
+		"Artist": {
+			"S": "Bad Bunny"
+		},
+		"Year": {
+			"S": "2020"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "5lJqux7orBlA1QzyiBGti1"
+		},
+		"Unique ID": {
+			"S": "544736b6-ae6a-11ee-8cef-325096b39f47"
+		},
+		"Genre": {
+			"S": "Reggaetón"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02548f7ec52da7313de0c5e4a0"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "A Fever You Can't Sweat Out"
+		},
+		"Artist": {
+			"S": "Panic! At The Disco"
+		},
+		"Year": {
+			"S": "2005"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "2YeOhhJg3OWpN0F1VYPxtW"
+		},
+		"Unique ID": {
+			"S": "641d0c32-ae6a-11ee-8217-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e020a8881b0d247346c3c447bf3"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Call Me If You Get Lost"
+		},
+		"Artist": {
+			"S": "Tyler, the Creator"
+		},
+		"Year": {
+			"S": "2021"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "45ba6QAtNrdv6Ke4MFOKk9"
+		},
+		"Unique ID": {
+			"S": "6948fc52-ae6a-11ee-938e-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02696b4e67423edd64784bfbb4"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2022"
+		},
+		"Album": {
+			"S": "Tiempo Pa Matar"
+		},
+		"Artist": {
+			"S": "Willie Colón"
+		},
+		"Year": {
+			"S": "1985"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "12fkmxSR5zWnxJqCyxDIy5"
+		},
+		"Unique ID": {
+			"S": "6948fe8c-ae6a-11ee-be8c-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02f34aa7a642e0af5f0888e790"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "The Fame"
+		},
+		"Artist": {
+			"S": "Lady Gaga"
+		},
+		"Year": {
+			"S": "2007"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "1jpUMnKpRlng1OJN7LJauV"
+		},
+		"Unique ID": {
+			"S": "641d00ca-ae6a-11ee-b559-325096b39f47"
+		},
+		"Genre": {
+			"S": "Pop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02631810af03785dbad83f5c81"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2021"
+		},
+		"Album": {
+			"S": "Live At Yankee Stadium Vol. 1"
+		},
+		"Artist": {
+			"S": "Fania All-Stars"
+		},
+		"Year": {
+			"S": "1975"
+		},
+		"Language": {
+			"S": "Español"
+		},
+		"Location": {
+			"S": "Tampa"
+		},
+		"Spotify Album ID": {
+			"S": "60yOXnH2eIWUcyUWgwpiZ1"
+		},
+		"Unique ID": {
+			"S": "544747be-ae6a-11ee-b924-325096b39f47"
+		},
+		"Genre": {
+			"S": "Salsa"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e0249d90648b55445d08c986976"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Modal Soul"
+		},
+		"Artist": {
+			"S": "Nujabes"
+		},
+		"Year": {
+			"S": "2006"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "Online"
+		},
+		"Spotify Album ID": {
+			"S": "6nVACH6a27eOWiumAJhDWS"
+		},
+		"Unique ID": {
+			"S": "641d0b38-ae6a-11ee-adbf-325096b39f47"
+		},
+		"Genre": {
+			"S": "Hip-Hop"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e02912cc8fe2e9a53d328757a41"
+		}
+	},
+	{
+		"Purchased": {
+			"S": "2023"
+		},
+		"Album": {
+			"S": "Bridge Over Troubled Water"
+		},
+		"Artist": {
+			"S": "Simon & Garfunkel"
+		},
+		"Year": {
+			"S": "1970"
+		},
+		"Language": {
+			"S": "Inglés"
+		},
+		"Location": {
+			"S": "DMV"
+		},
+		"Spotify Album ID": {
+			"S": "4Em5W5HgYEvhpc2elrpKES"
+		},
+		"Unique ID": {
+			"S": "6948ee06-ae6a-11ee-ad75-325096b39f47"
+		},
+		"Genre": {
+			"S": "Folk"
+		},
+		"Spotify Album Cover": {
+			"S": "https://i.scdn.co/image/ab67616d00001e029a8a66a79fbf93928f897c9b"
+		}
+	}
+]

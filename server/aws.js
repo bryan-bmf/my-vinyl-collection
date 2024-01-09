@@ -27,11 +27,14 @@ ddb.scan(params, function (err, data) {
 	if (err) {
 		console.log("Error", err);
 	} else {
-		console.log("Success", data);
+		console.log("Success", data.Count);
+		
 		data.Items.forEach(function (element, index, array) {
-			console.log(element);
-			res.push(element)
+			//convert dynamo json to regular json
+			let unmarshalled = AWS.DynamoDB.Converter.unmarshall(element)
+			res.push(unmarshalled)
 		});
+
 		fs.writeFile('Output.txt', JSON.stringify(res), (err) => {
  
 			if (err) throw err;

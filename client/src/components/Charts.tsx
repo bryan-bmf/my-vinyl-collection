@@ -67,7 +67,8 @@ const Charts = (props: any) => {
       ]
 
 	  const fetchData = async () => {
-		const resp = await fetch("/api")
+		const resp = await fetch("/vinyls")
+		console.log("response", resp)
 		const respData = await resp.json()
 		console.log(respData)
 	  }

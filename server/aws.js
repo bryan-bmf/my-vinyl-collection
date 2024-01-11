@@ -4,25 +4,42 @@ var AWS = require("aws-sdk");
 // Set the AWS Region.
 AWS.config.update({ region: "us-east-2" });
 
-// Create DynamoDB service object.
-var ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" });
+// dynamo object
+var docClient = new AWS.DynamoDB.DocumentClient({
+	apiVersion: "2012-08-10",
+});
 
-const params = {
-	TableName: "vinyls",
+const getVinyls = async () => {
+	//get all except aggregate
+	const params = {
+		TableName: "vinyls",
+		FilterExpression: "#Album <> :album",
+		ExpressionAttributeNames: { "#Album": "Album" },
+		ExpressionAttributeValues: {
+			":album": "aggregate",
+		},
+	};
+
+	const result = await docClient.scan(params).promise();
+	return result;
 };
 
-let res = [];
+const getAggregate = async () => {
+	const params = {
+		TableName: "vinyls",
+		Key: {
+			"Unique ID": "ad3af481-c022-465b-8781-6c60956ea339",
+			Album: "aggregate",
+		},
+		FilterExpression: "#Album = :album",
+		ExpressionAttributeNames: { "#Album": "Album" },
+		ExpressionAttributeValues: {
+			":album": "aggregate",
+		},
+	};
 
-ddb.scan(params, function (err, data) {
-	if (err) {
-		console.log("Error", err);
-	} else {
-		console.log("Success", data.Count);
-		
-		data.Items.forEach(function (element, index, array) {
-			//convert dynamo json to regular json
-			let unmarshalled = AWS.DynamoDB.Converter.unmarshall(element)
-			res.push(unmarshalled)
-		});
-	}
-});
+	const result = await docClient.scan(params).promise();
+	return result;
+};
+
+module.exports = { getVinyls, getAggregate };

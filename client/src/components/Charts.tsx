@@ -8,7 +8,6 @@ const Charts = (props: any) => {
 
 	const [data1, setData1] = useState<AnyObject>();
 
-
 	let colors: any = [
 		"#2f4f4f",
 		"#2e8b57",
@@ -34,47 +33,47 @@ const Charts = (props: any) => {
 	];
 
 	const idiomas = [
-        {
-          "id": "sass",
-          "label": "sass",
-          "value": 265,
-          "color": "hsl(169, 70%, 50%)"
-        },
-        {
-          "id": "go",
-          "label": "go",
-          "value": 141,
-          "color": "hsl(180, 70%, 50%)"
-        },
-        {
-          "id": "java",
-          "label": "java",
-          "value": 480,
-          "color": "hsl(131, 70%, 50%)"
-        },
-        {
-          "id": "make",
-          "label": "make",
-          "value": 272,
-          "color": "hsl(74, 70%, 50%)"
-        },
-        {
-          "id": "stylus",
-          "label": "stylus",
-          "value": 68,
-          "color": "hsl(312, 70%, 50%)"
-        }
-      ]
+		{
+			id: "sass",
+			label: "sass",
+			value: 265,
+			color: "hsl(169, 70%, 50%)",
+		},
+		{
+			id: "go",
+			label: "go",
+			value: 141,
+			color: "hsl(180, 70%, 50%)",
+		},
+		{
+			id: "java",
+			label: "java",
+			value: 480,
+			color: "hsl(131, 70%, 50%)",
+		},
+		{
+			id: "make",
+			label: "make",
+			value: 272,
+			color: "hsl(74, 70%, 50%)",
+		},
+		{
+			id: "stylus",
+			label: "stylus",
+			value: 68,
+			color: "hsl(312, 70%, 50%)",
+		},
+	];
 
-	  const fetchData = async () => {
-		const resp = await fetch("/api")
-		const respData = await resp.json()
-		console.log(respData)
-	  }
+	const fetchData = async () => {
+		const resp = await fetch("/aggregate");
+		const respData = await resp.json();
+		console.log(respData);
+	};
 
-	  useEffect(() => {
-		fetchData()
-	  }, []);
+	useEffect(() => {
+		fetchData();
+	}, []);
 
 	return (
 		<ResponsivePie
@@ -90,7 +89,7 @@ const Charts = (props: any) => {
 				modifiers: [["darker", 0.2]],
 			}}
 			arcLinkLabelsSkipAngle={10}
-            arcLinkLabel={d => `${d.id}: ${(d.value/1226)*100}`}
+			arcLinkLabel={(d) => `${d.id}: ${(d.value / 1226) * 100}`}
 			arcLinkLabelsTextColor="#333333"
 			arcLinkLabelsThickness={2}
 			arcLinkLabelsColor={{ from: "color" }}
@@ -99,7 +98,7 @@ const Charts = (props: any) => {
 				from: "color",
 				modifiers: [["darker", 2]],
 			}}
-            enableArcLabels={false}
+			enableArcLabels={false}
 		/>
 	);
 };

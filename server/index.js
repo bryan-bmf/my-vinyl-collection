@@ -1,11 +1,19 @@
 const express = require("express");
 
+const aws = require("./aws");
+
 const PORT = process.env.PORT || 3001;
 
 const app = express();
 
-app.get("/api", (req, res) => {
-	res.json({ message: "Hello from server!" });
+app.get("/vinyls", async (req, res) => {
+	const data = await aws.getVinyls();
+	res.json(data);
+});
+
+app.get("/aggregate", async (req, res) => {
+	const data = await aws.getAggregate();
+	res.json(data);
 });
 
 app.listen(PORT, () => {

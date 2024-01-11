@@ -11,6 +11,11 @@ app.get("/vinyls", async (req, res) => {
 	res.json(data);
 });
 
+app.get("/aggregate", async (req, res) => {
+	const data = await aws.getAggregate();
+	res.json(data);
+});
+
 app.listen(PORT, () => {
 	console.log(`Server listening on ${PORT}`);
 });

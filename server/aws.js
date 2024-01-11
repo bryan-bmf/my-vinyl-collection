@@ -10,12 +10,36 @@ var docClient = new AWS.DynamoDB.DocumentClient({
 });
 
 const getVinyls = async () => {
+	//get all except aggregate
 	const params = {
 		TableName: "vinyls",
+		FilterExpression: "#Album <> :album",
+		ExpressionAttributeNames: { "#Album": "Album" },
+		ExpressionAttributeValues: {
+			":album": "aggregate",
+		},
 	};
-	
+
 	const result = await docClient.scan(params).promise();
 	return result;
 };
 
-module.exports = { getVinyls };
+const getAggregate = async () => {
+	const params = {
+		TableName: "vinyls",
+		Key: {
+			"Unique ID": "ad3af481-c022-465b-8781-6c60956ea339",
+			Album: "aggregate",
+		},
+		FilterExpression: "#Album = :album",
+		ExpressionAttributeNames: { "#Album": "Album" },
+		ExpressionAttributeValues: {
+			":album": "aggregate",
+		},
+	};
+
+	const result = await docClient.scan(params).promise();
+	return result;
+};
+
+module.exports = { getVinyls, getAggregate };

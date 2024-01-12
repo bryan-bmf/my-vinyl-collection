@@ -1,14 +1,13 @@
 import './App.css';
-import ArtistTable from '../src/components/ArtistTable';
-import GridView from './components/GridView';
-import AlbumCover from './components/AlbumCover';
-import Charts from './components/Charts';
+import Home from './pages/Home';
 
 function App() {
 
+  // style={{height:400}} poner esto en el parent component de los charts
+
   return (
-    <div className="App" style={{height:400}}>
-      <Charts />
+    <div className="App">
+      <Home />
     </div>
   );
 }

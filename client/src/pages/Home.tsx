@@ -1,4 +1,5 @@
 import ArtistTable from "../components/ArtistTable";
+import GridView from "../components/GridView";
 import Landing from "../components/Landing";
 import { useRef } from "react";
 
@@ -8,7 +9,7 @@ const Home = () => {
     return (
         <>
             <Landing resultRef={resultRef} />
-            <ArtistTable ref={resultRef} />
+            <GridView ref={resultRef} />
         </>
     )
 }

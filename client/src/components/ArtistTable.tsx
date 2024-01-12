@@ -20,7 +20,7 @@ import { artistData } from "../data/seed";
 import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
 
-const ArtistTable = forwardRef<HTMLDivElement, unknown>((props, ref) => {
+const ArtistTable = (props: any) => {
 	const [data, setData] = useState<Array<AnyObject>>(artistData);
 	const [sortConfig, setSortConfig] = useState<AnyObject>({});
 	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>({});
@@ -111,7 +111,7 @@ const ArtistTable = forwardRef<HTMLDivElement, unknown>((props, ref) => {
 	));
 
 	return (
-		<div ref={ref}>
+		<div>
 			<TableContainer h="698px" w="100%">
 				<Table variant="striped" size="sm">
 					<Thead>
@@ -153,7 +153,7 @@ const ArtistTable = forwardRef<HTMLDivElement, unknown>((props, ref) => {
 			/>
 		</div>
 	);
-});
+};
 
 const sx = {
 	tableHeader: {
@@ -170,7 +170,3 @@ const sx = {
 };
 
 export default ArtistTable;
-function useRef<T>(arg0: null) {
-	throw new Error("Function not implemented.");
-}
-

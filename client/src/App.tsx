@@ -1,7 +1,7 @@
 import "./App.css";
 import Collection from "./pages/Collection";
 import Home from "./pages/Home";
-import { Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import NotFound from "./pages/NotFound";
 import { AnimatePresence } from "framer-motion";
 

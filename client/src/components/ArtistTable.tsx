@@ -4,14 +4,13 @@ import {
 	TableContainer,
 	Tbody,
 	Td,
+	Text,
 	Th,
 	Thead,
 	Tr,
-	useDisclosure,
-	Text,
-	Container,
+	useDisclosure
 } from "@chakra-ui/react";
-import { useMemo, useState, forwardRef } from "react";
+import { useMemo, useState } from "react";
 // icons
 import { TriangleDownIcon, TriangleUpIcon } from "@chakra-ui/icons";
 // data
@@ -115,7 +114,6 @@ const ArtistTable = (props: any) => {
 			<TableContainer h="698px" w="100%">
 				<Table variant="striped" size="sm">
 					<Thead>
-						={" "}
 						<Tr>
 							{columns.map((column) => (
 								<Th

@@ -1,9 +1,7 @@
-import { useEffect, useState } from "react";
+import { Box, Image, Text, useDisclosure } from "@chakra-ui/react";
+import { useState } from "react";
 import { artistData } from "../data/seed";
 import { AnyObject } from "../types";
-import { Badge, Box, Card, Image, Text, useDisclosure } from "@chakra-ui/react";
-import { StarIcon } from "@chakra-ui/icons";
-import { Spotify } from "react-spotify-embed";
 import PlayerModal from "./PlayerModal";
 
 const AlbumCover = (props: any) => {

@@ -3,7 +3,7 @@ import AlbumCover from "./AlbumCover";
 
 const GridView = () => {
 	return (
-		<Grid templateColumns="repeat(5, 1fr)" gap={6}>
+		<Grid templateColumns="repeat(5, 1fr)" gap={6} height="968px">
             <AlbumCover />
 		</Grid>
 	);

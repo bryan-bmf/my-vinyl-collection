@@ -1,16 +1,26 @@
-import './App.css';
-import ArtistTable from '../src/components/ArtistTable';
-import GridView from './components/GridView';
-import AlbumCover from './components/AlbumCover';
-import Charts from './components/Charts';
+import "./App.css";
+import Collection from "./pages/Collection";
+import Home from "./pages/Home";
+import { Route, Routes, useLocation } from "react-router-dom";
+import NotFound from "./pages/NotFound";
+import { AnimatePresence } from "framer-motion";
 
 function App() {
+	const location = useLocation();
 
-  return (
-    <div className="App" style={{height:400}}>
-      <Charts />
-    </div>
-  );
+	// style={{height:400}} poner esto en el parent component de los charts
+
+	return (
+		<div className="App">
+			<AnimatePresence>
+				<Routes location={location} key={location.pathname}>
+					<Route path="/" element={<Home />} />
+					<Route path="/collection" element={<Collection />} />
+					<Route path="*" element={<NotFound />} />
+				</Routes>
+			</AnimatePresence>
+		</div>
+	);
 }
 
 export default App;

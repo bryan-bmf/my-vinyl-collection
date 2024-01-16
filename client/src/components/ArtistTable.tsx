@@ -8,9 +8,10 @@ import {
 	Thead,
 	Tr,
 	useDisclosure,
-	Text
+	Text,
+	Container,
 } from "@chakra-ui/react";
-import { useMemo, useState } from "react";
+import { useMemo, useState, forwardRef } from "react";
 // icons
 import { TriangleDownIcon, TriangleUpIcon } from "@chakra-ui/icons";
 // data
@@ -19,7 +20,7 @@ import { artistData } from "../data/seed";
 import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
 
-const ArtistTable = () => {
+const ArtistTable = (props: any) => {
 	const [data, setData] = useState<Array<AnyObject>>(artistData);
 	const [sortConfig, setSortConfig] = useState<AnyObject>({});
 	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>({});
@@ -80,16 +81,26 @@ const ArtistTable = () => {
 
 	//set selected album as a state to pass it along to the modal
 	const handleOpenPlayer = (album: AnyObject) => {
-		setSelectedAlbum(album)
-		openPlayer()
-	}
+		setSelectedAlbum(album);
+		openPlayer();
+	};
 
 	let list = sortedData?.map((current: AnyObject, index: number) => (
 		<Tr key={current.spotifyAlbumId}>
 			<Td isNumeric>{index + 1}</Td>
 			<Td>{current.artist}</Td>
 			<Td>
-				<Text sx={sx.link} onClick={() => handleOpenPlayer({"spotifyAlbumId": current.spotifyAlbumId, "isAlbum": current.isAlbum})}>{current.album}</Text>
+				<Text
+					sx={sx.link}
+					onClick={() =>
+						handleOpenPlayer({
+							spotifyAlbumId: current.spotifyAlbumId,
+							isAlbum: current.isAlbum,
+						})
+					}
+				>
+					{current.album}
+				</Text>
 			</Td>
 			<Td>{current.genre}</Td>
 			<Td isNumeric>{current.year}</Td>
@@ -100,10 +111,11 @@ const ArtistTable = () => {
 	));
 
 	return (
-		<>
-			<TableContainer>
+		<div>
+			<TableContainer h="698px" w="100%">
 				<Table variant="striped" size="sm">
 					<Thead>
+						={" "}
 						<Tr>
 							{columns.map((column) => (
 								<Th
@@ -131,9 +143,15 @@ const ArtistTable = () => {
 				</Table>
 			</TableContainer>
 			{/* Modal */}
-			<PlayerModal album={selectedAlbum} modalDisclosure={{ isOpen: isOpen, onOpen: handleOpenPlayer, onClose: handleClosePlayer }}
+			<PlayerModal
+				album={selectedAlbum}
+				modalDisclosure={{
+					isOpen: isOpen,
+					onOpen: handleOpenPlayer,
+					onClose: handleClosePlayer,
+				}}
 			/>
-		</>
+		</div>
 	);
 };
 
@@ -147,8 +165,8 @@ const sx = {
 	},
 	link: {
 		textDecoration: "underline",
-		cursor: "pointer"
-	}
+		cursor: "pointer",
+	},
 };
 
 export default ArtistTable;

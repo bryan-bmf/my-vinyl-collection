@@ -1,17 +1,14 @@
-import ArtistTable from "../components/ArtistTable";
-import GridView from "../components/GridView";
 import Landing from "../components/Landing";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 
 const Home = () => {
-    const resultRef = useRef(null);
-
-    return (
-        <>
-            <Landing resultRef={resultRef} />
-            <GridView ref={resultRef} />
-        </>
-    )
-}
+	return (
+		<>
+			<motion.main exit={{ opacity: 0 }}>
+				<Landing />
+			</motion.main>
+		</>
+	);
+};
 
 export default Home;

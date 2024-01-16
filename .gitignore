@@ -6,6 +6,7 @@
 .pnp.js
 /client/node_modules
 
+
 # testing
 /coverage
 
@@ -25,3 +26,18 @@ yarn-error.log*
 
 # environment files
 /.env
+
+# pack
+client/node_modules/.cache/default-development/0.pack
+client/node_modules/.cache/default-development/1.pack/
+client/node_modules/.cache/default-development/2.pack
+client/node_modules/.cache/default-development/3.pack
+client/node_modules/.cache/default-development/4.pack
+client/node_modules/.cache/default-development/5.pack
+client/node_modules/.cache/default-development/6.pack
+client/node_modules/.cache/default-development/7.pack
+client/node_modules/.cache/default-development/8.pack
+client/node_modules/.cache/default-development/10.pack
+client/node_modules/.cache/default-development/11.pack
+client/node_modules/.cache/default-development/13.pack
+client/node_modules/.cache/default-development/14.pack

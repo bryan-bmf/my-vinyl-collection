@@ -1,9 +1,7 @@
 import { Center, Box, Flex, Button } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const Landing = (props: any) => {
-	const handleClick = (e: any) => {
-		props.resultRef.current.scrollIntoView({ behavior: "smooth" });
-	};
 
 	return (
 		<Flex w="100%" h="698px" bg="blue.600">
@@ -13,7 +11,7 @@ const Landing = (props: any) => {
 				brings benefits to engineering teams. It makes sure that our
 				experiences have a consistent look and feel, not just in our design
 				specs, but in production.
-				<Button onClick={handleClick}>CLICK ME</Button>
+				<Link to={"/collection"}>CLICK ME</Link>
 			</Box>
 		</Flex>
 	);

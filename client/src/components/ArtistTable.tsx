@@ -13,14 +13,13 @@ import {
 import { useMemo, useState } from "react";
 // icons
 import { TriangleDownIcon, TriangleUpIcon } from "@chakra-ui/icons";
-// data
-import { artistData } from "../data/seed";
 // types
 import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
 
 const ArtistTable = (props: any) => {
-	const [data, setData] = useState<Array<AnyObject>>(artistData);
+	console.log('ARTIST TABLE', props)
+	const [data, setData] = useState<Array<AnyObject>>(props.data);
 	const [sortConfig, setSortConfig] = useState<AnyObject>({});
 	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>({});
 
@@ -44,7 +43,7 @@ const ArtistTable = (props: any) => {
 
 	//memo checks if there were changes before executing another sort
 	const sortedData = useMemo(() => {
-		if (sortConfig !== null) {
+		if (data && sortConfig !== null) {
 			//copy state to make modifications to temp var
 			let temp = [...data];
 			//sort by clicked field
@@ -85,35 +84,35 @@ const ArtistTable = (props: any) => {
 	};
 
 	let list = sortedData?.map((current: AnyObject, index: number) => (
-		<Tr key={current.spotifyAlbumId}>
+		<Tr key={current.SpotifyAlbumID}>
 			<Td isNumeric>{index + 1}</Td>
-			<Td>{current.artist}</Td>
+			<Td>{current.Artist}</Td>
 			<Td>
 				<Text
 					sx={sx.link}
 					onClick={() =>
 						handleOpenPlayer({
-							spotifyAlbumId: current.spotifyAlbumId,
-							isAlbum: current.isAlbum,
+							spotifyAlbumId: current.SpotifyAlbumCover,
+							isAlbum: current.IsAlbum,
 						})
 					}
 				>
-					{current.album}
+					{current.Album}
 				</Text>
 			</Td>
-			<Td>{current.genre}</Td>
-			<Td isNumeric>{current.year}</Td>
-			<Td>{current.language}</Td>
-			<Td>{current.location}</Td>
-			<Td isNumeric>{current.purchased}</Td>
+			<Td>{current.Genre}</Td>
+			<Td isNumeric>{current.Year}</Td>
+			<Td>{current.Language}</Td>
+			<Td>{current.Location}</Td>
+			<Td isNumeric>{current.Purchased}</Td>
 		</Tr>
 	));
 
 	return (
 		<div>
-			<TableContainer h="698px" w="100%">
+			<TableContainer maxH="500px" w="100%" overflowY="auto">
 				<Table variant="striped" size="sm">
-					<Thead>
+					<Thead position="sticky">
 						<Tr>
 							{columns.map((column) => (
 								<Th

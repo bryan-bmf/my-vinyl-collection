@@ -1,11 +1,11 @@
 import { Box, Image, Text, useDisclosure } from "@chakra-ui/react";
 import { useState } from "react";
-import { artistData } from "../data/seed";
 import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
 
 const AlbumCover = (props: any) => {
-	const [data, setData] = useState<Array<AnyObject>>(artistData);
+	console.log('ALBUM COVER', props.data, typeof props.data)
+	const [data, setData] = useState<Array<AnyObject>>(props.data);
 	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>();
 
 	// modal disclosure
@@ -23,27 +23,27 @@ const AlbumCover = (props: any) => {
 
 	return (
 		<>
-			{data.map((current) => (
+			{ data && data.map((current) => (
 				<Box
-					key={current.spotifyAlbumId}
+					key={current.SpotifyAlbumID}
 					sx={sx.albumContainer}
 					onClick={() =>
 						handleOpenPlayer({
-							spotifyAlbumId: current.spotifyAlbumId,
-							isAlbum: current.isAlbum,
+							spotifyAlbumId: current.SpotifyAlbumID,
+							isAlbum: current.IsAlbum,
 						})
 					}
 				>
 					<Image
-						src={current.coverArt}
-						alt={current.coverArt}
+						src={current.SpotifyAlbumCover}
+						alt={current.SpotifyAlbumCover}
 						sx={sx.link}
 					/>
 					<Text fontSize="md" as="b" sx={sx.link} noOfLines={1}>
-						{current.album}
+						{current.Album}
 					</Text>
 					<Text as="small" sx={sx.link} noOfLines={1}>
-						{current.artist}
+						{current.Artist}
 					</Text>
 				</Box>
 			))}

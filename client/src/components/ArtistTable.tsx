@@ -18,7 +18,6 @@ import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
 
 const ArtistTable = (props: any) => {
-	console.log('ARTIST TABLE', props)
 	const [data, setData] = useState<Array<AnyObject>>(props.data);
 	const [sortConfig, setSortConfig] = useState<AnyObject>({});
 	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>({});
@@ -62,7 +61,7 @@ const ArtistTable = (props: any) => {
 	}, [sortConfig, data]);
 
 	const handleSort = (event: any) => {
-		let field = event.target.textContent.toLowerCase();
+		let field = event.target.textContent;
 
 		//don't sort by index
 		if (field === "#") {
@@ -84,7 +83,7 @@ const ArtistTable = (props: any) => {
 	};
 
 	let list = sortedData?.map((current: AnyObject, index: number) => (
-		<Tr key={current.SpotifyAlbumID}>
+		<Tr key={current.UniqueID}>
 			<Td isNumeric>{index + 1}</Td>
 			<Td>{current.Artist}</Td>
 			<Td>
@@ -92,7 +91,7 @@ const ArtistTable = (props: any) => {
 					sx={sx.link}
 					onClick={() =>
 						handleOpenPlayer({
-							spotifyAlbumId: current.SpotifyAlbumCover,
+							spotifyAlbumId: current.SpotifyAlbumID,
 							isAlbum: current.IsAlbum,
 						})
 					}
@@ -124,7 +123,7 @@ const ArtistTable = (props: any) => {
 									{column.name}
 									<span>
 										{sortConfig.field ===
-										column.name.toLowerCase() ? (
+										column.name ? (
 											sortConfig.direction === "ascending" ? (
 												<TriangleUpIcon sx={sx.triangleIcon} />
 											) : (

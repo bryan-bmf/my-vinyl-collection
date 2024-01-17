@@ -68,7 +68,6 @@ const Charts = (props: any) => {
 	const fetchData = async () => {
 		const resp = await fetch("/aggregate");
 		const respData = await resp.json();
-		console.log(respData);
 	};
 
 	useEffect(() => {

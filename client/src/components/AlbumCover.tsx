@@ -4,7 +4,6 @@ import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
 
 const AlbumCover = (props: any) => {
-	console.log('ALBUM COVER', props.data, typeof props.data)
 	const [data, setData] = useState<Array<AnyObject>>(props.data);
 	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>();
 
@@ -25,7 +24,7 @@ const AlbumCover = (props: any) => {
 		<>
 			{ data && data.map((current) => (
 				<Box
-					key={current.SpotifyAlbumID}
+					key={current.UniqueID}
 					sx={sx.albumContainer}
 					onClick={() =>
 						handleOpenPlayer({

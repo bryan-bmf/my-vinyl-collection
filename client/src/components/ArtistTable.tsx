@@ -8,7 +8,7 @@ import {
 	Th,
 	Thead,
 	Tr,
-	useDisclosure
+	useDisclosure,
 } from "@chakra-ui/react";
 import { useMemo, useState } from "react";
 // icons
@@ -47,13 +47,21 @@ const ArtistTable = (props: any) => {
 			let temp = [...data];
 			//sort by clicked field
 			temp.sort((a: any, b: any) => {
-				if (a[sortConfig.field] < b[sortConfig.field]) {
-					return sortConfig.direction === "ascending" ? -1 : 1;
+				// for artist, add year as a secondary sort
+				if (sortConfig.field === "Artist") {
+					if (sortConfig.direction === "ascending") {
+						return a.Artist.localeCompare(b.Artist) || a.Year - b.Year;
+					} else
+						return b.Artist.localeCompare(a.Artist) || a.Year - b.Year;
+				} else {
+					if (a[sortConfig.field] < b[sortConfig.field]) {
+						return sortConfig.direction === "ascending" ? -1 : 1;
+					}
+					if (a[sortConfig.field] > b[sortConfig.field]) {
+						return sortConfig.direction === "ascending" ? 1 : -1;
+					}
+					return 0;
 				}
-				if (a[sortConfig.field] > b[sortConfig.field]) {
-					return sortConfig.direction === "ascending" ? 1 : -1;
-				}
-				return 0;
 			});
 
 			return temp;
@@ -122,8 +130,7 @@ const ArtistTable = (props: any) => {
 								>
 									{column.name}
 									<span>
-										{sortConfig.field ===
-										column.name ? (
+										{sortConfig.field === column.name ? (
 											sortConfig.direction === "ascending" ? (
 												<TriangleUpIcon sx={sx.triangleIcon} />
 											) : (

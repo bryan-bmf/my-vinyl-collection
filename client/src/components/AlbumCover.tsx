@@ -44,6 +44,9 @@ const AlbumCover = (props: any) => {
 					<Text as="small" sx={sx.link} noOfLines={1}>
 						{current.Artist}
 					</Text>
+					<Text fontSize="xs" sx={sx.link} noOfLines={1}>
+						{current.Year}
+					</Text>
 				</Box>
 			))}
 			{/* Modal */}

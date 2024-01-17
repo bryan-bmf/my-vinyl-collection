@@ -24,14 +24,10 @@ const Collection = () => {
 
 	const sort = (data: any) => {
 		let temp = [...data];
-		temp.sort((a: any, b: any) => {
-			if (a.Artist < b.Artist) {
-				return -1;
-			}
-			if(a.Artist > b.Artist)
-				return 1;
-			return 0;
-		});
+		temp.sort((a: any, b: any) => 
+			// if same artist, sort by year
+			a.Artist.localeCompare(b.Artist) || a.Year - b.Year
+		);
 		return temp;
 	};
 

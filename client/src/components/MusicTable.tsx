@@ -17,7 +17,7 @@ import { TriangleDownIcon, TriangleUpIcon } from "@chakra-ui/icons";
 import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
 
-const ArtistTable = (props: any) => {
+const MusicTable = (props: any) => {
 	const [data, setData] = useState<Array<AnyObject>>(props.data);
 	const [sortConfig, setSortConfig] = useState<AnyObject>({});
 	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>({});
@@ -117,9 +117,9 @@ const ArtistTable = (props: any) => {
 
 	return (
 		<div>
-			<TableContainer maxH="500px" w="100%" overflowY="auto">
+			<TableContainer maxH="600px" w="100%" overflowY="auto"  overflowX="unset">
 				<Table variant="striped" size="sm">
-					<Thead position="sticky">
+					<Thead position="sticky" top={0} bgColor={"white"}>
 						<Tr>
 							{columns.map((column) => (
 								<Th
@@ -172,4 +172,4 @@ const sx = {
 	},
 };
 
-export default ArtistTable;
+export default MusicTable;

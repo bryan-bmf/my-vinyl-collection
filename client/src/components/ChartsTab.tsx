@@ -1,7 +1,7 @@
-import { Text } from "@chakra-ui/react";
-import { ResponsivePie } from "@nivo/pie";
+import { Center, HStack } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { AnyObject } from "../types";
+import Chart from "./Chart";
 
 const Charts = (props: any) => {
 	const [total, setTotal] = useState<any>();
@@ -15,11 +15,12 @@ const Charts = (props: any) => {
 		delete respData.Items[0].Album;
 		delete respData.Items[0].UniqueID;
 		const configuredData = configureStats(respData.Items[0]);
+		console.log(configuredData);
 		setStats(configuredData);
 	};
 
 	// for every stat obj, convert it to an array
-	const convertToArr = (stat: any) => {
+	const convertToArr = (stat: any, title: string) => {
 		let arr = [];
 
 		for (let key in stat) {
@@ -27,6 +28,7 @@ const Charts = (props: any) => {
 			obj.id = key;
 			obj.label = key;
 			obj.value = stat[key];
+			obj.title = title;
 			arr.push(obj);
 		}
 		return arr;
@@ -36,13 +38,11 @@ const Charts = (props: any) => {
 	const configureStats = (data: any) => {
 		let arr = [];
 		for (let key in data) {
-			let temp = convertToArr(data[key]);
+			let temp = convertToArr(data[key], key);
 			arr.push(temp);
 		}
 		return arr;
 	};
-
-	const title = <Text>Hi there. Your Title here!</Text>;
 
 	useEffect(() => {
 		fetchData();
@@ -50,35 +50,48 @@ const Charts = (props: any) => {
 
 	return (
 		<>
-			{
-				stats && 
-				<ResponsivePie
-					data={stats[0]}
-					margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
-					padAngle={0.7}
-					colors={{ scheme: "category10" }}
-					cornerRadius={3}
-					activeOuterRadiusOffset={8}
-					borderWidth={1}
-					borderColor={{
-						from: "color",
-						modifiers: [["darker", 0.2]],
-					}}
-					arcLinkLabelsSkipAngle={10}
-					arcLinkLabel={(d) =>
-						`${d.id}: ${((d.value / total) * 100).toFixed(0)}%`
-					}
-					arcLinkLabelsTextColor="#333333"
-					arcLinkLabelsThickness={2}
-					arcLinkLabelsColor={{ from: "color" }}
-					arcLabelsSkipAngle={10}
-					arcLabelsTextColor={{
-						from: "color",
-						modifiers: [["darker", 2]],
-					}}
-					enableArcLabels={false}
-				/>
-			}
+			{stats && (
+				<>
+					<Center>
+						<HStack>
+							<Chart
+								key={Math.random()}
+								data={stats[0]}
+								total={total}
+								title={stats[0][0].title}
+							/>
+							<Chart
+								key={Math.random()}
+								data={stats[2]}
+								total={total}
+								title={stats[2][0].title}
+							/>
+							<Chart
+								key={Math.random()}
+								data={stats[1]}
+								total={total}
+								title={stats[1][0].title}
+							/>
+						</HStack>
+					</Center>
+					<Center>
+						<HStack>
+							<Chart
+								key={Math.random()}
+								data={stats[3]}
+								total={total}
+								title={stats[3][0].title}
+							/>
+							<Chart
+								key={Math.random()}
+								data={stats[4]}
+								total={total}
+								title={stats[4][0].title}
+							/>
+						</HStack>
+					</Center>
+				</>
+			)}
 		</>
 	);
 };

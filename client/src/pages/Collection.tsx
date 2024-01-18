@@ -1,8 +1,8 @@
 import { Box, Tab, TabList, TabPanel, TabPanels, Tabs } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import ArtistTable from "../components/ArtistTable";
-import Charts from "../components/Charts";
+import Charts from "../components/ChartsTab";
 import GridView from "../components/GridView";
+import ArtistTable from "../components/MusicTable";
 import { AnyObject } from "../types";
 
 const Collection = () => {
@@ -37,8 +37,8 @@ const Collection = () => {
 	}, []);
 
 	return (
-		<Box padding={10}>
-			<Tabs isFitted variant="enclosed">
+		<Box padding={5}>
+			<Tabs isFitted variant="enclosed" size="sm">
 				{data && (
 					<>
 						<TabList mb="1em">
@@ -53,7 +53,7 @@ const Collection = () => {
 							<TabPanel>
 								<ArtistTable data={data} />
 							</TabPanel>
-							<TabPanel style={{ height: 400 }}>
+							<TabPanel style={{ height: "100%", padding: "0" }}>
 								<Charts stats={stats} />
 							</TabPanel>
 						</TabPanels>

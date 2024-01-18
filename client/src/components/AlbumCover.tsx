@@ -1,13 +1,10 @@
-import { useEffect, useState } from "react";
-import { artistData } from "../data/seed";
+import { Box, Image, Text, useDisclosure } from "@chakra-ui/react";
+import { useState } from "react";
 import { AnyObject } from "../types";
-import { Badge, Box, Card, Image, Text, useDisclosure } from "@chakra-ui/react";
-import { StarIcon } from "@chakra-ui/icons";
-import { Spotify } from "react-spotify-embed";
 import PlayerModal from "./PlayerModal";
 
 const AlbumCover = (props: any) => {
-	const [data, setData] = useState<Array<AnyObject>>(artistData);
+	const [data, setData] = useState<Array<AnyObject>>(props.data);
 	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>();
 
 	// modal disclosure
@@ -25,27 +22,30 @@ const AlbumCover = (props: any) => {
 
 	return (
 		<>
-			{data.map((current) => (
+			{ data && data.map((current) => (
 				<Box
-					key={current.spotifyAlbumId}
+					key={current.UniqueID}
 					sx={sx.albumContainer}
 					onClick={() =>
 						handleOpenPlayer({
-							spotifyAlbumId: current.spotifyAlbumId,
-							isAlbum: current.isAlbum,
+							spotifyAlbumId: current.SpotifyAlbumID,
+							isAlbum: current.IsAlbum,
 						})
 					}
 				>
 					<Image
-						src={current.coverArt}
-						alt={current.coverArt}
+						src={current.SpotifyAlbumCover}
+						alt={current.SpotifyAlbumCover}
 						sx={sx.link}
 					/>
 					<Text fontSize="md" as="b" sx={sx.link} noOfLines={1}>
-						{current.album}
+						{current.Album}
 					</Text>
 					<Text as="small" sx={sx.link} noOfLines={1}>
-						{current.artist}
+						{current.Artist}
+					</Text>
+					<Text fontSize="xs" sx={sx.link} noOfLines={1}>
+						{current.Year}
 					</Text>
 				</Box>
 			))}

@@ -4,24 +4,21 @@ import {
 	TableContainer,
 	Tbody,
 	Td,
+	Text,
 	Th,
 	Thead,
 	Tr,
 	useDisclosure,
-	Text,
-	Container,
 } from "@chakra-ui/react";
-import { useMemo, useState, forwardRef } from "react";
+import { useMemo, useState } from "react";
 // icons
 import { TriangleDownIcon, TriangleUpIcon } from "@chakra-ui/icons";
-// data
-import { artistData } from "../data/seed";
 // types
 import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
 
-const ArtistTable = (props: any) => {
-	const [data, setData] = useState<Array<AnyObject>>(artistData);
+const MusicTable = (props: any) => {
+	const [data, setData] = useState<Array<AnyObject>>(props.data);
 	const [sortConfig, setSortConfig] = useState<AnyObject>({});
 	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>({});
 
@@ -45,18 +42,26 @@ const ArtistTable = (props: any) => {
 
 	//memo checks if there were changes before executing another sort
 	const sortedData = useMemo(() => {
-		if (sortConfig !== null) {
+		if (data && sortConfig !== null) {
 			//copy state to make modifications to temp var
 			let temp = [...data];
 			//sort by clicked field
 			temp.sort((a: any, b: any) => {
-				if (a[sortConfig.field] < b[sortConfig.field]) {
-					return sortConfig.direction === "ascending" ? -1 : 1;
+				// for artist, add year as a secondary sort
+				if (sortConfig.field === "Artist") {
+					if (sortConfig.direction === "ascending") {
+						return a.Artist.localeCompare(b.Artist) || a.Year - b.Year;
+					} else
+						return b.Artist.localeCompare(a.Artist) || a.Year - b.Year;
+				} else {
+					if (a[sortConfig.field] < b[sortConfig.field]) {
+						return sortConfig.direction === "ascending" ? -1 : 1;
+					}
+					if (a[sortConfig.field] > b[sortConfig.field]) {
+						return sortConfig.direction === "ascending" ? 1 : -1;
+					}
+					return 0;
 				}
-				if (a[sortConfig.field] > b[sortConfig.field]) {
-					return sortConfig.direction === "ascending" ? 1 : -1;
-				}
-				return 0;
 			});
 
 			return temp;
@@ -64,7 +69,7 @@ const ArtistTable = (props: any) => {
 	}, [sortConfig, data]);
 
 	const handleSort = (event: any) => {
-		let field = event.target.textContent.toLowerCase();
+		let field = event.target.textContent;
 
 		//don't sort by index
 		if (field === "#") {
@@ -86,36 +91,35 @@ const ArtistTable = (props: any) => {
 	};
 
 	let list = sortedData?.map((current: AnyObject, index: number) => (
-		<Tr key={current.spotifyAlbumId}>
+		<Tr key={current.UniqueID}>
 			<Td isNumeric>{index + 1}</Td>
-			<Td>{current.artist}</Td>
+			<Td>{current.Artist}</Td>
 			<Td>
 				<Text
 					sx={sx.link}
 					onClick={() =>
 						handleOpenPlayer({
-							spotifyAlbumId: current.spotifyAlbumId,
-							isAlbum: current.isAlbum,
+							spotifyAlbumId: current.SpotifyAlbumID,
+							isAlbum: current.IsAlbum,
 						})
 					}
 				>
-					{current.album}
+					{current.Album}
 				</Text>
 			</Td>
-			<Td>{current.genre}</Td>
-			<Td isNumeric>{current.year}</Td>
-			<Td>{current.language}</Td>
-			<Td>{current.location}</Td>
-			<Td isNumeric>{current.purchased}</Td>
+			<Td>{current.Genre}</Td>
+			<Td isNumeric>{current.Year}</Td>
+			<Td>{current.Language}</Td>
+			<Td>{current.Location}</Td>
+			<Td isNumeric>{current.Purchased}</Td>
 		</Tr>
 	));
 
 	return (
 		<div>
-			<TableContainer h="698px" w="100%">
+			<TableContainer maxH="600px" w="100%" overflowY="auto"  overflowX="unset">
 				<Table variant="striped" size="sm">
-					<Thead>
-						={" "}
+					<Thead position="sticky" top={0} bgColor={"white"}>
 						<Tr>
 							{columns.map((column) => (
 								<Th
@@ -126,8 +130,7 @@ const ArtistTable = (props: any) => {
 								>
 									{column.name}
 									<span>
-										{sortConfig.field ===
-										column.name.toLowerCase() ? (
+										{sortConfig.field === column.name ? (
 											sortConfig.direction === "ascending" ? (
 												<TriangleUpIcon sx={sx.triangleIcon} />
 											) : (
@@ -169,4 +172,4 @@ const sx = {
 	},
 };
 
-export default ArtistTable;
+export default MusicTable;

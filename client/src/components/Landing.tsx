@@ -11,7 +11,7 @@ const Landing = (props: any) => {
 				brings benefits to engineering teams. It makes sure that our
 				experiences have a consistent look and feel, not just in our design
 				specs, but in production.
-				<Link to={"/collection"}>CLICK ME</Link>
+				<Link to={"/collection"}><Button>CLICK ME</Button></Link>
 			</Box>
 		</Flex>
 	);

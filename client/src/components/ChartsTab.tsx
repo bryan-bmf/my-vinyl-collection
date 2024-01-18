@@ -15,7 +15,6 @@ const Charts = (props: any) => {
 		delete respData.Items[0].Album;
 		delete respData.Items[0].UniqueID;
 		const configuredData = configureStats(respData.Items[0]);
-		console.log(configuredData);
 		setStats(configuredData);
 	};
 

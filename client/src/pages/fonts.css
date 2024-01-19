@@ -1,0 +1,78 @@
+@font-face {
+	font-family: BlankFont;
+	src: url("/src/fonts/blankscript.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: BrightFont;
+	src: url("/src/fonts/Bright.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: ChiffoneFont;
+	src: url("/src/fonts/Chiffone.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: LemonJellyFont;
+	src: url("/src/fonts/LemonJelly.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: MexcellentFont;
+	src: url("/src/fonts/mexcellent.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: RetroFunkFont;
+	src: url("/src/fonts/retrofunk.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: BarcadeFont;
+	src: url("/src/fonts/barcade.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: ExcaliburFont;
+	src: url("/src/fonts/ExcaliburNouveau.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: FranchiseFont;
+	src: url("/src/fonts/Franchise.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: GrandSpaceFont;
+	src: url("/src/fonts/GrandSpace.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: RetroLightFont;
+	src: url("/src/fonts/Retrolight.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: VintagesFont;
+	src: url("/src/fonts/Vintages.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: WrestlemaniaFont;
+	src: url("/src/fonts/WRESTLEMANIA.ttf");
+	font-weight: normal;
+	font-style: normal;
+}

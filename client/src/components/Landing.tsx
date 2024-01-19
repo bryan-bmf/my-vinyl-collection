@@ -5,7 +5,7 @@ import bg1 from "../assets/bg.jpg";
 import bg2 from "../assets/bg2.jpg";
 import bg3 from "../assets/bg3.jpg";
 import bg4 from "../assets/bg4.jpg";
-import "../index.css";
+import "../pages/fonts.css";
 
 const Landing = (props: any) => {
 	const [images, setImages] = useState([bg1, bg2, bg3, bg4]);
@@ -16,6 +16,14 @@ const Landing = (props: any) => {
 		"LemonJellyFont",
 		"MexcellentFont",
 		"RetroFunkFont",
+		"BarcadeFont",
+		"WrestlemaniaFont",
+		"VintageWarehouseFont",
+		"VintagesFont",
+		"RetroLightFont",
+		"GrandSpaceFont",
+		"FranchiseFont",
+		"ExcaliburFont",
 	]);
 
 	// random number from 0 to 2
@@ -37,6 +45,7 @@ const Landing = (props: any) => {
 			bgPosition={"center"}
 			sx={sx[selection]}
 		>
+			{/* Adding a black overlay with opacity set to 40% so text is legible */}
 			<Center sx={sx[2]} width={"100vw"} height={"100vh"}>
 				<VStack>
 					<Text

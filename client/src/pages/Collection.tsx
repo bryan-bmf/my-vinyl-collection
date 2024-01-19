@@ -24,9 +24,10 @@ const Collection = () => {
 
 	const sort = (data: any) => {
 		let temp = [...data];
-		temp.sort((a: any, b: any) => 
-			// if same artist, sort by year
-			a.Artist.localeCompare(b.Artist) || a.Year - b.Year
+		temp.sort(
+			(a: any, b: any) =>
+				// if same artist, sort by year
+				a.Artist.localeCompare(b.Artist) || a.Year - b.Year
 		);
 		return temp;
 	};
@@ -37,14 +38,14 @@ const Collection = () => {
 	}, []);
 
 	return (
-		<Box padding={5}>
-			<Tabs isFitted variant="enclosed" size="sm">
+		<Box padding={5} width={"100vw"} height={"100vh"}>
+			<Tabs isFitted variant="enclosed" size="sm" bgColor="white" border="1px">
 				{data && (
 					<>
 						<TabList mb="1em">
-							<Tab>Grid View</Tab>
-							<Tab>Table View</Tab>
-							<Tab>Charts</Tab>
+							<Tab _selected={{ color: 'white', bg: 'highlight' }}>Grid View</Tab>
+							<Tab _selected={{ color: 'white', bg: 'secondary' }}>Table View</Tab>
+							<Tab _selected={{ color: 'white', bg: 'cream' }}>Charts</Tab>
 						</TabList>
 						<TabPanels>
 							<TabPanel overflowY="auto">

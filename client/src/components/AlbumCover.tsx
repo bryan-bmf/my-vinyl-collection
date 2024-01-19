@@ -68,6 +68,7 @@ const sx = {
 		height: "fit-content",
 		boxShadow: "5px 6px 4px lightgray",
 		borderRadius: "5px",
+		bgColor: "white"
 	},
 	link: {
 		cursor: "pointer",

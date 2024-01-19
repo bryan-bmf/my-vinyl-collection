@@ -118,7 +118,7 @@ const MusicTable = (props: any) => {
 	return (
 		<div>
 			<TableContainer maxH="600px" w="100%" overflowY="auto" overflowX="unset">
-				<Table variant="striped" size="sm">
+				<Table variant="striped" size="sm" colorScheme='teal'>
 					<Thead position="sticky" top={0} bgColor={"white"}>
 						<Tr>
 							{columns.map((column) => (

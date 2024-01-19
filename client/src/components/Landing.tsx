@@ -5,7 +5,7 @@ import bg1 from "../assets/bg.jpg";
 import bg2 from "../assets/bg2.jpg";
 import bg3 from "../assets/bg3.jpg";
 import bg4 from "../assets/bg4.jpg";
-import "../pages/fonts.css";
+import "../styles/fonts.css";
 
 const Landing = (props: any) => {
 	const [images, setImages] = useState([bg1, bg2, bg3, bg4]);

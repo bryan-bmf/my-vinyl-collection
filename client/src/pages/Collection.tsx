@@ -1,8 +1,8 @@
 import { Box, Tab, TabList, TabPanel, TabPanels, Tabs } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import Charts from "../components/ChartsTab";
+import ChartsTab from "../components/ChartsTab";
 import GridView from "../components/GridView";
-import ArtistTable from "../components/MusicTable";
+import MusicTable from "../components/MusicTable";
 import { AnyObject } from "../types";
 
 const Collection = () => {
@@ -38,8 +38,8 @@ const Collection = () => {
 	}, []);
 
 	return (
-		<Box padding={5} width={"100vw"} height={"100vh"}>
-			<Tabs isFitted variant="enclosed" size="sm" bgColor="white" border="1px">
+		<Box sx={sx.pageConfig}>
+			<Tabs isFitted variant="enclosed" size="sm" sx={sx.tabsContainer}>
 				{data && (
 					<>
 						<TabList mb="1em">
@@ -52,10 +52,10 @@ const Collection = () => {
 								<GridView data={data} />
 							</TabPanel>
 							<TabPanel>
-								<ArtistTable data={data} />
+								<MusicTable data={data} />
 							</TabPanel>
 							<TabPanel style={{ height: "100%", padding: "0" }}>
-								<Charts stats={stats} />
+								<ChartsTab stats={stats} />
 							</TabPanel>
 						</TabPanels>
 					</>
@@ -64,5 +64,18 @@ const Collection = () => {
 		</Box>
 	);
 };
+
+const sx = {
+	tabsContainer: {
+		bgColor: "white",
+		boxShadow: "0px 0px 5px 5px red",
+		maxHeight: "95vh",
+	},
+	pageConfig: {
+		padding: 5,
+		width: "100vw",
+		height:"100vh",
+	}
+}
 
 export default Collection;

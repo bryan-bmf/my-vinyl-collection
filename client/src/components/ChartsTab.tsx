@@ -1,4 +1,4 @@
-import { Center, HStack } from "@chakra-ui/react";
+import { Box, Center, HStack } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { AnyObject } from "../types";
 import Chart from "./Chart";
@@ -50,7 +50,7 @@ const Charts = (props: any) => {
 	return (
 		<>
 			{stats && (
-				<>
+				<Box maxH="90vh">
 					<Center>
 						<HStack>
 							<Chart
@@ -89,7 +89,7 @@ const Charts = (props: any) => {
 							/>
 						</HStack>
 					</Center>
-				</>
+				</Box>
 			)}
 		</>
 	);

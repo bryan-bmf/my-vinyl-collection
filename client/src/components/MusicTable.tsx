@@ -116,17 +116,16 @@ const MusicTable = (props: any) => {
 	));
 
 	return (
-		<div>
-			<TableContainer maxH="600px" w="100%" overflowY="auto" overflowX="unset">
-				<Table variant="striped" size="sm" colorScheme='teal'>
-					<Thead position="sticky" top={0} bgColor={"white"}>
+		<>
+			<TableContainer sx={sx.tableConfig}>
+				<Table variant="striped" size="sm" colorScheme='blue'>
+					<Thead sx={sx.tableHeader}>
 						<Tr>
 							{columns.map((column) => (
 								<Th
 									key={Math.random()}
 									onClick={handleSort}
 									isNumeric={column.isNumeric}
-									sx={sx.tableHeader}
 								>
 									{column.name}
 									<span>
@@ -154,13 +153,21 @@ const MusicTable = (props: any) => {
 					onClose: handleClosePlayer,
 				}}
 			/>
-		</div>
+		</>
 	);
 };
 
 const sx = {
 	tableHeader: {
 		cursor: "pointer",
+		position: "sticky",
+		top: 0,
+		bgColor: "white"
+	},
+	tableConfig: {
+		maxH: "80vh",
+		overflowY: "auto",
+		overflowX: "unset"
 	},
 	triangleIcon: {
 		paddingBottom: "3px",

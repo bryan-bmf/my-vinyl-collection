@@ -11,8 +11,8 @@ const Chart = (props: any) => {
 				<Pie
 					data={props.data}
 					width={450}
-					height={270}
-					margin={{ top: 40, right: 60, bottom: 50, left: 60 }}
+					height={260}
+					margin={{ top: 30, right: 60, bottom: 40, left: 60 }}
 					padAngle={0.7}
 					animate={false}
 					colors={{ scheme: "category10" }}

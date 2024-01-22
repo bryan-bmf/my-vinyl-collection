@@ -93,8 +93,8 @@ const MusicTable = (props: any) => {
 	let list = sortedData?.map((current: AnyObject, index: number) => (
 		<Tr key={current.UniqueID}>
 			<Td isNumeric>{index + 1}</Td>
-			<Td>{current.Artist}</Td>
-			<Td>
+			<Td sx={sx.text}>{current.Artist}</Td>
+			<Td sx={sx.text}>
 				<Text
 					sx={sx.link}
 					onClick={() =>
@@ -118,7 +118,7 @@ const MusicTable = (props: any) => {
 	return (
 		<>
 			<TableContainer sx={sx.tableConfig}>
-				<Table variant="striped" size="sm" colorScheme='blue'>
+				<Table variant="striped" size="sm" colorScheme="blue">
 					<Thead sx={sx.tableHeader}>
 						<Tr>
 							{columns.map((column) => (
@@ -165,9 +165,8 @@ const sx = {
 		bgColor: "white"
 	},
 	tableConfig: {
-		maxH: "80vh",
-		overflowY: "auto",
-		overflowX: "unset"
+		maxH: "82vh",
+		overflow: "auto",
 	},
 	triangleIcon: {
 		paddingBottom: "3px",
@@ -176,7 +175,13 @@ const sx = {
 	link: {
 		textDecoration: "underline",
 		cursor: "pointer",
+
 	},
+	text: {
+		textOverflow: "ellipsis",
+		overflow: "hidden",
+		whiteSpace: "nowrap",
+	}
 };
 
 export default MusicTable;

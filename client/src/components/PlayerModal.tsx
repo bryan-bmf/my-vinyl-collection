@@ -1,12 +1,6 @@
-import {
-	Center,
-	Modal,
-	ModalContent,
-	ModalOverlay,
-	Spinner,
-} from "@chakra-ui/react";
-import SpotifyPlayer from "./SpotifyPlayer";
+import { Modal, ModalContent, ModalOverlay, Spinner } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
+import SpotifyPlayer from "./SpotifyPlayer";
 
 const PlayerModal = (props: any) => {
 	const [loading, setLoading] = useState<Boolean>(true);
@@ -15,15 +9,17 @@ const PlayerModal = (props: any) => {
 
 	//show loading spinner for a second
 	useEffect(() => {
-		setLoading(true)
+		setLoading(true);
 		const timer = setTimeout(() => {
 			setLoading(false);
 		}, 1000);
 		return () => clearTimeout(timer);
 	}, [props]);
 
+	const sizes = ['xs', 'md']
+
 	return (
-		<Modal isOpen={isOpen} onClose={onClose} isCentered>
+		<Modal isOpen={isOpen} onClose={onClose} size={sizes}>
 			<ModalOverlay />
 			{loading ? (
 				<Spinner sx={sx.loading} size="xl" />
@@ -46,8 +42,8 @@ const sx = {
 	loading: {
 		top: "50%",
 		left: "50%",
-		position: "fixed"
-	}
+		position: "fixed",
+	},
 };
 
 export default PlayerModal;

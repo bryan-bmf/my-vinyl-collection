@@ -50,7 +50,7 @@ const Charts = (props: any) => {
 	return (
 		<>
 			{stats && (
-				<Box maxH="90vh">
+				<Box sx={sx.chartConfig}>
 					<Center>
 						<HStack>
 							<Chart
@@ -94,5 +94,13 @@ const Charts = (props: any) => {
 		</>
 	);
 };
+
+const sx = {
+	chartConfig: {
+		maxH: "90vh",
+		height: "86.5vh"
+	}
+	
+}
 
 export default Charts;

@@ -22,13 +22,26 @@ const Collection = () => {
 		setStats(respData.Items);
 	};
 
+	const removeWords = (artist: string) => {
+		let res = artist;
+		// remove the words 'The' and 'A' from artists names to keep proper sorting
+		if (artist.split(" ")[0] === "The") {
+			res = artist.substring(4);
+		} else if (artist.split(" ")[0] === "A") {
+			res = artist.substring(2);
+		}
+		return res;
+	};
+
 	const sort = (data: any) => {
 		let temp = [...data];
-		temp.sort(
-			(a: any, b: any) =>
-				// if same artist, sort by year
-				a.Artist.localeCompare(b.Artist) || a.Year - b.Year
-		);
+		temp.sort((a: any, b: any) => {
+			let aArtist = removeWords(a.Artist);
+			let bArtist = removeWords(b.Artist);
+
+			// if same artist, sort by year
+			return aArtist.localeCompare(bArtist) || a.Year - b.Year;
+		});
 		return temp;
 	};
 
@@ -43,9 +56,15 @@ const Collection = () => {
 				{data && (
 					<>
 						<TabList mb="1em">
-							<Tab _selected={{ color: 'white', bg: 'highlight' }}>Grid View</Tab>
-							<Tab _selected={{ color: 'white', bg: 'secondary' }}>Table View</Tab>
-							<Tab _selected={{ color: 'white', bg: 'cream' }}>Charts</Tab>
+							<Tab _selected={{ color: "white", bg: "primary" }}>
+								Grid View
+							</Tab>
+							<Tab _selected={{ color: "white", bg: "secondary" }}>
+								Table View
+							</Tab>
+							<Tab _selected={{ color: "white", bg: "highlight" }}>
+								Charts
+							</Tab>
 						</TabList>
 						<TabPanels>
 							<TabPanel overflowY="auto">
@@ -68,14 +87,16 @@ const Collection = () => {
 const sx = {
 	tabsContainer: {
 		bgColor: "white",
-		boxShadow: "0px 0px 5px 5px red",
+		boxShadow: "0px 0px 5px 5px gray",
 		maxHeight: "95vh",
+		borderTopLeftRadius: "1%",
+		borderTopRightRadius: "1%",
 	},
 	pageConfig: {
 		padding: 5,
 		width: "100vw",
-		height:"100vh",
-	}
-}
+		height: "100vh",
+	},
+};
 
 export default Collection;

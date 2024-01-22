@@ -12,7 +12,7 @@ const Chart = (props: any) => {
 					data={props.data}
 					width={450}
 					height={260}
-					margin={{ top: 30, right: 60, bottom: 40, left: 60 }}
+					margin={{ top: 30, right: 30, bottom: 30, left: 30 }}
 					padAngle={0.7}
 					animate={false}
 					colors={{ scheme: "category10" }}

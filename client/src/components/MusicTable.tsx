@@ -8,6 +8,7 @@ import {
 	Th,
 	Thead,
 	Tr,
+	useBreakpoint,
 	useDisclosure,
 } from "@chakra-ui/react";
 import { useMemo, useState } from "react";
@@ -90,11 +91,14 @@ const MusicTable = (props: any) => {
 		openPlayer();
 	};
 
+	const breakpoint = useBreakpoint(); 
+	let mobile = breakpoint === 'base' ? true : false;
+
 	let list = sortedData?.map((current: AnyObject, index: number) => (
 		<Tr key={current.UniqueID}>
-			<Td isNumeric>{index + 1}</Td>
-			<Td sx={sx.text}>{current.Artist}</Td>
-			<Td sx={sx.text}>
+			<Td isNumeric sx={mobile ? sx.index : undefined}>{index + 1}</Td>
+			<Td sx={mobile ? sx.column : undefined}>{current.Artist}</Td>
+			<Td sx={mobile ? sx.column : undefined}>
 				<Text
 					sx={sx.link}
 					onClick={() =>
@@ -175,12 +179,19 @@ const sx = {
 	link: {
 		textDecoration: "underline",
 		cursor: "pointer",
-
-	},
-	text: {
+		// width: "fit-content",
 		textOverflow: "ellipsis",
 		overflow: "hidden",
-		whiteSpace: "nowrap",
+
+	},
+	column: {
+		textOverflow: "ellipsis",
+		overflow: "hidden",
+		maxWidth: "150px",
+
+	},
+	index: {
+		maxWidth: "50px"
 	}
 };
 

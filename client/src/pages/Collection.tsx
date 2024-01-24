@@ -18,9 +18,10 @@ import MusicTable from "../components/MusicTable";
 import { AnyObject } from "../types";
 
 const Collection = () => {
-	const [data, setData] = useState<Array<AnyObject>>();
-	const [stats, setStats] = useState<Array<AnyObject>>();
-	const [loading, setLoading] = useState<Boolean>(true);
+	const [data, setData] = useState<Array<AnyObject>>([]);
+	const [stats, setStats] = useState<Array<AnyObject>>([]);
+	const [loading, setLoading] = useState<boolean>(true);
+	const [total, setTotal] = useState<number>(0);
 
 	const fetchData = async () => {
 		const resp = await fetch("/vinyls");
@@ -33,12 +34,19 @@ const Collection = () => {
 	const fetchStats = async () => {
 		const resp = await fetch("/aggregate");
 		const respData = await resp.json();
-		setStats(respData.Items);
+		setTotal(respData.ScannedCount - 1);
+
+		// make changes to data before setting state
+		delete respData.Items[0].Album;
+		delete respData.Items[0].UniqueID;
+
+		const configuredData = configureStats(respData.Items[0]);
+		setStats(configuredData);
 	};
 
+	// remove the words 'The' and 'A' from artists' names to keep proper sorting
 	const removeWords = (artist: string) => {
 		let res = artist;
-		// remove the words 'The' and 'A' from artists names to keep proper sorting
 		if (artist.split(" ")[0] === "The") {
 			res = artist.substring(4);
 		} else if (artist.split(" ")[0] === "A") {
@@ -47,9 +55,9 @@ const Collection = () => {
 		return res;
 	};
 
-	const sort = (data: any) => {
+	const sort = (data: Array<AnyObject>) => {
 		let temp = [...data];
-		temp.sort((a: any, b: any) => {
+		temp.sort((a: AnyObject, b: AnyObject) => {
 			let aArtist = removeWords(a.Artist);
 			let bArtist = removeWords(b.Artist);
 
@@ -59,6 +67,32 @@ const Collection = () => {
 		return temp;
 	};
 
+	// for every stat obj, convert it to an array
+	const convertToArr = (stat: AnyObject, title: string) => {
+		let arr = [];
+
+		for (let key in stat) {
+			let obj: AnyObject = {};
+			obj.id = key;
+			obj.label = key;
+			obj.value = stat[key];
+			obj.title = title;
+			arr.push(obj);
+		}
+		return arr;
+	};
+
+	// for every chart, you need an array of objects
+	const configureStats = (data: Array<AnyObject>) => {
+		let arr = [];
+		for (let key in data) {
+			let temp = convertToArr(data[key], key);
+			arr.push(temp);
+		}
+		return arr;
+	};
+
+	// check if mobile
 	const breakpoint = useBreakpoint();
 	let mobile = breakpoint === "base" ? true : false;
 
@@ -97,9 +131,9 @@ const Collection = () => {
 								</TabPanel>
 								<TabPanel sx={sx.chart}>
 									{mobile ? (
-										<ChartsTabMobile stats={stats} />
+										<ChartsTabMobile stats={stats} total={total} />
 									) : (
-										<ChartsTab stats={stats} />
+										<ChartsTab stats={stats} total={total} />
 									)}
 								</TabPanel>
 							</TabPanels>
@@ -133,7 +167,7 @@ const sx = {
 	loading: {
 		width: "inherit",
 		height: "inherit",
-		margin: -5 // offset el padding del homepage
+		margin: -5, // offset el padding del homepage
 	},
 };
 

@@ -1,5 +1,4 @@
 import { Button, Center, Flex, Text, VStack } from "@chakra-ui/react";
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import bg1 from "../assets/bg.jpg";
 import bg2 from "../assets/bg2.jpg";
@@ -7,9 +6,9 @@ import bg3 from "../assets/bg3.jpg";
 import bg4 from "../assets/bg4.jpg";
 import "../styles/fonts.css";
 
-const Landing = (props: any) => {
-	const [images, setImages] = useState([bg1, bg2, bg3, bg4]);
-	const [fonts, setFonts] = useState([
+const Landing = () => {
+	const images = [bg1, bg2, bg3, bg4];
+	const fonts = [
 		"BlankFont",
 		"BrightFont",
 		"ChiffoneFont",
@@ -24,10 +23,11 @@ const Landing = (props: any) => {
 		"GrandSpaceFont",
 		"FranchiseFont",
 		"ExcaliburFont",
-	]);
+	];
 
 	// random number from 0 to 2
 	const number = Math.floor(Math.random() * images.length);
+
 	// determine sx for specific background
 	const selection = number < 2 ? 1 : 0;
 
@@ -37,16 +37,16 @@ const Landing = (props: any) => {
 	return (
 		<Flex
 			id="backgroundImage"
-			width={"100vw"}
-			height={"100vh"}
-			alignContent={"center"}
-			justifyContent={"center"}
+			width="100vw"
+			height="100vh"
+			alignContent="center"
+			justifyContent="center"
 			bgImage={images[number]}
-			bgPosition={"center"}
+			bgPosition="center"
 			sx={sx[selection]}
 		>
 			{/* Adding a black overlay with opacity set to 40% so text is legible */}
-			<Center sx={sx[2]} width={"100vw"} height={"100vh"}>
+			<Center sx={sx[2]} width="100vw" height="100vh">
 				<VStack>
 					<Text
 						color="white"

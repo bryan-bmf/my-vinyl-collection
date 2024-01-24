@@ -64,8 +64,9 @@ const AlbumCover = (props: any) => {
 
 const sx = {
 	albumContainer: {
-		padding: "4px",
+		// marginBottom: "5px",
 		height: "fit-content",
+		width: "fit-content",
 		boxShadow: "5px 6px 4px lightgray",
 		borderRadius: "5px",
 		bgColor: "white"

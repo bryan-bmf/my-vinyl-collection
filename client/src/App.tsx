@@ -8,8 +8,6 @@ import NotFound from "./pages/NotFound";
 function App() {
 	const location = useLocation();
 
-	// style={{height:400}} poner esto en el parent component de los charts
-
 	return (
 		<div className="App">
 			<AnimatePresence>

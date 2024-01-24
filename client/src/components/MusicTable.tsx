@@ -1,5 +1,6 @@
 // components
 import {
+	Box,
 	Table,
 	TableContainer,
 	Tbody,
@@ -13,7 +14,11 @@ import {
 } from "@chakra-ui/react";
 import { useMemo, useState } from "react";
 // icons
-import { TriangleDownIcon, TriangleUpIcon } from "@chakra-ui/icons";
+import {
+	ExternalLinkIcon,
+	TriangleDownIcon,
+	TriangleUpIcon,
+} from "@chakra-ui/icons";
 // types
 import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
@@ -91,16 +96,18 @@ const MusicTable = (props: any) => {
 		openPlayer();
 	};
 
-	const breakpoint = useBreakpoint(); 
-	let mobile = breakpoint === 'base' ? true : false;
+	const breakpoint = useBreakpoint();
+	let mobile = breakpoint === "base" ? true : false;
 
 	let list = sortedData?.map((current: AnyObject, index: number) => (
 		<Tr key={current.UniqueID}>
-			<Td isNumeric sx={mobile ? sx.index : undefined}>{index + 1}</Td>
+			<Td isNumeric sx={mobile ? sx.index : undefined}>
+				{index + 1}
+			</Td>
 			<Td sx={mobile ? sx.column : undefined}>{current.Artist}</Td>
 			<Td sx={mobile ? sx.column : undefined}>
-				<Text
-					sx={sx.link}
+				<Box
+					sx={mobile ? sx.albumMobile : sx.album}
 					onClick={() =>
 						handleOpenPlayer({
 							spotifyAlbumId: current.SpotifyAlbumID,
@@ -108,8 +115,9 @@ const MusicTable = (props: any) => {
 						})
 					}
 				>
-					{current.Album}
-				</Text>
+					<Text sx={sx.link}>{current.Album}</Text>
+					<ExternalLinkIcon sx={sx.icon} />
+				</Box>
 			</Td>
 			<Td>{current.Genre}</Td>
 			<Td isNumeric>{current.Year}</Td>
@@ -166,7 +174,7 @@ const sx = {
 		cursor: "pointer",
 		position: "sticky",
 		top: 0,
-		bgColor: "white"
+		bgColor: "white",
 	},
 	tableConfig: {
 		maxH: "82vh",
@@ -179,20 +187,31 @@ const sx = {
 	link: {
 		textDecoration: "underline",
 		cursor: "pointer",
-		// width: "fit-content",
 		textOverflow: "ellipsis",
 		overflow: "hidden",
-
 	},
 	column: {
 		textOverflow: "ellipsis",
 		overflow: "hidden",
 		maxWidth: "150px",
-
 	},
 	index: {
-		maxWidth: "50px"
-	}
+		maxWidth: "50px",
+	},
+	album: {
+		flexDirection: "row",
+		display: "flex",
+		width: "fit-content",
+	},
+	albumMobile: {
+		flexDirection: "row",
+		display: "flex",
+		width: "fit-content",
+	},
+	icon: {
+		marginLeft: "2px",
+		cursor: "pointer",
+	},
 };
 
 export default MusicTable;

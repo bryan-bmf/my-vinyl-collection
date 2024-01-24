@@ -3,9 +3,9 @@ import { useState } from "react";
 import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
 
-const AlbumCover = (props: any) => {
-	const [data, setData] = useState<Array<AnyObject>>(props.data);
-	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>();
+
+const AlbumCover = ({ data }: Props) => {
+	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>({});
 
 	// modal disclosure
 	const {
@@ -14,7 +14,7 @@ const AlbumCover = (props: any) => {
 		onClose: handleClosePlayer,
 	} = useDisclosure();
 
-	//set selected album as a state to pass it along to the modal
+	// set selected album as a state to pass it along to the modal
 	const handleOpenPlayer = (album: AnyObject) => {
 		setSelectedAlbum(album);
 		openPlayer();
@@ -22,7 +22,7 @@ const AlbumCover = (props: any) => {
 
 	return (
 		<>
-			{ data && data.map((current) => (
+			{ data && data.map((current: AnyObject) => (
 				<Box
 					key={current.UniqueID}
 					sx={sx.albumContainer}
@@ -61,6 +61,10 @@ const AlbumCover = (props: any) => {
 		</>
 	);
 };
+
+interface Props {
+	data: Array<AnyObject>;
+}
 
 const sx = {
 	albumContainer: {

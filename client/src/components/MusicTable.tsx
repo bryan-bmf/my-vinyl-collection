@@ -23,8 +23,7 @@ import {
 import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
 
-const MusicTable = (props: any) => {
-	const [data, setData] = useState<Array<AnyObject>>(props.data);
+const MusicTable = ({ data }: Props) => {
 	const [sortConfig, setSortConfig] = useState<AnyObject>({});
 	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>({});
 
@@ -46,7 +45,7 @@ const MusicTable = (props: any) => {
 		onClose: handleClosePlayer,
 	} = useDisclosure();
 
-	//memo checks if there were changes before executing another sort
+	// memo checks if there were changes before executing another sort
 	const sortedData = useMemo(() => {
 		if (data && sortConfig !== null) {
 			//copy state to make modifications to temp var
@@ -96,6 +95,7 @@ const MusicTable = (props: any) => {
 		openPlayer();
 	};
 
+	// check if mobile
 	const breakpoint = useBreakpoint();
 	let mobile = breakpoint === "base" ? true : false;
 
@@ -103,10 +103,10 @@ const MusicTable = (props: any) => {
 		<Tr key={current.UniqueID}>
 			{mobile ? undefined : <Td isNumeric>{index + 1}</Td>}
 
-			<Td sx={mobile ? sx.column : undefined}>{current.Artist}</Td>
-			<Td sx={mobile ? sx.column : undefined}>
+			<Td sx={mobile ? sx.columnMobile : undefined}>{current.Artist}</Td>
+			<Td sx={mobile ? sx.columnMobile : undefined}>
 				<Box
-					sx={mobile ? sx.albumMobile : sx.album}
+					sx={{...sx.album, ...(mobile && sx.albumMobile)}}
 					onClick={() =>
 						handleOpenPlayer({
 							spotifyAlbumId: current.SpotifyAlbumID,
@@ -177,6 +177,10 @@ const MusicTable = (props: any) => {
 	);
 };
 
+interface Props {
+	data: Array<AnyObject>;
+}
+
 const sx = {
 	tableHeader: {
 		cursor: "pointer",
@@ -198,7 +202,7 @@ const sx = {
 		textOverflow: "ellipsis",
 		overflow: "hidden",
 	},
-	column: {
+	columnMobile: {
 		textOverflow: "ellipsis",
 		overflow: "hidden",
 		maxWidth: "150px",
@@ -209,9 +213,7 @@ const sx = {
 		width: "fit-content",
 	},
 	albumMobile: {
-		flexDirection: "row",
-		display: "flex",
-		width: "fit-content",
+		width: "auto",
 	},
 	icon: {
 		marginLeft: "2px",

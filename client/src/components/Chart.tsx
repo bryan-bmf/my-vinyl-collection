@@ -1,17 +1,14 @@
 import { Center, Text, VStack } from "@chakra-ui/react";
 import { Pie } from "@nivo/pie";
+import { AnyObject } from "../types";
 
-const Chart = (props: any) => {
-	const title = <Text>{props.title}</Text>;
-
-	const mobile = props.mobile !== undefined ? true : false;
-
+const Chart = ({ title, mobile, data, total }: Props) => {
 	return (
 		<Center>
 			<VStack sx={sx.container}>
-				{title}
+			<Text>{title}</Text>
 				<Pie
-					data={props.data}
+					data={data}
 					width={mobile ? 400 : 450}
 					height={mobile ? 200 : 260}
 					margin={{ top: 30, right: 30, bottom: 30, left: 30 }}					
@@ -27,7 +24,7 @@ const Chart = (props: any) => {
 					}}
 					arcLinkLabelsSkipAngle={10}
 					arcLinkLabel={(d) =>
-						`${d.id}: ${((d.value / props.total) * 100).toFixed(0)}%`
+						`${d.id}: ${((d.value / total) * 100).toFixed(0)}%`
 					}
 					arcLinkLabelsTextColor="#333333"
 					arcLinkLabelsThickness={2}
@@ -46,6 +43,13 @@ const Chart = (props: any) => {
 		</Center>
 	);
 };
+
+interface Props {
+	title: string;
+	data: Array<AnyObject>;
+	total: number;
+	mobile?: boolean;
+}
 
 const sx = {
 	container: {

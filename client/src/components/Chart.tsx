@@ -8,7 +8,7 @@ const Chart = (props: any) => {
 
 	return (
 		<Center>
-			<VStack>
+			<VStack sx={sx.container}>
 				{title}
 				<Pie
 					data={props.data}
@@ -32,6 +32,8 @@ const Chart = (props: any) => {
 					arcLinkLabelsTextColor="#333333"
 					arcLinkLabelsThickness={2}
 					arcLinkLabelsColor={{ from: "color" }}
+					arcLinkLabelsDiagonalLength={10}
+					arcLinkLabelsStraightLength={10}
 					arcLabelsSkipAngle={10}
 					arcLabelsTextColor={{
 						from: "color",
@@ -44,5 +46,11 @@ const Chart = (props: any) => {
 		</Center>
 	);
 };
+
+const sx = {
+	container: {
+		gap: 0
+	}
+}
 
 export default Chart;

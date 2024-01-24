@@ -101,9 +101,8 @@ const MusicTable = (props: any) => {
 
 	let list = sortedData?.map((current: AnyObject, index: number) => (
 		<Tr key={current.UniqueID}>
-			<Td isNumeric sx={mobile ? sx.index : undefined}>
-				{index + 1}
-			</Td>
+			{mobile ? undefined : <Td isNumeric>{index + 1}</Td>}
+
 			<Td sx={mobile ? sx.column : undefined}>{current.Artist}</Td>
 			<Td sx={mobile ? sx.column : undefined}>
 				<Box
@@ -133,24 +132,33 @@ const MusicTable = (props: any) => {
 				<Table variant="striped" size="sm" colorScheme="blue">
 					<Thead sx={sx.tableHeader}>
 						<Tr>
-							{columns.map((column) => (
-								<Th
-									key={Math.random()}
-									onClick={handleSort}
-									isNumeric={column.isNumeric}
-								>
-									{column.name}
-									<span>
-										{sortConfig.field === column.name ? (
-											sortConfig.direction === "ascending" ? (
-												<TriangleUpIcon sx={sx.triangleIcon} />
-											) : (
-												<TriangleDownIcon sx={sx.triangleIcon} />
-											)
-										) : null}
-									</span>
-								</Th>
-							))}
+							{columns.map((column) => {
+								if (mobile && column.name === "#") return;
+								else {
+									return (
+										<Th
+											key={Math.random()}
+											onClick={handleSort}
+											isNumeric={column.isNumeric}
+										>
+											{column.name}
+											<span>
+												{sortConfig.field === column.name ? (
+													sortConfig.direction === "ascending" ? (
+														<TriangleUpIcon
+															sx={sx.triangleIcon}
+														/>
+													) : (
+														<TriangleDownIcon
+															sx={sx.triangleIcon}
+														/>
+													)
+												) : null}
+											</span>
+										</Th>
+									);
+								}
+							})}
 						</Tr>
 					</Thead>
 					<Tbody>{list}</Tbody>
@@ -194,9 +202,6 @@ const sx = {
 		textOverflow: "ellipsis",
 		overflow: "hidden",
 		maxWidth: "150px",
-	},
-	index: {
-		maxWidth: "50px",
 	},
 	album: {
 		flexDirection: "row",

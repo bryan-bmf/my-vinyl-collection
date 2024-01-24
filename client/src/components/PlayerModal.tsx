@@ -1,4 +1,4 @@
-import { Center, Image, Modal, ModalContent, ModalOverlay } from "@chakra-ui/react";
+import { Center, Image, Modal, ModalContent, ModalOverlay, useBreakpoint } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import spinner from "../assets/bluey.gif";
 import SpotifyPlayer from "./SpotifyPlayer";
@@ -18,13 +18,16 @@ const PlayerModal = (props: any) => {
 		return () => clearTimeout(timer);
 	}, [props]);
 
-	const sizes = ['xs', 'md']
+	const sizes = ['xs', 'md'];
+
+	const breakpoint = useBreakpoint();
+	let mobile = breakpoint === "base" ? true : false;
 
 	return (
 		<Modal isOpen={isOpen} onClose={onClose} size={sizes} isCentered>
 			<ModalOverlay />
 			{loading ? (
-				<Center sx={sx.loading}>
+				<Center sx={mobile ? sx.loadingMobile : sx.loading}>
 					<Image src={spinner} />
 				</Center>
 			) : (
@@ -46,6 +49,14 @@ const sx = {
 	loading: {
 		top: "45%",
 		left: "46.5%",
+		position: "fixed",
+		zIndex: 10000,
+		filter: "brightness(70%)",
+		margin: -5 // offset el padding del homepage
+	},
+	loadingMobile: {
+		top: "45%",
+		left: "37.5%",
 		position: "fixed",
 		zIndex: 10000,
 		filter: "brightness(70%)",

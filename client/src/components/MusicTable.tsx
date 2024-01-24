@@ -1,5 +1,6 @@
 // components
 import {
+	Box,
 	Table,
 	TableContainer,
 	Tbody,
@@ -8,11 +9,16 @@ import {
 	Th,
 	Thead,
 	Tr,
+	useBreakpoint,
 	useDisclosure,
 } from "@chakra-ui/react";
 import { useMemo, useState } from "react";
 // icons
-import { TriangleDownIcon, TriangleUpIcon } from "@chakra-ui/icons";
+import {
+	ExternalLinkIcon,
+	TriangleDownIcon,
+	TriangleUpIcon,
+} from "@chakra-ui/icons";
 // types
 import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
@@ -90,13 +96,17 @@ const MusicTable = (props: any) => {
 		openPlayer();
 	};
 
+	const breakpoint = useBreakpoint();
+	let mobile = breakpoint === "base" ? true : false;
+
 	let list = sortedData?.map((current: AnyObject, index: number) => (
 		<Tr key={current.UniqueID}>
-			<Td isNumeric>{index + 1}</Td>
-			<Td>{current.Artist}</Td>
-			<Td>
-				<Text
-					sx={sx.link}
+			{mobile ? undefined : <Td isNumeric>{index + 1}</Td>}
+
+			<Td sx={mobile ? sx.column : undefined}>{current.Artist}</Td>
+			<Td sx={mobile ? sx.column : undefined}>
+				<Box
+					sx={mobile ? sx.albumMobile : sx.album}
 					onClick={() =>
 						handleOpenPlayer({
 							spotifyAlbumId: current.SpotifyAlbumID,
@@ -104,8 +114,9 @@ const MusicTable = (props: any) => {
 						})
 					}
 				>
-					{current.Album}
-				</Text>
+					<Text sx={sx.link}>{current.Album}</Text>
+					<ExternalLinkIcon sx={sx.icon} />
+				</Box>
 			</Td>
 			<Td>{current.Genre}</Td>
 			<Td isNumeric>{current.Year}</Td>
@@ -116,30 +127,38 @@ const MusicTable = (props: any) => {
 	));
 
 	return (
-		<div>
-			<TableContainer maxH="600px" w="100%" overflowY="auto" overflowX="unset">
-				<Table variant="striped" size="sm">
-					<Thead position="sticky" top={0} bgColor={"white"}>
+		<>
+			<TableContainer sx={sx.tableConfig}>
+				<Table variant="striped" size="sm" colorScheme="blue">
+					<Thead sx={sx.tableHeader}>
 						<Tr>
-							{columns.map((column) => (
-								<Th
-									key={Math.random()}
-									onClick={handleSort}
-									isNumeric={column.isNumeric}
-									sx={sx.tableHeader}
-								>
-									{column.name}
-									<span>
-										{sortConfig.field === column.name ? (
-											sortConfig.direction === "ascending" ? (
-												<TriangleUpIcon sx={sx.triangleIcon} />
-											) : (
-												<TriangleDownIcon sx={sx.triangleIcon} />
-											)
-										) : null}
-									</span>
-								</Th>
-							))}
+							{columns.map((column) => {
+								if (mobile && column.name === "#") return;
+								else {
+									return (
+										<Th
+											key={Math.random()}
+											onClick={handleSort}
+											isNumeric={column.isNumeric}
+										>
+											{column.name}
+											<span>
+												{sortConfig.field === column.name ? (
+													sortConfig.direction === "ascending" ? (
+														<TriangleUpIcon
+															sx={sx.triangleIcon}
+														/>
+													) : (
+														<TriangleDownIcon
+															sx={sx.triangleIcon}
+														/>
+													)
+												) : null}
+											</span>
+										</Th>
+									);
+								}
+							})}
 						</Tr>
 					</Thead>
 					<Tbody>{list}</Tbody>
@@ -154,13 +173,20 @@ const MusicTable = (props: any) => {
 					onClose: handleClosePlayer,
 				}}
 			/>
-		</div>
+		</>
 	);
 };
 
 const sx = {
 	tableHeader: {
 		cursor: "pointer",
+		position: "sticky",
+		top: 0,
+		bgColor: "white",
+	},
+	tableConfig: {
+		maxH: "82vh",
+		overflow: "auto",
 	},
 	triangleIcon: {
 		paddingBottom: "3px",
@@ -168,6 +194,27 @@ const sx = {
 	},
 	link: {
 		textDecoration: "underline",
+		cursor: "pointer",
+		textOverflow: "ellipsis",
+		overflow: "hidden",
+	},
+	column: {
+		textOverflow: "ellipsis",
+		overflow: "hidden",
+		maxWidth: "150px",
+	},
+	album: {
+		flexDirection: "row",
+		display: "flex",
+		width: "fit-content",
+	},
+	albumMobile: {
+		flexDirection: "row",
+		display: "flex",
+		width: "fit-content",
+	},
+	icon: {
+		marginLeft: "2px",
 		cursor: "pointer",
 	},
 };

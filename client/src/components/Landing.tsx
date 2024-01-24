@@ -53,10 +53,10 @@ const Landing = (props: any) => {
 						fontSize={[64, 128]}
 						fontFamily={fonts[fontNumber]}
 					>
-						Welcome to my vinyl collection
+						Welcome to my Vinyl Collection
 					</Text>
 					<Link to={"/collection"}>
-						<Button>Start digging</Button>
+						<Button>Start Digging</Button>
 					</Link>
 				</VStack>
 			</Center>

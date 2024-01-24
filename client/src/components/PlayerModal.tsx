@@ -1,12 +1,8 @@
-import {
-	Center,
-	Modal,
-	ModalContent,
-	ModalOverlay,
-	Spinner,
-} from "@chakra-ui/react";
-import SpotifyPlayer from "./SpotifyPlayer";
+import { Center, Image, Modal, ModalContent, ModalOverlay, useBreakpoint } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
+import spinner from "../assets/bluey.gif";
+import SpotifyPlayer from "./SpotifyPlayer";
+
 
 const PlayerModal = (props: any) => {
 	const [loading, setLoading] = useState<Boolean>(true);
@@ -15,18 +11,25 @@ const PlayerModal = (props: any) => {
 
 	//show loading spinner for a second
 	useEffect(() => {
-		setLoading(true)
+		setLoading(true);
 		const timer = setTimeout(() => {
 			setLoading(false);
 		}, 1000);
 		return () => clearTimeout(timer);
 	}, [props]);
 
+	const sizes = ['xs', 'md'];
+
+	const breakpoint = useBreakpoint();
+	let mobile = breakpoint === "base" ? true : false;
+
 	return (
-		<Modal isOpen={isOpen} onClose={onClose} isCentered>
+		<Modal isOpen={isOpen} onClose={onClose} size={sizes} isCentered>
 			<ModalOverlay />
 			{loading ? (
-				<Spinner sx={sx.loading} size="xl" />
+				<Center sx={mobile ? sx.loadingMobile : sx.loading}>
+					<Image src={spinner} />
+				</Center>
 			) : (
 				<ModalContent sx={sx.modal}>
 					<SpotifyPlayer album={props.album} />
@@ -44,10 +47,21 @@ const sx = {
 		shadow: "none",
 	},
 	loading: {
-		top: "50%",
-		left: "50%",
-		position: "fixed"
-	}
+		top: "45%",
+		left: "46.5%",
+		position: "fixed",
+		zIndex: 10000,
+		filter: "brightness(70%)",
+		margin: -5 // offset el padding del homepage
+	},
+	loadingMobile: {
+		top: "45%",
+		left: "37.5%",
+		position: "fixed",
+		zIndex: 10000,
+		filter: "brightness(70%)",
+		margin: -5 // offset el padding del homepage
+	},
 };
 
 export default PlayerModal;

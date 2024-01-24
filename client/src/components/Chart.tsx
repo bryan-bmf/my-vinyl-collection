@@ -4,15 +4,17 @@ import { Pie } from "@nivo/pie";
 const Chart = (props: any) => {
 	const title = <Text>{props.title}</Text>;
 
+	const mobile = props.mobile !== undefined ? true : false;
+
 	return (
 		<Center>
-			<VStack>
+			<VStack sx={sx.container}>
 				{title}
 				<Pie
 					data={props.data}
-					width={450}
-					height={270}
-					margin={{ top: 40, right: 60, bottom: 50, left: 60 }}
+					width={mobile ? 400 : 450}
+					height={mobile ? 200 : 260}
+					margin={{ top: 30, right: 30, bottom: 30, left: 30 }}					
 					padAngle={0.7}
 					animate={false}
 					colors={{ scheme: "category10" }}
@@ -30,16 +32,25 @@ const Chart = (props: any) => {
 					arcLinkLabelsTextColor="#333333"
 					arcLinkLabelsThickness={2}
 					arcLinkLabelsColor={{ from: "color" }}
+					arcLinkLabelsDiagonalLength={10}
+					arcLinkLabelsStraightLength={10}
 					arcLabelsSkipAngle={10}
 					arcLabelsTextColor={{
 						from: "color",
 						modifiers: [["darker", 2]],
 					}}
 					enableArcLabels={false}
+					isInteractive={mobile ? false : true}
 				/>
 			</VStack>
 		</Center>
 	);
 };
+
+const sx = {
+	container: {
+		gap: 0
+	}
+}
 
 export default Chart;

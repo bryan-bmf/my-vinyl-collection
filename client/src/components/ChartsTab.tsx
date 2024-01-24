@@ -3,7 +3,6 @@ import { AnyObject } from "../types";
 import Chart from "./Chart";
 
 const ChartsTab = ({ stats, total }: Props) => {
-
 	return (
 		<>
 			{stats && (

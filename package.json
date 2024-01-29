@@ -6,7 +6,9 @@
 	"scripts": {
 		"start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
 		"server": "node server/index.js",
-		"client": "cd client && npm start"
+		"client": "cd client && npm start",
+		"install-client": "cd client && npm install",
+		"install-all": "concurrently --kill-others-on-fail \"npm install\" \"npm install-client\""
 	},
 	"repository": {
 		"type": "git",

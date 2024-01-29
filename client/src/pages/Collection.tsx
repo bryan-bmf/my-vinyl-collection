@@ -28,7 +28,11 @@ const Collection = () => {
 		const respData = await resp.json();
 		const sortedData = sort(respData.Items);
 		setData(sortedData);
-		setLoading(false);
+
+		// wait half a second to dismiss the loading spinner
+		setTimeout(() => {
+			setLoading(false);
+		}, 500);
 	};
 
 	const fetchStats = async () => {

@@ -8,7 +8,7 @@
 		"server": "node server/index.js",
 		"client": "cd client && npm start",
 		"install-client": "cd client && npm install",
-		"install-all": "concurrently --kill-others-on-fail \"npm install\" \"npm install-client\""
+		"install-all": "concurrently --kill-others-on-fail \"npm install\" \"npm run install-client\""
 	},
 	"repository": {
 		"type": "git",

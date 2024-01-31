@@ -7,7 +7,7 @@ require("dotenv").config();
 AWS.config.update({
 	region: "us-east-2",
 	accessKeyId: process.env.AWS_ACCESS_KEY,
-	accessSecretKey: process.env.AWS_SECRET_KEY,
+	secretAccessKey: process.env.AWS_SECRET_KEY,
 });
 
 // dynamo object

@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea0ddf6f.css",
+    "main.js": "/static/js/main.418f7441.js",
+    "static/js/787.0d05a3c9.chunk.js": "/static/js/787.0d05a3c9.chunk.js",
+    "static/media/bg4.jpg": "/static/media/bg4.e67f0bd3ca4c82cdef98.jpg",
+    "static/media/bg2.jpg": "/static/media/bg2.c34d5e0a3232a39bf040.jpg",
+    "static/media/bg3.jpg": "/static/media/bg3.6acfa2403863b4a458f8.jpg",
+    "static/media/bg.jpg": "/static/media/bg.f74c3edb9be84c5fa2b2.jpg",
+    "static/media/ExcaliburNouveau.ttf": "/static/media/ExcaliburNouveau.4295ed7033ca46dade02.ttf",
+    "static/media/GrandSpace.otf": "/static/media/GrandSpace.507bb4d4b96b04c20a7a.otf",
+    "static/media/LemonJelly.ttf": "/static/media/LemonJelly.2bf6b5276aabe7e19e82.ttf",
+    "static/media/blankscript.otf": "/static/media/blankscript.119a115e9ae6bfdee92e.otf",
+    "static/media/Retrolight.otf": "/static/media/Retrolight.0fc7f9185c3767c00e94.otf",
+    "static/media/spinner.gif": "/static/media/spinner.1edc6c1c2559fcbb1fb6.gif",
+    "static/media/bluey.gif": "/static/media/bluey.e1513be24beb795ccb86.gif",
+    "static/media/Vintages.ttf": "/static/media/Vintages.d5c7232ba5d8e1c92dcd.ttf",
+    "static/media/WRESTLEMANIA.ttf": "/static/media/WRESTLEMANIA.bee0e866fb9f2b01b514.ttf",
+    "static/media/mexcellent.otf": "/static/media/mexcellent.fe8f5754dfebeda75815.otf",
+    "static/media/barcade.ttf": "/static/media/barcade.7dab0bb39bdd4389bad6.ttf",
+    "static/media/retrofunk.otf": "/static/media/retrofunk.e6268b4f82d59f4b1ef4.otf",
+    "static/media/Franchise.ttf": "/static/media/Franchise.412b5a60dbe9ccf19599.ttf",
+    "static/media/Bright.otf": "/static/media/Bright.21617e4c690addb9307e.otf",
+    "static/media/Chiffone.ttf": "/static/media/Chiffone.ce317c72a4714b1d4b94.ttf",
+    "index.html": "/index.html",
+    "main.ea0ddf6f.css.map": "/static/css/main.ea0ddf6f.css.map",
+    "main.418f7441.js.map": "/static/js/main.418f7441.js.map",
+    "787.0d05a3c9.chunk.js.map": "/static/js/787.0d05a3c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea0ddf6f.css",
+    "static/js/main.418f7441.js"
+  ]
+}

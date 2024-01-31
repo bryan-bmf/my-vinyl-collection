@@ -10,6 +10,7 @@ import {
 	useBreakpoint,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
+import { URL } from "../App";
 import spinner from "../assets/spinner.gif";
 import ChartsTab from "../components/ChartsTab";
 import ChartsTabMobile from "../components/ChartsTabMobile";
@@ -24,7 +25,7 @@ const Collection = () => {
 	const [total, setTotal] = useState<number>(0);
 
 	const fetchData = async () => {
-		const resp = await fetch("/vinyls");
+		const resp = await fetch(`${URL}/vinyls`);
 		const respData = await resp.json();
 		const sortedData = sort(respData.Items);
 		setData(sortedData);
@@ -36,7 +37,7 @@ const Collection = () => {
 	};
 
 	const fetchStats = async () => {
-		const resp = await fetch("/aggregate");
+		const resp = await fetch(`${URL}/aggregate`);
 		const respData = await resp.json();
 		setTotal(respData.ScannedCount - 1);
 

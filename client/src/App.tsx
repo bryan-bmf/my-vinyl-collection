@@ -5,6 +5,8 @@ import Collection from "./pages/Collection";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 
+export const URL = process.env.REACT_APP_SERVER_URL;
+
 function App() {
 	const location = useLocation();
 

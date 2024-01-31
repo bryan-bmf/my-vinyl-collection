@@ -1,8 +1,14 @@
 // Load the AWS SDK for Node.js.
 var AWS = require("aws-sdk");
 
+require("dotenv").config();
+
 // Set the AWS Region.
-AWS.config.update({ region: "us-east-2" });
+AWS.config.update({
+	region: "us-east-2",
+	accessKeyId: process.env.AWS_ACCESS_KEY,
+	accessSecretKey: process.env.AWS_SECRET_KEY,
+});
 
 // dynamo object
 var docClient = new AWS.DynamoDB.DocumentClient({

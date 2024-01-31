@@ -25,6 +25,7 @@
 		"aws-sdk": "^2.1532.0",
 		"batch-write-all": "^1.0.2",
 		"concurrently": "^8.2.2",
+		"dotenv": "^16.4.1",
 		"express": "^4.18.2",
 		"modclean": "^3.0.0-beta.1",
 		"uuid": "^9.0.1"

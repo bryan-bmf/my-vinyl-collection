@@ -16,7 +16,7 @@ function App() {
 				<Routes location={location} key={location.pathname}>
 					<Route path="/" element={<Home />} />
 					<Route path="/collection" element={<Collection />} />
-					<Route path="*" element={<NotFound />} />
+					<Route path="/*" element={<NotFound />} />
 				</Routes>
 			</AnimatePresence>
 		</div>

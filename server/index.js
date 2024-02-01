@@ -28,10 +28,6 @@ app.get("/aggregate", async (req, res) => {
 	res.json(data);
 });
 
-app.get("/*", (req, res) => {
-	res.sendFile(path.join(__dirname, "../client/public/index.html"));
-});
-
 app.listen(PORT, () => {
 	console.log(`Server listening on ${PORT}`);
 });

@@ -2,7 +2,7 @@ const express = require("express");
 
 const aws = require("./aws");
 
-const path = require('path');
+const path = require("path");
 
 const PORT = process.env.PORT || 3001;
 
@@ -18,6 +18,8 @@ app.use((req, res, next) => {
 	next();
 });
 
+console.log(path.join(__dirname, "../client/public/"));
+
 app.get("/vinyls", async (req, res) => {
 	const data = await aws.getVinyls();
 	res.json(data);
@@ -28,13 +30,14 @@ app.get("/aggregate", async (req, res) => {
 	res.json(data);
 });
 
-app.get('/*', function(req, res) {
-	res.sendFile(path.join(__dirname, '../client/build/index.html'), function(err) {
-	  if (err) {
-		res.status(500).send(err)
-	  }
-	})
-  })
+app.use((req, res) => {
+	res.header("Cache-Control", "private, no-cache, no-store, must-revalidate");
+	res.header("Expires", "-1");
+	res.header("Pragma", "no-cache");
+	res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
+app.use(express.static(path.join(__dirname, "build")));
 
 app.listen(PORT, () => {
 	console.log(`Server listening on ${PORT}`);

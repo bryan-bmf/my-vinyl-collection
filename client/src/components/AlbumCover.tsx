@@ -35,8 +35,9 @@ const AlbumCover = ({ data }: Props) => {
 				>
 					<Image
 						src={current.SpotifyAlbumCover}
-						alt={current.SpotifyAlbumCover}
+						alt={`"Cover art for ${current.Artist} - ${current.Album}`}
 						sx={sx.link}
+						role="img"
 					/>
 					<Text fontSize="md" as="b" sx={sx.link} noOfLines={1}>
 						{current.Album}

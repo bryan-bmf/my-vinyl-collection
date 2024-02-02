@@ -56,7 +56,7 @@ const Landing = () => {
 						Welcome to my Vinyl Collection
 					</Text>
 					<Link to={"/collection"}>
-						<Button>Start Digging</Button>
+						<Button role="button">Start Digging</Button>
 					</Link>
 				</VStack>
 			</Center>

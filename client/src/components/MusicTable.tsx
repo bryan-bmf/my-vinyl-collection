@@ -100,7 +100,7 @@ const MusicTable = ({ data }: Props) => {
 	let mobile = breakpoint === "base" ? true : false;
 
 	let list = sortedData?.map((current: AnyObject, index: number) => (
-		<Tr key={current.UniqueID}>
+		<Tr key={current.UniqueID} role="row">
 			{mobile ? undefined : <Td isNumeric>{index + 1}</Td>}
 
 			<Td sx={mobile ? sx.columnMobile : undefined}>{current.Artist}</Td>
@@ -128,7 +128,7 @@ const MusicTable = ({ data }: Props) => {
 
 	return (
 		<>
-			<TableContainer sx={sx.tableConfig}>
+			<TableContainer sx={sx.tableConfig} role="table">
 				<Table variant="striped" size="sm" colorScheme="blue">
 					<Thead sx={sx.tableHeader}>
 						<Tr>
@@ -140,6 +140,7 @@ const MusicTable = ({ data }: Props) => {
 											key={Math.random()}
 											onClick={handleSort}
 											isNumeric={column.isNumeric}
+											role="columnheader"
 										>
 											{column.name}
 											<span>

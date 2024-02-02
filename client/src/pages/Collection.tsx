@@ -110,7 +110,7 @@ const Collection = () => {
 		<Box sx={sx.pageConfig}>
 			{loading ? (
 				<Center sx={sx.loading}>
-					<Image src={spinner} />
+					<Image src={spinner} alt="Gray loading spinner in the form of a spinning record" role="img" />
 				</Center>
 			) : (
 				<Tabs isFitted variant="enclosed" size="sm" sx={sx.tabsContainer}>

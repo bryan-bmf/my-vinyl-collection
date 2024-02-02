@@ -32,7 +32,7 @@ const PlayerModal = ({ modalDisclosure, album }: Props) => {
 			{loading ? (
 				// add mobile sx only if mobile version
 				<Center sx={{...sx.loading, ...(mobile && sx.loadingMobile)}}>
-					<Image src={spinner} />
+					<Image src={spinner} alt="Blue loading spinner in the form of a spinning record" />
 				</Center>
 			) : (
 				<ModalContent sx={sx.modal}>

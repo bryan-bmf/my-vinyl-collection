@@ -1,5 +1,5 @@
 import { AnimatePresence } from "framer-motion";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { HashRouter, Route, useLocation } from "react-router-dom";
 import "./App.css";
 import Collection from "./pages/Collection";
 import Home from "./pages/Home";
@@ -13,11 +13,11 @@ function App() {
 	return (
 		<div className="App">
 			<AnimatePresence>
-				<Routes location={location} key={location.pathname}>
+				<HashRouter>
 					<Route path="/" element={<Home />} />
 					<Route path="/collection" element={<Collection />} />
 					<Route path="/*" element={<NotFound />} />
-				</Routes>
+				</HashRouter>
 			</AnimatePresence>
 		</div>
 	);

@@ -30,20 +30,6 @@ const ChartsTabMobile = ({ stats, total }: Props) => {
 								title={stats[1][0].title}
 								mobile={true}
 							/>
-							<Chart
-								key={Math.random()}
-								data={stats[3]}
-								total={total}
-								title={stats[3][0].title}
-								mobile={true}
-							/>
-							<Chart
-								key={Math.random()}
-								data={stats[4]}
-								total={total}
-								title={stats[4][0].title}
-								mobile={true}
-							/>
 						</VStack>
 					</Center>
 				</Box>

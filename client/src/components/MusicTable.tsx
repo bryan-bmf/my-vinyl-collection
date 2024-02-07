@@ -24,7 +24,10 @@ import { AnyObject } from "../types";
 import PlayerModal from "./PlayerModal";
 
 const MusicTable = ({ data }: Props) => {
-	const [sortConfig, setSortConfig] = useState<AnyObject>({});
+	const [sortConfig, setSortConfig] = useState<AnyObject>({
+		field: "Artist",
+		direction: "ascending",
+	});
 	const [selectedAlbum, setSelectedAlbum] = useState<AnyObject>({});
 
 	const columns: Array<AnyObject> = [
@@ -34,8 +37,6 @@ const MusicTable = ({ data }: Props) => {
 		{ name: "Genre", isNumeric: false },
 		{ name: "Year", isNumeric: true },
 		{ name: "Language", isNumeric: false },
-		{ name: "Location", isNumeric: false },
-		{ name: "Purchased", isNumeric: true },
 	];
 
 	// modal disclosure
@@ -106,7 +107,7 @@ const MusicTable = ({ data }: Props) => {
 			<Td sx={mobile ? sx.columnMobile : undefined}>{current.Artist}</Td>
 			<Td sx={mobile ? sx.columnMobile : undefined}>
 				<Box
-					sx={{...sx.album, ...(mobile && sx.albumMobile)}}
+					sx={{ ...sx.album, ...(mobile && sx.albumMobile) }}
 					onClick={() =>
 						handleOpenPlayer({
 							spotifyAlbumId: current.SpotifyAlbumID,
@@ -121,8 +122,6 @@ const MusicTable = ({ data }: Props) => {
 			<Td>{current.Genre}</Td>
 			<Td isNumeric>{current.Year}</Td>
 			<Td>{current.Language}</Td>
-			<Td>{current.Location}</Td>
-			<Td isNumeric>{current.Purchased}</Td>
 		</Tr>
 	));
 

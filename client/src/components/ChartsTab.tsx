@@ -1,4 +1,4 @@
-import { Box, Center, HStack } from "@chakra-ui/react";
+import { Center, Flex } from "@chakra-ui/react";
 import { AnyObject } from "../types";
 import Chart from "./Chart";
 
@@ -6,8 +6,8 @@ const ChartsTab = ({ stats, total }: Props) => {
 	return (
 		<>
 			{stats && (
-				<Box sx={sx.chartConfig}>
-					<HStack>
+				<Flex sx={sx.chartConfig}>
+					<Center>
 						<Chart
 							key={Math.random()}
 							data={stats[0]}
@@ -26,24 +26,8 @@ const ChartsTab = ({ stats, total }: Props) => {
 							total={total}
 							title={stats[1][0].title}
 						/>
-					</HStack>
-					<Center>
-						<HStack>
-							<Chart
-								key={Math.random()}
-								data={stats[3]}
-								total={total}
-								title={stats[3][0].title}
-							/>
-							<Chart
-								key={Math.random()}
-								data={stats[4]}
-								total={total}
-								title={stats[4][0].title}
-							/>
-						</HStack>
 					</Center>
-				</Box>
+				</Flex>
 			)}
 		</>
 	);

@@ -1,8 +1,8 @@
 import { FormControl, FormLabel } from "@chakra-ui/form-control";
-import { Center, Input } from "@chakra-ui/react";
-import { useState } from "react";
+import { Button, Center, HStack, Input } from "@chakra-ui/react";
+import { useEffect, useState } from "react";
 
-const AddVinylForm = () => {
+const AddVinylForm = (props: any) => {
 	const [input, setInput] = useState({
 		artist: "",
 		album: "",
@@ -15,71 +15,113 @@ const AddVinylForm = () => {
 		year: "",
 	});
 
-    /*
+	useEffect(() => {
+		if (props.album.Artist) {
+			const { Artist, Album, SpotifyAlbumID, SpotifyAlbum, Year } =
+				props.album;
 
-    SEARCH COMPONENT
-    al entrar:
-        artist
-        album
-        boton de search
-        resultados seran un card con foto e general info
-        escoges album y al confirmar te tiro al form con el estado con la info del album escogido
+			setInput({
+				...input,
+				artist: Artist,
+				album: Album,
+				spotifyAlbumCover: SpotifyAlbum,
+				spotifyAlbumID: SpotifyAlbumID,
+				year: Year,
+			});
+		}
+	}, []);
 
-    */
-
-	const handleInputChange = (e: any) => {
-		setInput(e.target.value)
-        console.log(input)
+	const handleInput = (e: any) => {
+		setInput({ ...input, [e.target.name]: e.target.value });
 	};
 
 	return (
+		<FormControl sx={sx.form}>
+			<FormLabel>Artist</FormLabel>
+			<Input
+				name="artist"
+				type="text"
+				sx={sx.fields}
+				value={input.artist}
+				onChange={handleInput}
+			/>
+
+			<FormLabel>Album</FormLabel>
+			<Input
+				name="album"
+				type="text"
+				sx={sx.fields}
+				value={input.album}
+				onChange={handleInput}
+			/>
+
+			<FormLabel>Genre</FormLabel>
+			<Input
+				name="genre"
+				type="text"
+				sx={sx.fields}
+				value={input.genre}
+				onChange={handleInput}
+			/>
+
+			<FormLabel>Year</FormLabel>
+			<Input
+				name="year"
+				type="number"
+				sx={sx.fields}
+				value={input.year}
+				onChange={handleInput}
+			/>
+
+			<FormLabel>Language</FormLabel>
+			<Input
+				name="language"
+				type="text"
+				sx={sx.fields}
+				value={input.language}
+				onChange={handleInput}
+			/>
+
+			<FormLabel>Spotify Album ID</FormLabel>
+			<Input
+				name="spotifyAlbumID"
+				type="text"
+				sx={sx.fields}
+				value={input.spotifyAlbumID}
+				onChange={handleInput}
+			/>
+
+			<FormLabel>Spotify Album Cover</FormLabel>
+			<Input
+				name="spotifyAlbumCover"
+				type="text"
+				sx={sx.fields}
+				value={input.spotifyAlbumCover}
+				onChange={handleInput}
+			/>
+
 			<Center>
-				<FormControl maxW="90vw" w="100vw">
-					<FormLabel>Artist</FormLabel>
-					<Input
-						type="text"
-						value={input.artist}
-					/>
-
-					<FormLabel>Album</FormLabel>
-					<Input
-						type="text"
-						value={input.album}
-					/>
-
-					<FormLabel>Genre</FormLabel>
-					<Input
-						type="text"
-						value={input.genre}
-					/>
-
-					<FormLabel>Year</FormLabel>
-					<Input
-						type="number"
-						value={input.year}
-					/>
-
-					<FormLabel>Language</FormLabel>
-					<Input
-						type="text"
-						value={input.language}
-					/>
-
-					<FormLabel>Spotify Album ID</FormLabel>
-					<Input
-						type="text"
-						value={input.spotifyAlbumID}
-					/>
-
-					<FormLabel>Spotify Album Cover</FormLabel>
-					<Input
-						type="image"
-						value={input.spotifyAlbumCover}
-					/>
-				</FormControl>
-
+				<HStack>
+					<Button colorScheme="red">Cancel</Button>
+					<Button sx={sx.button} colorScheme="blue">
+						Submit
+					</Button>
+				</HStack>
 			</Center>
+		</FormControl>
 	);
+};
+
+const sx = {
+	button: {
+		margin: "10px",
+	},
+	fields: {
+		marginBottom: "10px",
+	},
+	form: {
+		width: "45%",
+	},
 };
 
 export default AddVinylForm;

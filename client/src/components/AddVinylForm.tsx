@@ -35,6 +35,10 @@ const AddVinylForm = (props: any) => {
 		setInput({ ...input, [e.target.name]: e.target.value });
 	};
 
+	const handleCancel = (e: any) => {
+        window.location.reload();
+	};
+
 	return (
 		<FormControl sx={sx.form}>
 			<FormLabel>Artist</FormLabel>
@@ -102,7 +106,7 @@ const AddVinylForm = (props: any) => {
 
 			<Center>
 				<HStack>
-					<Button colorScheme="red">Cancel</Button>
+					<Button colorScheme="red" onClick={handleCancel}>Cancel</Button>
 					<Button sx={sx.button} colorScheme="blue">
 						Submit
 					</Button>

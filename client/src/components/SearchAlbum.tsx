@@ -24,9 +24,9 @@ const SearchAlbum = () => {
 	const [results, setResults] = useState([]);
 	const [album, setAlbum] = useState({});
 	const [loading, setLoading] = useState<boolean>(false);
+	const [disabled, setDisabled] = useState<boolean>(false);
 
 	const fetchAlbums = async () => {
-		setLoading(true);
 		const params = {
 			method: "POST",
 			headers: {
@@ -39,11 +39,18 @@ const SearchAlbum = () => {
 		const resp = await fetch(`${URL}/add`, params);
 		const respData = await resp.json();
 		setResults(respData);
-		setLoading(false);
 	};
 
 	const handleSearch = (e: any) => {
-		if (e.keyCode === 13 && (input.artist && input.album)) fetchAlbums();
+		if ((e.keyCode === 13 || e.target.name === "search") && (input.artist && input.album)) {
+            setLoading(true);
+            setDisabled(true);
+
+            fetchAlbums();
+
+            setDisabled(false);
+            setLoading(false);
+        } 
 	};
 
 	const handleChange = (e: any) => {
@@ -82,7 +89,7 @@ const SearchAlbum = () => {
 							onKeyDown={handleSearch}
 						/>
 
-						<Button onClick={handleSearch} colorScheme="blue">
+						<Button name="search" onClick={handleSearch} colorScheme="blue" isDisabled={disabled}>
 							Search
 						</Button>
 					</FormControl>

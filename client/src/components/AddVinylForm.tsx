@@ -1,18 +1,28 @@
 import { FormControl, FormLabel } from "@chakra-ui/form-control";
-import { Button, Center, HStack, Input } from "@chakra-ui/react";
+import {
+    Button,
+    Center,
+    HStack,
+    Input,
+    Radio,
+    RadioGroup,
+    Stack,
+} from "@chakra-ui/react";
 import { useEffect, useState } from "react";
+import { URL } from "../App";
+import { AnyObject } from "../types";
 
 const AddVinylForm = (props: any) => {
 	const [input, setInput] = useState({
-		artist: "",
-		album: "",
-		genre: "",
-		isAlbum: true,
-		language: "",
-		purchased: new Date().getFullYear(),
-		spotifyAlbumCover: "",
-		spotifyAlbumID: "",
-		year: "",
+		Artist: "",
+		Album: "",
+		Genre: "",
+		IsAlbum: "true",
+		Language: "",
+		Purchased: new Date().getFullYear(),
+		SpotifyAlbumCover: "",
+		SpotifyAlbumID: "",
+		Year: "",
 	});
 
 	useEffect(() => {
@@ -22,92 +32,129 @@ const AddVinylForm = (props: any) => {
 
 			setInput({
 				...input,
-				artist: Artist,
-				album: Album,
-				spotifyAlbumCover: SpotifyAlbum,
-				spotifyAlbumID: SpotifyAlbumID,
-				year: Year,
+				Artist: Artist,
+				Album: Album,
+				SpotifyAlbumCover: SpotifyAlbum,
+				SpotifyAlbumID: SpotifyAlbumID,
+				Year: Year,
 			});
 		}
 	}, []);
 
 	const handleInput = (e: any) => {
-		setInput({ ...input, [e.target.name]: e.target.value });
+		// radio button doesn't bring back an event
+		if (e === "true" || e === "false") {
+			setInput({ ...input, IsAlbum: e });
+		} else setInput({ ...input, [e.target.name]: e.target.value });
 	};
 
-	const handleCancel = (e: any) => {
-        window.location.reload();
+	const addVinyl = async (album: AnyObject) => {
+		const params = {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json",
+			},
+			body: JSON.stringify(album),
+		};
+		const resp = await fetch(`${URL}/add`, params);
+		const respData = await resp.json();
 	};
 
 	return (
 		<FormControl sx={sx.form}>
 			<FormLabel>Artist</FormLabel>
 			<Input
-				name="artist"
+				name="Artist"
 				type="text"
 				sx={sx.fields}
-				value={input.artist}
+				value={input.Artist}
 				onChange={handleInput}
 			/>
 
 			<FormLabel>Album</FormLabel>
 			<Input
-				name="album"
+				name="Album"
 				type="text"
 				sx={sx.fields}
-				value={input.album}
+				value={input.Album}
 				onChange={handleInput}
 			/>
 
 			<FormLabel>Genre</FormLabel>
 			<Input
-				name="genre"
+				name="Genre"
 				type="text"
 				sx={sx.fields}
-				value={input.genre}
+				value={input.Genre}
 				onChange={handleInput}
 			/>
 
 			<FormLabel>Year</FormLabel>
 			<Input
-				name="year"
+				name="Year"
 				type="number"
 				sx={sx.fields}
-				value={input.year}
+				value={input.Year}
 				onChange={handleInput}
 			/>
 
 			<FormLabel>Language</FormLabel>
 			<Input
-				name="language"
+				name="Language"
 				type="text"
 				sx={sx.fields}
-				value={input.language}
+				value={input.Language}
 				onChange={handleInput}
 			/>
 
 			<FormLabel>Spotify Album ID</FormLabel>
 			<Input
-				name="spotifyAlbumID"
+				name="SpotifyAlbumID"
 				type="text"
 				sx={sx.fields}
-				value={input.spotifyAlbumID}
+				value={input.SpotifyAlbumID}
 				onChange={handleInput}
 			/>
 
+			{props.album.notFound && (
+				<>
+					<FormLabel>Is Album?</FormLabel>
+					<RadioGroup
+						name="IsAlbum"
+						sx={sx.fields}
+						onChange={handleInput}
+						value={input.IsAlbum}
+					>
+						<Stack direction="row">
+							<Radio value="true">True</Radio>
+							<Radio value="false">False</Radio>
+						</Stack>
+					</RadioGroup>
+				</>
+			)}
+
 			<FormLabel>Spotify Album Cover</FormLabel>
 			<Input
-				name="spotifyAlbumCover"
+				name="SpotifyAlbumCover"
 				type="text"
 				sx={sx.fields}
-				value={input.spotifyAlbumCover}
+				value={input.SpotifyAlbumCover}
 				onChange={handleInput}
 			/>
 
 			<Center>
 				<HStack>
-					<Button colorScheme="red" onClick={handleCancel}>Cancel</Button>
-					<Button sx={sx.button} colorScheme="blue">
+					<Button
+						colorScheme="red"
+						onClick={() => window.location.reload()}
+					>
+						Cancel
+					</Button>
+					<Button
+						sx={sx.button}
+						colorScheme="blue"
+						onClick={() => addVinyl(input)}
+					>
 						Submit
 					</Button>
 				</HStack>

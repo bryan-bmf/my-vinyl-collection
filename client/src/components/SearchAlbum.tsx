@@ -44,6 +44,14 @@ const SearchAlbum = () => {
 		setLoading(false);
 	};
 
+    /*
+        gray overlay con spinner
+        on success
+            modal "succesfully added. want to add more?" if no, redirect a main page
+        on error
+            modal show error message. on close, te tiro al form
+    */
+
 	const handleSearch = (e: any) => {
 		if (
 			(e.keyCode === 13 || e.target.name === "search") &&

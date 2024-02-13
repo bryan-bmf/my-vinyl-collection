@@ -8,14 +8,12 @@ import {
     Radio,
     RadioGroup,
     Stack,
-    useDisclosure
+    useDisclosure,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import { URL } from "../App";
 import spinner from "../assets/bluey.gif";
 import { AnyObject } from "../types";
 import AddVinylModal from "./AddVinylModal";
-
 
 const AddVinylForm = (props: any) => {
 	const [input, setInput] = useState({
@@ -31,7 +29,7 @@ const AddVinylForm = (props: any) => {
 		Year: "",
 	});
 	const [loading, setLoading] = useState<Boolean>(false);
-	const [response, setResponse] = useState<AnyObject>({});
+	const [response, setResponse] = useState<number>(0);
 
 	useEffect(() => {
 		// if album is found, set state
@@ -58,7 +56,8 @@ const AddVinylForm = (props: any) => {
 	};
 
 	const addVinyl = async (album: AnyObject) => {
-        setLoading(true);
+		setLoading(true);
+
 		const params = {
 			method: "POST",
 			headers: {
@@ -67,11 +66,11 @@ const AddVinylForm = (props: any) => {
 			body: JSON.stringify(album),
 		};
 		const resp = await fetch(`${URL}/add`, params);
-		console.log(resp);
 
-        setResponse(resp)
-        setLoading(false);
-        openModal();
+		setResponse(resp.status);
+
+		setLoading(false);
+		openModal();
 
 		// chequiar con el spotify id si ya existe y tirar error
 		/*
@@ -205,21 +204,21 @@ const AddVinylForm = (props: any) => {
 				</Center>
 			</FormControl>
 			{loading ? (
-				<Center>
+				<Center sx={sx.loading}>
 					<Image
 						src={spinner}
 						alt="Gray loading spinner in the form of a spinning record"
 						role="img"
 					/>
 				</Center>
-			) : (response && 
+			) : (
 				<AddVinylModal
 					modalDisclosure={{
 						isOpen: isOpen,
 						onOpen: openModal,
 						onClose: closeModal,
 					}}
-                    response={response}
+					response={response}
 				/>
 			)}
 		</>
@@ -235,6 +234,12 @@ const sx = {
 	},
 	form: {
 		width: "45%",
+	},
+	loading: {
+		background: "rgba(0, 0, 0, 0.4)",
+		width: "100%",
+		height: "110%",
+		position: "absolute",
 	},
 };
 

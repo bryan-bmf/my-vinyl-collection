@@ -7,18 +7,14 @@ import {
     ModalHeader,
     ModalOverlay,
 } from "@chakra-ui/react";
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import { AnyObject } from "../types";
 
 const AddVinylModal = ({ modalDisclosure, response }: Props) => {
 
 	const { isOpen, onClose } = modalDisclosure;
 
-    const [message, setMessage] = useState<string>();
-
-    const msg = response.status === 200 ? "Successfully added album!" : "Something went wrong! Please try again. Check AWS logs for more information.";
-    setMessage(msg);
+    const successMessage = "Successfully added album!";
+    const errorMessage = "Something went wrong! Please try again. Check AWS logs for more information.";
 
 	return (
 		<Modal
@@ -30,7 +26,7 @@ const AddVinylModal = ({ modalDisclosure, response }: Props) => {
 			<ModalOverlay />
 			<ModalContent>
 				<ModalHeader>Add New Album</ModalHeader>
-				<ModalBody>{message}</ModalBody>
+				<ModalBody>{response === 200 ? successMessage : errorMessage}</ModalBody>
 
 				<ModalFooter>
 					<Link to="/collection">
@@ -51,7 +47,7 @@ interface Props {
 		onOpen: any;
 		onClose: any;
 	};
-	response: AnyObject;
+	response: number;
 }
 
 const sx = {

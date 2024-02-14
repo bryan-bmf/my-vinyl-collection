@@ -8,6 +8,7 @@ import {
     Radio,
     RadioGroup,
     Stack,
+    Text,
     useDisclosure,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
@@ -30,6 +31,7 @@ const AddVinylForm = (props: any) => {
 	});
 	const [loading, setLoading] = useState<Boolean>(false);
 	const [response, setResponse] = useState<number>(0);
+	const [error, setError] = useState<boolean>(false);
 
 	useEffect(() => {
 		// if album is found, set state
@@ -56,6 +58,14 @@ const AddVinylForm = (props: any) => {
 	};
 
 	const addVinyl = async (album: AnyObject) => {
+		// don't add album if fields are missing
+		setError(false);
+		const isEmpty = Object.values(input).some((x) => x === "");
+		if (isEmpty) {
+			setError(true);
+			return;
+		}
+
 		setLoading(true);
 
 		const params = {
@@ -66,20 +76,10 @@ const AddVinylForm = (props: any) => {
 			body: JSON.stringify(album),
 		};
 		const resp = await fetch(`${URL}/add`, params);
-
 		setResponse(resp.status);
 
 		setLoading(false);
 		openModal();
-
-		// chequiar con el spotify id si ya existe y tirar error
-		/*
-        gray overlay con spinner
-        on success
-            modal "succesfully added. want to add more?" if no, redirect a main page
-        on error
-            modal show error message. on close, te tiro al form
-    */
 	};
 
 	// modal disclosure
@@ -88,10 +88,6 @@ const AddVinylForm = (props: any) => {
 		onOpen: openModal,
 		onClose: closeModal,
 	} = useDisclosure();
-
-	const handleSubmit = () => {
-		addVinyl(input);
-	};
 
 	return (
 		<>
@@ -185,6 +181,7 @@ const AddVinylForm = (props: any) => {
 					onChange={handleInput}
 				/>
 
+				{error && <Text color="red">Fields are missing!</Text>}
 				<Center>
 					<HStack>
 						<Button
@@ -196,7 +193,7 @@ const AddVinylForm = (props: any) => {
 						<Button
 							sx={sx.button}
 							colorScheme="blue"
-							onClick={handleSubmit}
+							onClick={() => addVinyl(input)}
 						>
 							Submit
 						</Button>

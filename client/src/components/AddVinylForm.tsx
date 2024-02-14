@@ -12,6 +12,7 @@ import {
     useDisclosure,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
+import { URL } from "../App";
 import spinner from "../assets/bluey.gif";
 import { AnyObject } from "../types";
 import AddVinylModal from "./AddVinylModal";
@@ -29,7 +30,7 @@ const AddVinylForm = (props: any) => {
 		SpotifyAlbumID: "",
 		Year: "",
 	});
-	const [loading, setLoading] = useState<Boolean>(false);
+	const [loading, setLoading] = useState<boolean>(false);
 	const [response, setResponse] = useState<number>(0);
 	const [error, setError] = useState<boolean>(false);
 

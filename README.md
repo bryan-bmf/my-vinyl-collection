@@ -1,6 +1,6 @@
 # Mi Bellonera
 
-A web app to catalog my vinyl collection created with using React and AWS.
+A web app to catalog my vinyl collection created using React and AWS.
 
 ## Table of contents
 * [General info](#general-info)
@@ -16,13 +16,13 @@ The backend was initially done with Node.js and Express but then decided to chan
 	
 ## Technologies
 Project is created with:
-* React
-* ChakraUI
-* React Spotify Embed
-* Nivo Charts
-* AWS DynamoDB
-* AWS API Gateway
-* AWS Lambda
+* [React](https://react.dev/)
+* [ChakraUI](https://chakra-ui.com/)
+* [React Spotify Embed](https://github.com/ctjlewis/react-spotify-embed)
+* [Nivo Charts](https://nivo.rocks/)
+* [AWS DynamoDB](https://aws.amazon.com/dynamodb/)
+* [AWS API Gateway](https://aws.amazon.com/api-gateway/)
+* [AWS Lambda](https://aws.amazon.com/lambda/)
 	
 ## Setup
 To run this project, install it locally using npm:

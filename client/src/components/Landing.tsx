@@ -46,7 +46,7 @@ const Landing = () => {
 			sx={sx[selection]}
 		>
 			{/* Adding a black overlay with opacity set to 40% so text is legible */}
-			<Center sx={sx[2]} width="100vw" height="100vh">
+			<Center sx={sx[2]}>
 				<VStack>
 					<Text
 						color="white"
@@ -74,6 +74,8 @@ const sx = [
 	},
 	{
 		background: "rgba(0, 0, 0, 0.4)",
+		width: "100vw",
+		height: "100vh"
 	},
 ];
 

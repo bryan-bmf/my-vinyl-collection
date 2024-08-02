@@ -1,15 +1,15 @@
 import { FormControl, FormLabel } from "@chakra-ui/form-control";
 import {
-    Button,
-    Center,
-    HStack,
-    Image,
-    Input,
-    Radio,
-    RadioGroup,
-    Stack,
-    Text,
-    useDisclosure,
+	Button,
+	Center,
+	HStack,
+	Image,
+	Input,
+	Radio,
+	RadioGroup,
+	Stack,
+	Text,
+	useDisclosure,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { URL } from "../App";
@@ -231,7 +231,7 @@ const sx = {
 		marginBottom: "10px",
 	},
 	form: {
-		width: "45%",
+		width: "100%",
 	},
 	loading: {
 		background: "rgba(0, 0, 0, 0.4)",

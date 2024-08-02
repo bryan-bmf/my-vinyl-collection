@@ -1,14 +1,14 @@
 import {
-    Box,
-    Button,
-    Center,
-    FormControl,
-    FormLabel,
-    HStack,
-    Image,
-    Input,
-    Text,
-    VStack,
+	Box,
+	Button,
+	Center,
+	FormControl,
+	FormLabel,
+	HStack,
+	Image,
+	Input,
+	Text,
+	VStack,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { URL } from "../App";
@@ -79,7 +79,7 @@ const SearchAlbum = () => {
 		<Center>
 			{Object.keys(album).length === 0 && (
 				<VStack sx={sx.stack}>
-					<FormControl sx={sx.form}>
+					<FormControl>
 						<FormLabel>Artist</FormLabel>
 						<Input
 							name="artist"
@@ -193,7 +193,7 @@ const sx = {
 		marginBottom: "10px",
 	},
 	form: {
-		w: "30%",
+		w: "100%",
 	},
 	stack: {
 		w: "100%",

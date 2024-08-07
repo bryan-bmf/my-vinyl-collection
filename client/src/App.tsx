@@ -6,7 +6,7 @@ import Collection from "./pages/Collection";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 
-export const URL = "https://d4akvuls33.execute-api.us-east-2.amazonaws.com/prod";
+export const URL = "https://cw7aovwsn9.execute-api.us-east-2.amazonaws.com/prod";
 
 function App() {
 	return (

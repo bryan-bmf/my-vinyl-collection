@@ -193,10 +193,10 @@ const sx = {
 		marginBottom: "10px",
 	},
 	form: {
-		w: "100%",
+		width: "100%",
 	},
 	stack: {
-		w: "100%",
+		width: "100%",
 	},
 	text: {
 		textOverflow: "ellipsis",

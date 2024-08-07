@@ -45,7 +45,7 @@ const Authenticate =(props: any) => {
 				value={password}
 				onChange={(e) => setPassword(e.target.value)}
 				onKeyDown={handleEnter}
-				w="60%"
+				sx={sx.field}
 			/>
             {error ? <Text color="red">{errorMsg}</Text> : null}
 		</Flex>
@@ -54,12 +54,16 @@ const Authenticate =(props: any) => {
 
 const sx = {
 	page: {
-		w: "50vw",
+		w: "60vw",
 		h: "80vh",
 		flexDirection: "column",
 		alignItems: "center",
 		justifyContent: "center",
 	},
+    field: {
+        textAlign: "center",
+        width: "60%"
+    }
 };
 
 export default Authenticate;

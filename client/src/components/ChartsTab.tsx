@@ -1,4 +1,4 @@
-import { Center, Flex } from "@chakra-ui/react";
+import { Center, Flex, Text } from "@chakra-ui/react";
 import { AnyObject } from "../types";
 import Chart from "./Chart";
 
@@ -7,6 +7,9 @@ const ChartsTab = ({ stats, total }: Props) => {
 		<>
 			{stats && (
 				<Flex sx={sx.chartConfig}>
+					<Center mb="50px">
+						<Text sx={sx.title}>Total Vinyl Count: {total}</Text>
+					</Center>
 					<Center>
 						<Chart
 							key={Math.random()}
@@ -43,6 +46,12 @@ const sx = {
 		maxH: "90vh",
 		height: "86.5vh",
 		overflowX: "auto",
+		flexDirection: "column",
+		justifyContent: "center",
+	},
+	title: {
+		fontWeight: "bold",
+		fontSize: "x-large",
 	},
 };
 

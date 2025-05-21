@@ -79,7 +79,6 @@ const sx = {
 	link: {
 		cursor: "pointer",
 		textOverflow: "ellipsis",
-		color: "black"
 	},
 };
 

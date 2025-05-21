@@ -221,7 +221,6 @@ const sx = {
 		cursor: "pointer",
 	},
 	row: {
-		color: "black",
 		"&:nth-child(odd)": { backgroundColor: "#bee3f8"},
 		td: {borderBottom: "none" }
 	}

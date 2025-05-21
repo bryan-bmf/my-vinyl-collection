@@ -56,7 +56,14 @@ const Landing = () => {
 						Welcome to my Vinyl Collection
 					</Text>
 					<Link to={"/collection"}>
-						<Button role="button">Start Digging</Button>
+						<Button
+							role="button"
+							bgColor="white"
+							color="black"
+							_hover={{ bg: "white" }}
+						>
+							Start Digging
+						</Button>
 					</Link>
 				</VStack>
 			</Center>
@@ -75,7 +82,7 @@ const sx = [
 	{
 		background: "rgba(0, 0, 0, 0.4)",
 		width: "100vw",
-		height: "100vh"
+		height: "100vh",
 	},
 ];
 

@@ -6,7 +6,7 @@ const Chart = ({ title, mobile, data, total }: Props) => {
 	return (
 		<Center>
 			<VStack sx={sx.container}>
-			<Text>{title}</Text>
+			<Text color="black">{title}</Text>
 				<Pie
 					data={data}
 					width={mobile ? 400 : 450}

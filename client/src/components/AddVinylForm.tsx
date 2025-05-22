@@ -186,16 +186,12 @@ const AddVinylForm = (props: any) => {
 				<Center>
 					<HStack>
 						<Button
-							colorScheme="red"
+							sx={sx.redButton}
 							onClick={() => window.location.reload()}
 						>
 							Cancel
 						</Button>
-						<Button
-							sx={sx.button}
-							colorScheme="blue"
-							onClick={() => addVinyl(input)}
-						>
+						<Button sx={sx.button} onClick={() => addVinyl(input)}>
 							Submit
 						</Button>
 					</HStack>
@@ -226,13 +222,30 @@ const AddVinylForm = (props: any) => {
 const sx = {
 	button: {
 		margin: "10px",
+		bgColor: "blue.500",
+		text: "white",
+		_hover: {
+			bg: null,
+		},
+	},
+	redButton: {
+		bgColor: "red.500",
+		text: "white",
+		_hover: {
+			bg: null,
+		},
 	},
 	fields: {
 		marginBottom: "10px",
+		border: "1px solid",
+		borderColor: "gray.200",
+		_hover: {
+			borderColor: "gray.200",
+		},
 	},
 	form: {
 		width: "100%",
-		height: "100%"
+		height: "100%",
 	},
 	loading: {
 		background: "rgba(0, 0, 0, 0.4)",

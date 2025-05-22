@@ -1,14 +1,28 @@
 import { Flex } from "@chakra-ui/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Authenticate from "../components/Authenticate";
 import SearchAlbum from "../components/SearchAlbum";
 
 const AddVinyl = () => {
-	const [authenticated, setAuthenticated] = useState<boolean>(false)
+	const [authenticated, setAuthenticated] = useState<boolean>();
 
 	const handleAuth = (res: boolean) => {
 		setAuthenticated(res);
+
+		if(res === true) {
+			localStorage.setItem("loggedIn", "true");
+		}
 	}
+
+	useEffect(() => {
+		const loggedIn = localStorage.getItem('loggedIn');
+		if(loggedIn === 'true') {
+			setAuthenticated(true);
+		}
+		else {
+			setAuthenticated(false);
+		}
+	}, []);
 
 	return (
 		<Flex sx={sx.pageConfig}>

@@ -61,21 +61,4 @@ interface Props {
 	response: number;
 }
 
-const sx = {
-	modal: {
-		borderRadius: "10%",
-		backgroundColor: "transparent",
-		borderColor: "transparent",
-		shadow: "none",
-	},
-	loading: {
-		top: "45%",
-		left: "46.5%",
-		position: "fixed",
-		zIndex: 10000,
-		filter: "brightness(70%)",
-		margin: -5, // offset el padding del homepage
-	},
-};
-
 export default AddVinylModal;

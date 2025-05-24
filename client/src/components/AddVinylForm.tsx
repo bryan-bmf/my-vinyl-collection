@@ -223,14 +223,14 @@ const sx = {
 	button: {
 		margin: "10px",
 		bgColor: "blue.500",
-		text: "white",
+		color: "white",
 		_hover: {
 			bg: null,
 		},
 	},
 	redButton: {
 		bgColor: "red.500",
-		text: "white",
+		color: "white",
 		_hover: {
 			bg: null,
 		},

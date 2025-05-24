@@ -31,9 +31,9 @@ const AddVinyl = () => {
 	);
 };
 
-interface Props {
-	handleAuth: () => boolean;
-}
+// interface Props {
+// 	handleAuth: () => boolean;
+// }
 
 const sx = {
     pageConfig: {

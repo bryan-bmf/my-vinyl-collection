@@ -10,7 +10,7 @@ import {
 	Thead,
 	Tr,
 	useBreakpoint,
-	useDisclosure,
+	useDisclosure
 } from "@chakra-ui/react";
 import { useMemo, useState } from "react";
 // icons
@@ -101,7 +101,7 @@ const MusicTable = ({ data }: Props) => {
 	let mobile = breakpoint === "base" ? true : false;
 
 	let list = sortedData?.map((current: AnyObject, index: number) => (
-		<Tr key={current.UniqueID} role="row">
+		<Tr key={current.UniqueID} role="row" sx={sx.row}>
 			{mobile ? undefined : <Td isNumeric>{index + 1}</Td>}
 
 			<Td sx={mobile ? sx.columnMobile : undefined}>{current.Artist}</Td>
@@ -128,7 +128,7 @@ const MusicTable = ({ data }: Props) => {
 	return (
 		<>
 			<TableContainer sx={sx.tableConfig} role="table">
-				<Table variant="striped" size="sm" colorScheme="blue">
+				<Table size="sm">
 					<Thead sx={sx.tableHeader}>
 						<Tr>
 							{columns.map((column) => {
@@ -140,6 +140,7 @@ const MusicTable = ({ data }: Props) => {
 											onClick={handleSort}
 											isNumeric={column.isNumeric}
 											role="columnheader"
+											color="#4a5568"
 										>
 											{column.name}
 											<span>
@@ -219,6 +220,10 @@ const sx = {
 		marginLeft: "2px",
 		cursor: "pointer",
 	},
+	row: {
+		"&:nth-child(odd)": { backgroundColor: "#bee3f8"},
+		td: {borderBottom: "none" }
+	}
 };
 
 export default MusicTable;

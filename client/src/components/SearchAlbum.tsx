@@ -68,12 +68,12 @@ const SearchAlbum = () => {
 		setAlbum(results[e.target.value]);
 	};
 
-    const handleEnter = (e: any) => {
-        if (e.keyCode === 13) {
-            handleSearch(e);
-        } 
-        return;
-    }
+	const handleEnter = (e: any) => {
+		if (e.keyCode === 13) {
+			handleSearch(e);
+		}
+		return;
+	};
 
 	return (
 		<Center>
@@ -87,7 +87,7 @@ const SearchAlbum = () => {
 							value={input.artist}
 							onChange={handleChange}
 							sx={sx.fields}
-                            onKeyDown={handleEnter}
+							onKeyDown={handleEnter}
 						/>
 
 						<FormLabel>Album</FormLabel>
@@ -97,13 +97,13 @@ const SearchAlbum = () => {
 							value={input.album}
 							onChange={handleChange}
 							sx={sx.fields}
-                            onKeyDown={handleEnter}
+							onKeyDown={handleEnter}
 						/>
 
 						<Button
 							name="search"
 							onClick={handleSearch}
-							colorScheme="blue"
+							sx={sx.button}
 							isDisabled={disabled}
 						>
 							Search
@@ -149,7 +149,6 @@ const SearchAlbum = () => {
 											</Text>
 											<Button
 												sx={sx.button}
-												colorScheme="blue"
 												onClick={handleSelect}
 												value={index}
 											>
@@ -159,7 +158,7 @@ const SearchAlbum = () => {
 									))}
 								</HStack>
 								<Button
-									colorScheme="red"
+									sx={sx.redButton}
 									onClick={() => setAlbum({ notFound: true })}
 								>
 									Not Found?
@@ -188,9 +187,26 @@ const sx = {
 	},
 	button: {
 		margin: "10px",
+		bgColor: "blue.500",
+		color: "white",
+		_hover: {
+			bg: null
+		}
+	},
+	redButton: {
+		bgColor: "red.500",
+		color: "white",
+		_hover: {
+			bg: null
+		}
 	},
 	fields: {
 		marginBottom: "10px",
+		border: "1px solid",
+		borderColor: "gray.200",
+		_hover: {
+			borderColor: "gray.200",
+		},
 	},
 	form: {
 		width: "100%",

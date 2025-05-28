@@ -46,6 +46,7 @@ const Authenticate =(props: any) => {
 				onChange={(e) => setPassword(e.target.value)}
 				onKeyDown={handleEnter}
 				sx={sx.field}
+				autoFocus
 			/>
             {error ? <Text color="red">{errorMsg}</Text> : null}
 		</Flex>
@@ -62,7 +63,12 @@ const sx = {
 	},
     field: {
         textAlign: "center",
-        width: "60%"
+        width: "60%",
+		border: "1px solid",
+		borderColor: "gray.200",
+		_hover: {
+			borderColor: "gray.200",
+		},
     }
 };
 

@@ -6,12 +6,12 @@ const Chart = ({ title, mobile, data, total }: Props) => {
 	return (
 		<Center>
 			<VStack sx={sx.container}>
-			<Text>{title}</Text>
+				<Text color="black">{title}</Text>
 				<Pie
 					data={data}
 					width={mobile ? 400 : 450}
 					height={mobile ? 200 : 260}
-					margin={{ top: 30, right: 30, bottom: 30, left: 30 }}					
+					margin={{ top: 30, right: 30, bottom: 30, left: 30 }}
 					padAngle={0.7}
 					animate={false}
 					colors={{ scheme: "category10" }}
@@ -53,8 +53,8 @@ interface Props {
 
 const sx = {
 	container: {
-		gap: 0
-	}
-}
+		gap: 0,
+	},
+};
 
 export default Chart;

@@ -1,11 +1,11 @@
 import {
-    Button,
-    Modal,
-    ModalBody,
-    ModalContent,
-    ModalFooter,
-    ModalHeader,
-    ModalOverlay,
+	Button,
+	Modal,
+	ModalBody,
+	ModalContent,
+	ModalFooter,
+	ModalHeader,
+	ModalOverlay,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
@@ -36,7 +36,7 @@ const AddVinylModal = ({ modalDisclosure, response }: Props) => {
 
 				<ModalFooter>
 					<Link to="/collection">
-						<Button colorScheme="red" mr={3}>
+						<Button colorScheme="red" mr={3} onClick={() => localStorage.removeItem("loggedIn")}>
 							Done
 						</Button>
 					</Link>
@@ -60,22 +60,5 @@ interface Props {
 	};
 	response: number;
 }
-
-const sx = {
-	modal: {
-		borderRadius: "10%",
-		backgroundColor: "transparent",
-		borderColor: "transparent",
-		shadow: "none",
-	},
-	loading: {
-		top: "45%",
-		left: "46.5%",
-		position: "fixed",
-		zIndex: 10000,
-		filter: "brightness(70%)",
-		margin: -5, // offset el padding del homepage
-	},
-};
 
 export default AddVinylModal;

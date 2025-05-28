@@ -33,7 +33,7 @@ const Collection = () => {
 		// wait half a second to dismiss the loading spinner
 		setTimeout(() => {
 			setLoading(false);
-		}, 500);
+		}, 1000);
 	};
 
 	const fetchStats = async () => {
@@ -110,20 +110,33 @@ const Collection = () => {
 		<Box sx={sx.pageConfig}>
 			{loading ? (
 				<Center sx={sx.loading}>
-					<Image src={spinner} alt="Gray loading spinner in the form of a spinning record" role="img" />
+					<Image
+						src={spinner}
+						alt="Gray loading spinner in the form of a spinning record"
+						role="img"
+					/>
 				</Center>
 			) : (
 				<Tabs isFitted variant="enclosed" size="sm" sx={sx.tabsContainer}>
 					{data && (
 						<>
-							<TabList mb="1em">
-								<Tab _selected={{ color: "white", bg: "primary" }}>
+							<TabList sx={sx.tabList}>
+								<Tab
+									_selected={{ color: "white", bg: "primary" }}
+									color="black"
+								>
 									Grid View
 								</Tab>
-								<Tab _selected={{ color: "white", bg: "secondary" }}>
+								<Tab
+									_selected={{ color: "white", bg: "secondary" }}
+									color="black"
+								>
 									Table View
 								</Tab>
-								<Tab _selected={{ color: "white", bg: "highlight" }}>
+								<Tab
+									_selected={{ color: "white", bg: "highlight" }}
+									color="black"
+								>
 									Charts
 								</Tab>
 							</TabList>
@@ -157,6 +170,12 @@ const sx = {
 		maxHeight: "95vh",
 		borderTopLeftRadius: "1%",
 		borderTopRightRadius: "1%",
+	},
+	tabList: {
+		mb: "1em",
+		borderBottomWidth: "1px",
+		borderBottomStyle: "solid",
+		borderBottomColor: "#e2e8f0",
 	},
 	pageConfig: {
 		padding: 5,

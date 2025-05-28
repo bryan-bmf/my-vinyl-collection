@@ -7,9 +7,7 @@ const ChartsTab = ({ stats, total }: Props) => {
 		<>
 			{stats && (
 				<Flex sx={sx.chartConfig}>
-					<Center mb="50px">
-						<Text sx={sx.title}>Total Vinyl Count: {total}</Text>
-					</Center>
+					<Text sx={sx.title}>Total Vinyl Count: {total}</Text>
 					<Center>
 						<Chart
 							key={Math.random()}
@@ -52,6 +50,7 @@ const sx = {
 	title: {
 		fontWeight: "bold",
 		fontSize: "x-large",
+		mb: "50px",
 	},
 };
 
